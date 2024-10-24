@@ -1,2438 +1,1617 @@
 
 SkadaStorageDB = {
 	["total"] = {
-		["mana"] = 1587,
-		["dispel"] = 9,
-		["totaldamage"] = 436441,
-		["time"] = 2142,
-		["totaldamagetaken"] = 84615,
-		["damage"] = 436441,
-		["overheal"] = 71324,
-		["absorb"] = 25320,
-		["damagetaken"] = 59243,
-		["interrupt"] = 60,
-		["overkill"] = 45524,
-		["rage"] = 1641,
-		["heal"] = 34854,
-		["potion"] = 7,
-		["death"] = 4,
-		["starttime"] = 1729449154,
+		["mana"] = 835,
+		["dispel"] = 4,
+		["totaldamage"] = 88706,
+		["time"] = 392,
+		["cctaken"] = 3,
+		["totaldamagetaken"] = 10029,
+		["damage"] = 88706,
+		["rage"] = 402,
+		["absorb"] = 1802,
+		["damagetaken"] = 8176,
+		["overkill"] = 5206,
+		["overheal"] = 9451,
+		["heal"] = 6103,
+		["potion"] = 1,
+		["ccdone"] = 16,
 		["name"] = "Total",
-		["ccdone"] = 68,
+		["starttime"] = 1729795184,
 		["players"] = {
-			{
-				["flag"] = 1298,
-				["class"] = "PRIEST",
-				["dispel"] = 7,
-				["totaldamage"] = 75394,
-				["time"] = 755.2500000000002,
-				["totaldamagetaken"] = 15740,
-				["damage"] = 75394,
-				["overheal"] = 69390,
-				["absorb"] = 25320,
-				["damagetaken"] = 11172,
-				["id"] = "0x0700000000B06C58",
-				["spec"] = 256,
-				["overkill"] = 4985,
-				["heal"] = 31055,
-				["name"] = "Popasfant",
-				["ccdone"] = 2,
-				["death"] = 1,
-				["potion"] = 3,
-				["mana"] = 1587,
-				["role"] = "HEALER",
-			}, -- [1]
-			{
-				["ccdone"] = 1,
-				["damagetaken"] = 8942,
-				["totaldamage"] = 108729,
-				["flag"] = 1298,
-				["class"] = "ROGUE",
-				["id"] = "0x0700000000B0D62C",
-				["overkill"] = 5414,
-				["name"] = "Slavcul",
-				["role"] = "DAMAGER",
-				["time"] = 806.1300000000005,
-				["death"] = 1,
-				["spec"] = 260,
-				["totaldamagetaken"] = 10198,
-				["interrupt"] = 11,
-				["damage"] = 108729,
-			}, -- [2]
 			{
 				["flag"] = 1297,
 				["class"] = "WARRIOR",
-				["totaldamage"] = 182448,
-				["time"] = 1610.86,
-				["totaldamagetaken"] = 45334,
-				["damage"] = 182448,
-				["rage"] = 1641,
-				["damagetaken"] = 27788,
+				["dispel"] = 4,
+				["time"] = 224.7799999999999,
+				["cctaken"] = 2,
+				["totaldamagetaken"] = 5628,
+				["damage"] = 33907,
+				["overheal"] = 421,
+				["damagetaken"] = 4987,
 				["id"] = "0x0700000000B06C55",
 				["spec"] = 73,
-				["overkill"] = 25646,
-				["potion"] = 1,
-				["heal"] = 2277,
+				["overkill"] = 1848,
+				["heal"] = 760,
 				["name"] = "Omoratorul",
-				["death"] = 1,
-				["ccdone"] = 65,
-				["overheal"] = 1785,
-				["interrupt"] = 49,
+				["ccdone"] = 15,
+				["rage"] = 402,
+				["totaldamage"] = 33907,
 				["role"] = "TANK",
-			}, -- [3]
+			}, -- [1]
+			{
+				["damagetaken"] = 1949,
+				["id"] = "0x0700000000B0D62C",
+				["class"] = "ROGUE",
+				["name"] = "Slavcul",
+				["overkill"] = 1325,
+				["totaldamage"] = 21854,
+				["role"] = "DAMAGER",
+				["time"] = 114.21,
+				["flag"] = 1298,
+				["totaldamagetaken"] = 2294,
+				["spec"] = 260,
+				["damage"] = 21854,
+			}, -- [2]
 			{
 				["flag"] = 1298,
-				["class"] = "MAGE",
-				["dispel"] = 2,
-				["totaldamage"] = 69870,
-				["time"] = 330.9599999999999,
-				["totaldamagetaken"] = 13343,
-				["damage"] = 69870,
-				["overheal"] = 149,
-				["damagetaken"] = 11341,
+				["class"] = "PRIEST",
+				["time"] = 89.59,
+				["cctaken"] = 1,
+				["totaldamagetaken"] = 1597,
+				["damage"] = 16768,
+				["overheal"] = 9030,
+				["absorb"] = 1802,
+				["damagetaken"] = 730,
+				["id"] = "0x0700000000B06C58",
+				["spec"] = 256,
+				["overkill"] = 580,
+				["heal"] = 5343,
+				["name"] = "Popasfant",
+				["ccdone"] = 1,
+				["potion"] = 1,
+				["mana"] = 835,
+				["totaldamage"] = 16768,
+				["role"] = "HEALER",
+			}, -- [3]
+			{
+				["damagetaken"] = 510,
 				["id"] = "0x0700000000B06C60",
-				["spec"] = 64,
-				["overkill"] = 9479,
-				["heal"] = 1522,
+				["class"] = "MAGE",
 				["name"] = "Vrajadefoc",
-				["death"] = 1,
-				["potion"] = 3,
+				["overkill"] = 1453,
+				["totaldamage"] = 16177,
 				["role"] = "DAMAGER",
+				["time"] = 55.42999999999999,
+				["flag"] = 1298,
+				["totaldamagetaken"] = 510,
+				["spec"] = 64,
+				["damage"] = 16177,
 			}, -- [4]
 		},
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
-			["enemies"] = {
-				{
-					["flag"] = 68168,
-					["name"] = "Kobold Tunneler",
-					["damagetaken"] = 1765,
-					["id"] = "0xF1300001DB00AB4A",
-					["totaldamagetaken"] = 1765,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[16624] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-						[23922] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 1552,
-									["overkill"] = 1455,
-								},
-							},
-							["amount"] = 1552,
-							["overkill"] = 1455,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 190,
-									["overkill"] = 70,
-								},
-							},
-							["amount"] = 190,
-							["overkill"] = 70,
-						},
-					},
-				}, -- [1]
-			},
-			["totaldamage"] = 1765,
-			["time"] = 5,
-			["totaldamagetaken"] = 0,
-			["etotaldamagetaken"] = 1765,
-			["last_time"] = 11139.307,
-			["players"] = {
-				{
-					["last"] = 11139.29,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[20007] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[58374] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 4,
-						},
-						[2565] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[57514] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 5,
-						},
-					},
-					["totaldamage"] = 1765,
-					["time"] = 3.36,
-					["totaldamagetaken"] = 0,
-					["damage"] = 1765,
-					["rage"] = 5,
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["overkill"] = 1525,
-					["ragespells"] = {
-						[23602] = 5,
-					},
-					["name"] = "Omoratorul",
-					["role"] = "TANK",
-					["damagespells"] = {
-						["Shield Slam"] = {
-							["criticalamount"] = 1552,
-							["id"] = 23922,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 1552,
-									["overkill"] = 1455,
-								},
-							},
-							["overkill"] = 1455,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 1552,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 1552,
-							["criticalmin"] = 1552,
-						},
-						["Melee"] = {
-							["hitmin"] = 190,
-							["id"] = 6603,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 190,
-									["overkill"] = 70,
-								},
-							},
-							["overkill"] = 70,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 190,
-							["amount"] = 190,
-							["hitamount"] = 190,
-						},
-						["Thorium Shield Spike"] = {
-							["hitmin"] = 23,
-							["id"] = 16624,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 23,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 23,
-							["amount"] = 23,
-							["hitamount"] = 23,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["sources"] = {
-								["Kobold Tunneler"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 6603,
-							["BLOCK"] = 1,
-							["blocked"] = 1,
-						},
-					},
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 0,
-			["overkill"] = 1525,
-			["edamagetaken"] = 1765,
-			["damage"] = 1765,
-			["name"] = "Kobold Tunneler",
-			["mobname"] = "Kobold Tunneler",
-			["rage"] = 5,
-			["starttime"] = 1729588628,
-			["last_action"] = 1729588631,
-			["endtime"] = 1729588633,
-		}, -- [1]
-		{
-			["starttime"] = 1729588186,
-			["type"] = "none",
-			["time"] = 82,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Shield Slam"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 258,
-							["id"] = 23922,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["amount"] = 1162,
-									["overkill"] = 1158,
-								},
-							},
-							["overkill"] = 1158,
-							["hit"] = 4,
-							["casts"] = 7,
-							["count"] = 7,
-							["amount"] = 1162,
-							["school"] = 1,
-							["hitmax"] = 324,
-							["MISS"] = 2,
-							["hitamount"] = 1162,
-						},
-						["Melee"] = {
-							["DODGE"] = 8,
-							["glance"] = 879,
-							["hitmin"] = 67,
-							["glancemin"] = 42,
-							["id"] = 6603,
-							["count"] = 38,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["amount"] = 946,
-									["overkill"] = 927,
-								},
-							},
-							["overkill"] = 927,
-							["glancing"] = 18,
-							["glancemax"] = 55,
-							["hitmax"] = 67,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 946,
-							["MISS"] = 11,
-							["hitamount"] = 67,
-						},
-						["Rend"] = {
-							["DODGE"] = 1,
-							["casts"] = 2,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 18075,
-						},
-						["Taunt"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 355,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 49,
-							["id"] = 11572,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["amount"] = 249,
-									["overkill"] = 244,
-								},
-							},
-							["overkill"] = 244,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 50,
-							["amount"] = 249,
-							["hitamount"] = 249,
-						},
-					},
-					["last"] = 10767.962,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[2565] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[58374] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 48,
-						},
-						[11572] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 15,
-						},
-					},
-					["id"] = "0x0700000000B06C55",
-					["totaldamage"] = 2357,
-					["time"] = 60.06999999999999,
-					["spec"] = 73,
-					["name"] = "Omoratorul",
-					["role"] = "TANK",
-					["overkill"] = 2329,
-					["damage"] = 2357,
-				}, -- [1]
-			},
-			["enemies"] = {
-				{
-					["flag"] = 68136,
-					["name"] = "Expert's Training Dummy",
-					["damagetaken"] = 2357,
-					["id"] = "0xF130007F9A001E50",
-					["totaldamagetaken"] = 2357,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 946,
-									["overkill"] = 927,
-								},
-							},
-							["amount"] = 946,
-							["overkill"] = 927,
-						},
-						[11572] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 249,
-									["overkill"] = 244,
-								},
-							},
-							["amount"] = 249,
-							["overkill"] = 244,
-						},
-						[23922] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 1162,
-									["overkill"] = 1158,
-								},
-							},
-							["amount"] = 1162,
-							["overkill"] = 1158,
-						},
-					},
-				}, -- [1]
-			},
-			["last_action"] = 1729588267,
-			["endtime"] = 1729588268,
-			["overkill"] = 2329,
-			["edamagetaken"] = 2357,
-			["totaldamage"] = 2357,
-			["name"] = "Expert's Training Dummy (4)",
-			["mobname"] = "Expert's Training Dummy",
-			["damage"] = 2357,
-			["etotaldamagetaken"] = 2357,
-			["last_time"] = 10775.695,
-		}, -- [2]
-		{
-			["starttime"] = 1729540396,
-			["type"] = "none",
-			["enemies"] = {
-				{
-					["name"] = "Rat",
-					["damagetaken"] = 916,
-					["id"] = "0xF130000FEB02E9D4",
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["totaldamagetaken"] = 916,
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 916,
-									["overkill"] = 880,
-								},
-							},
-							["amount"] = 916,
-							["overkill"] = 880,
-						},
-					},
-				}, -- [1]
-			},
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 124,
-							["criticalamount"] = 792,
-							["id"] = 6603,
-							["criticalmin"] = 240,
-							["targets"] = {
-								["Rat"] = {
-									["amount"] = 916,
-									["overkill"] = 880,
-								},
-							},
-							["overkill"] = 880,
-							["hitmax"] = 124,
-							["criticalmax"] = 284,
-							["critical"] = 3,
-							["amount"] = 916,
-							["school"] = 1,
-							["hit"] = 1,
-							["count"] = 4,
-							["hitamount"] = 124,
-						},
-					},
-					["last"] = 51280.818,
-					["id"] = "0x0700000000B06C55",
-					["class"] = "WARRIOR",
-					["overkill"] = 880,
-					["totaldamage"] = 916,
-					["time"] = 6.74,
-					["flag"] = 1297,
-					["spec"] = 73,
-					["name"] = "Omoratorul",
-					["role"] = "TANK",
-					["damage"] = 916,
-				}, -- [1]
-			},
-			["time"] = 14,
-			["last_action"] = 1729540410,
-			["endtime"] = 1729540410,
-			["overkill"] = 880,
-			["edamagetaken"] = 916,
-			["totaldamage"] = 916,
-			["name"] = "Rat",
-			["mobname"] = "Rat",
-			["damage"] = 916,
-			["etotaldamagetaken"] = 916,
-			["last_time"] = 51287.723,
-		}, -- [3]
-		{
-			["enemies"] = {
-				{
-					["name"] = "Expert's Training Dummy",
-					["damagetaken"] = 2160,
-					["id"] = "0xF130007F9A001D54",
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["totaldamagetaken"] = 2160,
-					["damagetakenspells"] = {
-						[8205] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 96,
-									["overkill"] = 95,
-								},
-							},
-							["amount"] = 96,
-							["overkill"] = 95,
-						},
-						[18075] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 175,
-									["overkill"] = 164,
-								},
-							},
-							["amount"] = 175,
-							["overkill"] = 164,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 847,
-									["overkill"] = 831,
-								},
-							},
-							["amount"] = 847,
-							["overkill"] = 831,
-						},
-						[11572] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 268,
-									["overkill"] = 263,
-								},
-							},
-							["amount"] = 268,
-							["overkill"] = 263,
-						},
-						[23922] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 774,
-									["overkill"] = 771,
-								},
-							},
-							["amount"] = 774,
-							["overkill"] = 771,
-						},
-					},
-				}, -- [1]
-			},
-			["totaldamage"] = 2160,
-			["time"] = 92,
-			["etotaldamagetaken"] = 2160,
-			["last_time"] = 51075.588,
-			["rage"] = 30,
-			["type"] = "none",
-			["overkill"] = 2124,
-			["edamagetaken"] = 2160,
-			["players"] = {
-				{
-					["rage"] = 30,
-					["last"] = 51072.169,
-					["id"] = "0x0700000000B06C55",
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["damagespells"] = {
-						["Shield Slam"] = {
-							["DODGE"] = 3,
-							["hitmin"] = 254,
-							["id"] = 23922,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["amount"] = 774,
-									["overkill"] = 771,
-								},
-							},
-							["overkill"] = 771,
-							["amount"] = 774,
-							["casts"] = 9,
-							["count"] = 9,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 260,
-							["MISS"] = 3,
-							["hitamount"] = 774,
-						},
-						["Thunder Clap"] = {
-							["hitmin"] = 96,
-							["id"] = 8205,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["amount"] = 96,
-									["overkill"] = 95,
-								},
-							},
-							["overkill"] = 95,
-							["hit"] = 1,
-							["casts"] = 4,
-							["count"] = 4,
-							["amount"] = 96,
-							["school"] = 1,
-							["hitmax"] = 96,
-							["MISS"] = 3,
-							["hitamount"] = 96,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 53,
-							["id"] = 11572,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["amount"] = 268,
-									["overkill"] = 263,
-								},
-							},
-							["overkill"] = 263,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 54,
-							["amount"] = 268,
-							["hitamount"] = 268,
-						},
-						["Rend"] = {
-							["hitmin"] = 15,
-							["id"] = 11572,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["amount"] = 175,
-									["overkill"] = 164,
-								},
-							},
-							["overkill"] = 164,
-							["count"] = 14,
-							["casts"] = 4,
-							["hitmax"] = 17,
-							["amount"] = 175,
-							["school"] = 1,
-							["hit"] = 11,
-							["MISS"] = 3,
-							["hitamount"] = 175,
-						},
-						["Melee"] = {
-							["DODGE"] = 8,
-							["glance"] = 847,
-							["id"] = 6603,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["amount"] = 847,
-									["overkill"] = 831,
-								},
-							},
-							["overkill"] = 831,
-							["glancing"] = 16,
-							["PARRY"] = 1,
-							["count"] = 43,
-							["amount"] = 847,
-							["school"] = 1,
-							["glancemax"] = 60,
-							["MISS"] = 18,
-							["glancemin"] = 45,
-						},
-						["Heroic Strike"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 11565,
-							["MISS"] = 1,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["auras"] = {
-						[11572] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 15,
-						},
-						[18075] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 2,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["refresh"] = 2,
-									["count"] = 2,
-									["uptime"] = 77,
-								},
-							},
-							["uptime"] = 77,
-						},
-						[11549] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 43,
-						},
-						[71] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 85,
-						},
-						[29131] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[8205] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["uptime"] = 22,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 22,
-						},
-					},
-					["ragespells"] = {
-						[2687] = 20,
-						[29131] = 10,
-					},
-					["totaldamage"] = 2160,
-					["time"] = 70.17000000000002,
-					["name"] = "Omoratorul",
-					["overkill"] = 2124,
-					["role"] = "TANK",
-					["spec"] = 73,
-					["damage"] = 2160,
-				}, -- [1]
-			},
-			["name"] = "Expert's Training Dummy (3)",
-			["mobname"] = "Expert's Training Dummy",
-			["starttime"] = 1729540106,
-			["damage"] = 2160,
-			["last_action"] = 1729540198,
-			["endtime"] = 1729540198,
-		}, -- [4]
-		{
-			["starttime"] = 1729513592,
-			["type"] = "none",
-			["endtime"] = 1729513605,
-			["damage"] = 0,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["PARRY"] = 1,
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 1,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 6603,
-						},
-					},
-					["last"] = 24471.256,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-					},
-					["totaldamage"] = 0,
-					["name"] = "Omoratorul",
-					["class"] = "WARRIOR",
-					["role"] = "TANK",
-					["flag"] = 1297,
-					["time"] = 0,
-					["damage"] = 0,
-				}, -- [1]
-			},
-			["totaldamage"] = 0,
-			["time"] = 13,
-			["mobname"] = "Expert's Training Dummy",
-			["name"] = "Expert's Training Dummy (2)",
-			["last_action"] = 1729513605,
-			["last_time"] = 24483.913,
-		}, -- [5]
-		{
-			["enemies"] = {
-				{
-					["name"] = "Expert's Training Dummy",
-					["damagetaken"] = 3405,
-					["id"] = "0xF130007F9A001D54",
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["totaldamagetaken"] = 3405,
-					["damagetakenspells"] = {
-						[23922] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 2439,
-									["overkill"] = 2430,
-								},
-							},
-							["amount"] = 2439,
-							["overkill"] = 2430,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 966,
-									["overkill"] = 948,
-								},
-							},
-							["amount"] = 966,
-							["overkill"] = 948,
-						},
-					},
-				}, -- [1]
-			},
-			["totaldamage"] = 3405,
-			["time"] = 114,
-			["etotaldamagetaken"] = 3405,
-			["last_time"] = 23777.87,
-			["rage"] = 30,
-			["type"] = "none",
-			["overkill"] = 3378,
-			["edamagetaken"] = 3405,
-			["players"] = {
-				{
-					["rage"] = 30,
-					["last"] = 23770.27,
-					["id"] = "0x0700000000B06C55",
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["damagespells"] = {
-						["Shield Slam"] = {
-							["hitmin"] = 254,
-							["id"] = 23922,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["amount"] = 2439,
-									["overkill"] = 2430,
-								},
-							},
-							["overkill"] = 2430,
-							["count"] = 14,
-							["casts"] = 14,
-							["hitmax"] = 319,
-							["amount"] = 2439,
-							["school"] = 1,
-							["hit"] = 9,
-							["MISS"] = 5,
-							["hitamount"] = 2439,
-						},
-						["Rend"] = {
-							["casts"] = 1,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 18075,
-							["MISS"] = 2,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["amount"] = 0,
-								},
-							},
-						},
-						["Melee"] = {
-							["DODGE"] = 9,
-							["glance"] = 893,
-							["hitmin"] = 73,
-							["targets"] = {
-								["Expert's Training Dummy"] = {
-									["amount"] = 966,
-									["overkill"] = 948,
-								},
-							},
-							["glancing"] = 17,
-							["amount"] = 966,
-							["MISS"] = 24,
-							["glancemin"] = 45,
-							["id"] = 6603,
-							["glancemax"] = 58,
-							["overkill"] = 948,
-							["PARRY"] = 3,
-							["count"] = 54,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 73,
-							["hitamount"] = 73,
-						},
-					},
-					["auras"] = {
-						[29131] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[11549] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 86,
-						},
-						[71] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 113,
-						},
-						[2565] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-					},
-					["role"] = "TANK",
-					["ragespells"] = {
-						[2687] = 20,
-						[29131] = 10,
-					},
-					["time"] = 66.69999999999999,
-					["name"] = "Omoratorul",
-					["overkill"] = 3378,
-					["totaldamage"] = 3405,
-					["spec"] = 73,
-					["damage"] = 3405,
-				}, -- [1]
-			},
-			["name"] = "Expert's Training Dummy",
-			["mobname"] = "Expert's Training Dummy",
-			["starttime"] = 1729512785,
-			["damage"] = 3405,
-			["last_action"] = 1729512899,
-			["endtime"] = 1729512899,
-		}, -- [6]
-		{
+			["overheal"] = 0,
+			["starttime"] = 1729796246,
 			["enemies"] = {
 				{
 					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
+						[12524] = {
+							["school"] = 4,
+							["total"] = 45,
 							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 67,
+								["Slavcul"] = {
+									["total"] = 45,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 67,
+							["amount"] = 0,
 						},
 					},
-					["damagetaken"] = 3880,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
+					["damagetaken"] = 1339,
+					["id"] = "0x0700000000B0BC2F",
+					["class"] = "MAGE",
 					["damagetakenspells"] = {
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 216,
-								},
-							},
-							["amount"] = 216,
-						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Slavcul"] = {
-									["overkill"] = 149,
-									["amount"] = 622,
+									["overkill"] = 170,
+									["amount"] = 332,
 								},
 								["Omoratorul"] = {
-									["amount"] = 350,
+									["amount"] = 510,
 								},
 							},
-							["overkill"] = 149,
-							["amount"] = 972,
+							["overkill"] = 170,
+							["amount"] = 842,
+						},
+						[11572] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 68,
+								},
+							},
+							["amount"] = 68,
+						},
+						[23922] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 429,
+								},
+							},
+							["amount"] = 429,
+						},
+					},
+					["totaldamage"] = 45,
+					["name"] = "Orphee",
+					["totaldamagetaken"] = 1339,
+					["flag"] = 66888,
+					["damage"] = 0,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 170,
+								},
+							},
+							["amount"] = 170,
+						},
+					},
+					["damagetaken"] = 2079,
+					["id"] = "0xF1300015F7065174",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[11572] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 64,
+								},
+							},
+							["amount"] = 64,
+						},
+						[8689] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 88,
+								},
+							},
+							["amount"] = 88,
 						},
 						[15264] = {
 							["school"] = 2,
 							["sources"] = {
 								["Popasfant"] = {
-									["amount"] = 378,
+									["overkill"] = 97,
+									["amount"] = 404,
 								},
 							},
-							["amount"] = 378,
+							["overkill"] = 97,
+							["amount"] = 404,
 						},
-						[1760] = {
+						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Slavcul"] = {
-									["amount"] = 555,
+									["amount"] = 255,
+								},
+								["Omoratorul"] = {
+									["amount"] = 204,
 								},
 							},
-							["amount"] = 555,
+							["amount"] = 459,
 						},
-						[8685] = {
-							["school"] = 8,
+						[8624] = {
+							["school"] = 1,
 							["sources"] = {
 								["Slavcul"] = {
-									["amount"] = 330,
+									["amount"] = 204,
 								},
 							},
-							["amount"] = 330,
+							["amount"] = 204,
 						},
-						[6060] = {
-							["school"] = 2,
+						[8621] = {
+							["school"] = 1,
 							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 73,
-									["amount"] = 325,
+								["Slavcul"] = {
+									["amount"] = 528,
 								},
 							},
-							["overkill"] = 73,
-							["amount"] = 325,
+							["amount"] = 528,
 						},
-						[12809] = {
+						[23922] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 145,
+									["amount"] = 332,
 								},
 							},
-							["amount"] = 145,
-						},
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 80,
-								},
-							},
-							["amount"] = 80,
-						},
-						[7379] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 863,
-								},
-							},
-							["amount"] = 863,
-						},
-						[16624] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 16,
-								},
-							},
-							["amount"] = 16,
+							["amount"] = 332,
 						},
 					},
-					["totaldamage"] = 67,
-					["name"] = "Bloodsail Swashbuckler",
-					["totaldamagetaken"] = 3880,
-					["id"] = "0xF13000061B246BDB",
-					["damage"] = 67,
-				}, -- [1]
+					["totaldamage"] = 170,
+					["name"] = "Wastewander Assassin",
+					["totaldamagetaken"] = 2079,
+					["flag"] = 68168,
+					["damage"] = 170,
+				}, -- [2]
 			},
-			["totaldamage"] = 3880,
-			["time"] = 14,
-			["totaldamagetaken"] = 67,
-			["etotaldamagetaken"] = 3880,
-			["last_time"] = 12123.995,
+			["dispel"] = 1,
+			["totaldamage"] = 3418,
+			["time"] = 16,
+			["damage"] = 3418,
+			["totaldamagetaken"] = 215,
+			["etotaldamage"] = 215,
+			["last_time"] = 10588.244,
 			["players"] = {
 				{
 					["ccdonespells"] = {
 						[7922] = {
 							["count"] = 1,
 							["targets"] = {
-								["Bloodsail Swashbuckler"] = 1,
-							},
-						},
-						[12809] = {
-							["count"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = 1,
+								["Orphee"] = 1,
 							},
 						},
 					},
-					["last"] = 12120.529,
+					["last"] = 10586.21,
 					["flag"] = 1297,
 					["class"] = "WARRIOR",
 					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
+						[11572] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Orphee"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 9,
 						},
-						[19709] = {
+						[2791] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["uptime"] = 16,
 						},
 						[7922] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 1,
 							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[71] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[12809] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["totaldamage"] = 1670,
-					["time"] = 10.45,
-					["totaldamagetaken"] = 67,
-					["damage"] = 1670,
-					["damagespells"] = {
-						["Thunder Clap"] = {
-							["hitmin"] = 108,
-							["id"] = 8204,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 216,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 108,
-							["amount"] = 216,
-							["hitamount"] = 216,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 40,
-							["id"] = 6548,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 80,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 40,
-							["amount"] = 80,
-							["hitamount"] = 80,
-						},
-						["Concussion Blow"] = {
-							["hitmin"] = 145,
-							["id"] = 12809,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 145,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 145,
-							["amount"] = 145,
-							["hitamount"] = 145,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 79,
-							["id"] = 6603,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 350,
-								},
-							},
-							["PARRY"] = 1,
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 103,
-							["amount"] = 350,
-							["hitamount"] = 350,
-						},
-						["Revenge"] = {
-							["hitmin"] = 430,
-							["id"] = 7379,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 863,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 433,
-							["amount"] = 863,
-							["hitamount"] = 863,
-						},
-						["Thorium Shield Spike"] = {
-							["hitmin"] = 16,
-							["id"] = 16624,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 16,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 16,
-							["amount"] = 16,
-							["hitamount"] = 16,
-						},
-					},
-					["damagetaken"] = 67,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 31,
-							["id"] = 6603,
-							["BLOCK"] = 1,
-							["hit"] = 2,
-							["sources"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 67,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 67,
-							["school"] = 1,
-							["hitmax"] = 36,
-							["blocked"] = 31,
-							["hitamount"] = 67,
-						},
-					},
-					["ragespells"] = {
-						[23602] = 10,
-					},
-					["name"] = "Omoratorul",
-					["ccdone"] = 2,
-					["rage"] = 10,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Holy Fire"] = {
-							["hitmin"] = 366,
-							["id"] = 15264,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 366,
-								},
-							},
-							["hitmax"] = 366,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 40,
-							["amount"] = 366,
-							["hitamount"] = 366,
-						},
-						["Smite"] = {
-							["hitmin"] = 325,
-							["id"] = 6060,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["overkill"] = 73,
-									["amount"] = 325,
-								},
-							},
-							["overkill"] = 73,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 325,
-							["amount"] = 325,
-							["hitamount"] = 325,
-						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 12,
-							["id"] = 15264,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 12,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 12,
-							["amount"] = 12,
-							["hitamount"] = 12,
-						},
-					},
-					["last"] = 12110.079,
-					["id"] = "0x0700000000B06C58",
-					["class"] = "PRIEST",
-					["overkill"] = 73,
-					["spec"] = 256,
-					["totaldamage"] = 703,
-					["name"] = "Popasfant",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[15264] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
+								["Orphee"] = {
 									["uptime"] = 2,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 2,
 						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[71] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 14,
+						},
+						[58374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 12,
+						},
+						[355] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+					},
+					["dispel"] = 1,
+					["time"] = 13.14,
+					["totaldamagetaken"] = 170,
+					["damage"] = 1607,
+					["damagespells"] = {
+						["Shield Slam"] = {
+							["hitmin"] = 332,
+							["id"] = 23922,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["amount"] = 332,
+								},
+								["Orphee"] = {
+									["amount"] = 429,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 429,
+							["amount"] = 761,
+							["hitamount"] = 761,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 88,
+							["hitmin"] = 116,
+							["criticalmin"] = 348,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["amount"] = 204,
+								},
+								["Orphee"] = {
+									["amount"] = 510,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 714,
+							["glancemin"] = 88,
+							["criticalamount"] = 348,
+							["id"] = 6603,
+							["glancemax"] = 88,
+							["criticalmax"] = 348,
+							["hitmax"] = 162,
+							["hit"] = 2,
+							["school"] = 1,
+							["critical"] = 1,
+							["count"] = 5,
+							["hitamount"] = 278,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 64,
+							["id"] = 11572,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["amount"] = 64,
+								},
+								["Orphee"] = {
+									["amount"] = 68,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 68,
+							["amount"] = 132,
+							["hitamount"] = 132,
+						},
+					},
+					["damagetaken"] = 170,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 15,
+							["id"] = 6603,
+							["sources"] = {
+								["Wastewander Assassin"] = {
+									["amount"] = 170,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 32,
+							["amount"] = 170,
+							["hitamount"] = 170,
+						},
+					},
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["totaldamage"] = 1607,
+					["dispelspells"] = {
+						[23922] = {
+							["spells"] = {
+								[10156] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Orphee"] = 1,
+							},
+						},
+					},
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["last"] = 10588.027,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[6788] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Slavcul"] = {
+									["uptime"] = 15,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 15,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[1006] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
 						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["uptime"] = 16,
 						},
 						[8098] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["uptime"] = 16,
 						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["role"] = "HEALER",
-					["flag"] = 1298,
-					["time"] = 0,
-					["damage"] = 703,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Instant Poison II"] = {
-							["hitmin"] = 72,
-							["criticalamount"] = 107,
-							["id"] = 8685,
-							["criticalmin"] = 107,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 330,
-								},
-							},
-							["critical"] = 1,
-							["hit"] = 3,
-							["casts"] = 1,
-							["count"] = 4,
-							["amount"] = 330,
-							["school"] = 8,
-							["hitmax"] = 76,
-							["criticalmax"] = 107,
-							["hitamount"] = 223,
-						},
-						["Melee"] = {
-							["glance"] = 66,
-							["hitmin"] = 36,
-							["criticalmin"] = 240,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["overkill"] = 149,
-									["amount"] = 622,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 622,
-							["MISS"] = 1,
-							["glancemin"] = 30,
-							["criticalamount"] = 240,
-							["id"] = 6603,
-							["glancemax"] = 36,
-							["overkill"] = 149,
-							["criticalmax"] = 240,
-							["hitmax"] = 102,
-							["hit"] = 5,
-							["school"] = 1,
-							["critical"] = 1,
-							["count"] = 9,
-							["hitamount"] = 316,
-						},
-						["Sinister Strike"] = {
-							["hitmin"] = 124,
-							["id"] = 1760,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 555,
-								},
-							},
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 151,
-							["amount"] = 555,
-							["hitamount"] = 555,
-						},
-					},
-					["last"] = 12122.154,
-					["id"] = "0x0700000000B0D62C",
-					["class"] = "ROGUE",
-					["overkill"] = 149,
-					["spec"] = 260,
-					["totaldamage"] = 1507,
-					["name"] = "Slavcul",
-					["auras"] = {
 						[11549] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["uptime"] = 16,
+						},
+					},
+					["absorbspells"] = {
+						[6066] = {
+							["min"] = 45,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 45,
+							["school"] = 2,
+							["targets"] = {
+								["Slavcul"] = 45,
+							},
+							["max"] = 45,
+						},
+					},
+					["time"] = 10.59,
+					["damage"] = 404,
+					["overheal"] = 0,
+					["absorb"] = 45,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["healspells"] = {
+						[6078] = {
+							["overheal"] = 0,
+							["max"] = 146,
+							["targets"] = {
+								["Slavcul"] = {
+									["overheal"] = 0,
+									["amount"] = 436,
+								},
+							},
+							["min"] = 145,
+							["casts"] = 2,
+							["count"] = 3,
+							["amount"] = 436,
+							["school"] = 2,
+							["ishot"] = true,
+						},
+						[56160] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 124,
+							["school"] = 2,
+							["max"] = 124,
+							["targets"] = {
+								["Slavcul"] = {
+									["overheal"] = 0,
+									["amount"] = 124,
+								},
+							},
+							["min"] = 124,
+						},
+						[9474] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 551,
+							["school"] = 2,
+							["max"] = 551,
+							["targets"] = {
+								["Slavcul"] = {
+									["overheal"] = 0,
+									["amount"] = 551,
+								},
+							},
+							["min"] = 551,
+						},
+					},
+					["overkill"] = 97,
+					["heal"] = 1111,
+					["name"] = "Popasfant",
+					["damagespells"] = {
+						["Holy Fire"] = {
+							["hitmin"] = 404,
+							["id"] = 15264,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["overkill"] = 97,
+									["amount"] = 404,
+								},
+							},
+							["overkill"] = 97,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 404,
+							["amount"] = 404,
+							["hitamount"] = 404,
+						},
+					},
+					["totaldamage"] = 404,
+					["role"] = "HEALER",
+				}, -- [2]
+				{
+					["last"] = 10573.078,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
 						},
 						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["role"] = "DAMAGER",
-					["flag"] = 1298,
-					["time"] = 11.32,
-					["damage"] = 1507,
-				}, -- [3]
-				{
-					["spec"] = 64,
-					["last"] = 12110.079,
-					["time"] = 0,
-					["name"] = "Vrajadefoc",
-					["id"] = "0x0700000000B06C60",
-					["class"] = "MAGE",
-					["role"] = "DAMAGER",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
+							["uptime"] = 16,
 						},
 						[6117] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["uptime"] = 16,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+				{
+					["last"] = 10586.719,
+					["flag"] = 1298,
+					["class"] = "ROGUE",
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[6078] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 15,
+						},
+						[51585] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 3,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[8696] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[5277] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 16,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+					},
+					["time"] = 11.16,
+					["totaldamagetaken"] = 45,
+					["damage"] = 1407,
+					["damagespells"] = {
+						["Eviscerate"] = {
+							["hitmin"] = 204,
+							["id"] = 8624,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["amount"] = 204,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 204,
+							["amount"] = 204,
+							["hitamount"] = 204,
+						},
+						["Instant Poison III"] = {
+							["hitmin"] = 88,
+							["id"] = 8689,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["amount"] = 88,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 88,
+							["amount"] = 88,
+							["hitamount"] = 88,
+						},
+						["Sinister Strike"] = {
+							["hitmin"] = 180,
+							["criticalamount"] = 348,
+							["id"] = 8621,
+							["hitmax"] = 180,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["amount"] = 528,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["casts"] = 2,
+							["critical"] = 1,
+							["amount"] = 528,
+							["school"] = 1,
+							["criticalmin"] = 348,
+							["criticalmax"] = 348,
+							["hitamount"] = 180,
+						},
+						["Melee"] = {
+							["glance"] = 32,
+							["hitmin"] = 38,
+							["criticalmin"] = 72,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["amount"] = 255,
+								},
+								["Orphee"] = {
+									["overkill"] = 170,
+									["amount"] = 332,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 587,
+							["MISS"] = 1,
+							["glancemin"] = 32,
+							["criticalamount"] = 404,
+							["id"] = 6603,
+							["glancemax"] = 32,
+							["overkill"] = 170,
+							["hitmax"] = 113,
+							["PARRY"] = 1,
+							["critical"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["criticalmax"] = 332,
+							["count"] = 7,
+							["hitamount"] = 151,
+						},
+					},
+					["damagetaken"] = 0,
+					["id"] = "0x0700000000B0D62C",
+					["spec"] = 260,
+					["damagetakenspells"] = {
+						["Pyroblast (DoT)"] = {
+							["total"] = 45,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 4,
+							["sources"] = {
+								["Orphee"] = {
+									["total"] = 45,
+									["amount"] = 0,
+								},
+							},
+							["ABSORB"] = 1,
+							["id"] = 12524,
+						},
+					},
+					["name"] = "Slavcul",
+					["overkill"] = 170,
+					["totaldamage"] = 1407,
+					["role"] = "DAMAGER",
+				}, -- [4]
+			},
+			["type"] = "group",
+			["damagetaken"] = 170,
+			["etotaldamagetaken"] = 3418,
+			["absorb"] = 45,
+			["overkill"] = 267,
+			["edamagetaken"] = 3418,
+			["heal"] = 1111,
+			["name"] = "Orphee (2)",
+			["ccdone"] = 1,
+			["mobname"] = "Orphee",
+			["edamage"] = 170,
+			["last_action"] = 1729796261,
+			["endtime"] = 1729796262,
+		}, -- [1]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[12524] = {
+							["school"] = 4,
+							["targets"] = {
+								["Slavcul"] = {
+									["amount"] = 90,
+								},
+							},
+							["amount"] = 90,
+						},
+						[12654] = {
+							["school"] = 4,
+							["targets"] = {
+								["Slavcul"] = {
+									["amount"] = 312,
+								},
+							},
+							["amount"] = 312,
+						},
+						[10148] = {
+							["school"] = 4,
+							["targets"] = {
+								["Slavcul"] = {
+									["amount"] = 515,
+								},
+							},
+							["amount"] = 515,
+						},
+					},
+					["name"] = "Orphee",
+					["totaldamage"] = 917,
+					["flag"] = 1320,
+					["class"] = "MAGE",
+					["id"] = "0x0700000000B0BC2F",
+					["damage"] = 917,
+				}, -- [1]
+			},
+			["time"] = 9,
+			["totaldamagetaken"] = 917,
+			["etotaldamage"] = 917,
+			["last_time"] = 10568.885,
+			["players"] = {
+				{
+					["last"] = 10560.094,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[23229] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+					},
+					["role"] = "TANK",
+					["name"] = "Omoratorul",
+					["time"] = 0,
+					["class"] = "WARRIOR",
+				}, -- [1]
+				{
+					["last"] = 10560.094,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["auras"] = {
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[1006] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+					},
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["time"] = 0,
+					["class"] = "PRIEST",
+				}, -- [2]
+				{
+					["last"] = 10560.094,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
 						},
 						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["uptime"] = 9,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
 						},
 					},
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+				{
+					["last"] = 10560.094,
+					["damagetaken"] = 917,
+					["id"] = "0x0700000000B0D62C",
+					["spec"] = 260,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[8696] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 7,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[5277] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 7,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+					},
+					["damagetakenspells"] = {
+						["Fireball"] = {
+							["hitmin"] = 493,
+							["id"] = 10148,
+							["sources"] = {
+								["Orphee"] = {
+									["amount"] = 493,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 493,
+							["amount"] = 493,
+							["hitamount"] = 493,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 11,
+							["id"] = 10148,
+							["sources"] = {
+								["Orphee"] = {
+									["amount"] = 22,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 11,
+							["amount"] = 22,
+							["hitamount"] = 22,
+						},
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 45,
+							["id"] = 12524,
+							["sources"] = {
+								["Orphee"] = {
+									["amount"] = 90,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 45,
+							["amount"] = 90,
+							["hitamount"] = 90,
+						},
+						["Ignite (DoT)"] = {
+							["hitmin"] = 156,
+							["id"] = 12654,
+							["sources"] = {
+								["Orphee"] = {
+									["amount"] = 312,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 156,
+							["amount"] = 312,
+							["hitamount"] = 312,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Slavcul",
+					["flag"] = 1298,
+					["totaldamagetaken"] = 917,
+					["time"] = 0,
+					["class"] = "ROGUE",
 				}, -- [4]
 			},
 			["type"] = "group",
-			["damagetaken"] = 67,
-			["damage"] = 3880,
-			["rage"] = 10,
-			["etotaldamage"] = 67,
-			["overkill"] = 222,
-			["edamagetaken"] = 3880,
-			["starttime"] = 1729453385,
-			["name"] = "Bloodsail Swashbuckler (16)",
-			["mobname"] = "Bloodsail Swashbuckler",
-			["ccdone"] = 2,
-			["edamage"] = 67,
-			["last_action"] = 1729453399,
-			["endtime"] = 1729453399,
-		}, -- [7]
+			["damagetaken"] = 917,
+			["name"] = "Orphee",
+			["mobname"] = "Orphee",
+			["starttime"] = 1729796233,
+			["edamage"] = 917,
+			["last_action"] = 1729796242,
+			["endtime"] = 1729796242,
+		}, -- [2]
 		{
-			["absorb"] = 316,
 			["enemies"] = {
 				{
-					["damagespells"] = {
-						[20825] = {
-							["school"] = 32,
-							["total"] = 413,
-							["targets"] = {
-								["Slavcul"] = {
-									["amount"] = 229,
-								},
-								["Omoratorul"] = {
-									["total"] = 413,
-									["amount"] = 204,
-								},
-							},
-							["amount"] = 433,
-						},
-						[6603] = {
-							["school"] = 1,
-							["total"] = 169,
-							["targets"] = {
-								["Omoratorul"] = {
-									["total"] = 169,
-									["amount"] = 143,
-								},
-							},
-							["amount"] = 143,
-						},
-					},
-					["damagetaken"] = 5549,
-					["flag"] = 68168,
+					["id"] = "0xF130001EA7064B51",
+					["name"] = "Caliph Scorpidsting",
+					["totaldamagetaken"] = 2487,
+					["flag"] = 1116744,
 					["class"] = "MONSTER",
+					["damagetaken"] = 2487,
 					["damagetakenspells"] = {
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 555,
-								},
-							},
-							["amount"] = 555,
-						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Slavcul"] = {
-									["amount"] = 304,
+									["amount"] = 316,
 								},
 								["Omoratorul"] = {
-									["amount"] = 1567,
+									["amount"] = 235,
 								},
 							},
-							["amount"] = 1871,
+							["amount"] = 551,
+						},
+						[11572] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 68,
+								},
+							},
+							["amount"] = 68,
+						},
+						[8621] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 114,
+								},
+							},
+							["amount"] = 114,
+						},
+						[23922] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 396,
+								},
+							},
+							["amount"] = 396,
 						},
 						[15431] = {
 							["school"] = 2,
 							["sources"] = {
 								["Popasfant"] = {
-									["overkill"] = 7,
-									["amount"] = 561,
+									["overkill"] = 88,
+									["amount"] = 101,
 								},
 							},
-							["overkill"] = 7,
-							["amount"] = 561,
+							["overkill"] = 88,
+							["amount"] = 101,
 						},
-						[8685] = {
-							["school"] = 8,
+						[42210] = {
+							["school"] = 16,
 							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 74,
+								["Vrajadefoc"] = {
+									["amount"] = 97,
 								},
 							},
-							["amount"] = 74,
-						},
-						[34428] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 257,
-								},
-							},
-							["amount"] = 257,
-						},
-						[694] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 130,
-								},
-							},
-							["amount"] = 130,
+							["amount"] = 97,
 						},
 						[8408] = {
 							["school"] = 16,
 							["sources"] = {
 								["Vrajadefoc"] = {
-									["overkill"] = 209,
-									["amount"] = 788,
+									["amount"] = 291,
 								},
 							},
-							["overkill"] = 209,
-							["amount"] = 788,
+							["amount"] = 291,
 						},
-						[6548] = {
+						[8205] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["overkill"] = 5,
-									["amount"] = 228,
+									["amount"] = 131,
 								},
 							},
-							["overkill"] = 5,
-							["amount"] = 228,
+							["amount"] = 131,
 						},
 						[7379] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 523,
+									["amount"] = 414,
 								},
 							},
-							["amount"] = 523,
+							["amount"] = 414,
 						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 39,
-									["amount"] = 562,
-								},
-							},
-							["overkill"] = 39,
-							["amount"] = 562,
-						},
-					},
-					["totaldamage"] = 811,
-					["name"] = "Bloodsail Warlock",
-					["totaldamagetaken"] = 5549,
-					["id"] = "0xF13000061C246994",
-					["damage"] = 576,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[20801] = {
-							["school"] = 4,
-							["total"] = 256,
-							["targets"] = {
-								["Slavcul"] = {
-									["amount"] = 252,
-								},
-								["Omoratorul"] = {
-									["total"] = 171,
-									["amount"] = 90,
-								},
-							},
-							["amount"] = 342,
-						},
-					},
-					["damagetaken"] = 2039,
-					["flag"] = 4680,
-					["class"] = "PET",
-					["damagetakenspells"] = {
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 58,
-								},
-							},
-							["amount"] = 58,
-						},
-						[8105] = {
+						[8106] = {
 							["school"] = 32,
 							["sources"] = {
 								["Popasfant"] = {
-									["overkill"] = 226,
-									["amount"] = 296,
+									["amount"] = 324,
 								},
 							},
-							["overkill"] = 226,
-							["amount"] = 296,
+							["amount"] = 324,
 						},
-						[15264] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 423,
+					},
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 142,
 								},
 							},
-							["amount"] = 423,
+							["amount"] = 142,
 						},
+						[8721] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 115,
+								},
+							},
+							["amount"] = 115,
+						},
+					},
+					["damagetaken"] = 4370,
+					["id"] = "0xF1300015EF064BF4",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 105,
-								},
 								["Slavcul"] = {
-									["overkill"] = 152,
-									["amount"] = 222,
+									["amount"] = 104,
 								},
 							},
-							["overkill"] = 152,
-							["amount"] = 327,
+							["amount"] = 104,
 						},
-						[8204] = {
-							["school"] = 1,
+						[42210] = {
+							["school"] = 16,
 							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 92,
-									["amount"] = 402,
+								["Vrajadefoc"] = {
+									["amount"] = 905,
 								},
 							},
-							["overkill"] = 92,
-							["amount"] = 402,
+							["amount"] = 905,
 						},
-						[1760] = {
+						[8621] = {
 							["school"] = 1,
 							["sources"] = {
 								["Slavcul"] = {
-									["amount"] = 126,
+									["overkill"] = 144,
+									["amount"] = 818,
 								},
 							},
-							["amount"] = 126,
+							["overkill"] = 144,
+							["amount"] = 818,
+						},
+						[11608] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 172,
+								},
+							},
+							["amount"] = 172,
+						},
+						[22482] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 915,
+								},
+							},
+							["amount"] = 915,
+						},
+						[8689] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["overkill"] = 27,
+									["amount"] = 267,
+								},
+							},
+							["overkill"] = 27,
+							["amount"] = 267,
+						},
+						[8205] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 408,
+								},
+							},
+							["amount"] = 408,
+						},
+						[7379] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 424,
+								},
+							},
+							["amount"] = 424,
 						},
 						[15431] = {
 							["school"] = 2,
 							["sources"] = {
 								["Popasfant"] = {
-									["overkill"] = 48,
-									["amount"] = 407,
+									["amount"] = 357,
 								},
 							},
-							["overkill"] = 48,
-							["amount"] = 407,
+							["amount"] = 357,
 						},
 					},
-					["totaldamage"] = 423,
-					["name"] = "Imp Minion",
-					["totaldamagetaken"] = 2039,
-					["id"] = "0xF13000327A2469B1",
-					["damage"] = 342,
+					["totaldamage"] = 257,
+					["name"] = "Wastewander Rogue",
+					["totaldamagetaken"] = 4370,
+					["flag"] = 2632,
+					["damage"] = 257,
 				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Slavcul"] = {
-									["amount"] = 38,
-								},
-								["Omoratorul"] = {
-									["amount"] = 30,
-								},
-							},
-							["amount"] = 68,
-						},
-						[32202] = {
-							["school"] = 32,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 279,
-								},
-							},
-							["amount"] = 279,
-						},
-					},
-					["damagetaken"] = 924,
-					["id"] = "0xF130002AB02469DA",
-					["class"] = "PET",
-					["damagetakenspells"] = {
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 295,
-								},
-							},
-							["amount"] = 295,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 221,
-								},
-							},
-							["amount"] = 221,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 34,
-									["amount"] = 408,
-								},
-							},
-							["overkill"] = 34,
-							["amount"] = 408,
-						},
-					},
-					["totaldamage"] = 347,
-					["name"] = "Succubus Minion",
-					["totaldamagetaken"] = 924,
-					["flag"] = 4680,
-					["damage"] = 347,
-				}, -- [3]
 			},
+			["totaldamage"] = 6857,
+			["time"] = 18,
+			["damage"] = 6857,
+			["totaldamagetaken"] = 257,
+			["etotaldamagetaken"] = 6857,
+			["last_time"] = 10539.369,
 			["players"] = {
 				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = 1,
-							},
-						},
-					},
-					["last"] = 12079.987,
+					["last"] = 10530.511,
 					["flag"] = 1297,
 					["class"] = "WARRIOR",
 					["auras"] = {
 						[11549] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
+							["uptime"] = 18,
 						},
-						[19709] = {
+						[2791] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
+							["uptime"] = 18,
 						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[6078] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[7922] = {
+						[11572] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 1,
 							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 2,
+								["Caliph Scorpidsting"] = {
+									["uptime"] = 6,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 2,
+							["uptime"] = 6,
 						},
-						[18075] = {
-							["type"] = "DEBUFF",
+						[6066] = {
+							["type"] = "BUFF",
 							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 12,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[8205] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 7,
 							["school"] = 1,
+							["refresh"] = 1,
 							["targets"] = {
-								["Bloodsail Warlock"] = {
+								["Wastewander Rogue"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 7,
+								},
+								["Caliph Scorpidsting"] = {
 									["uptime"] = 4,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 4,
-						},
-						[6066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[6548] = {
-							["type"] = "DEBUFF",
 							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 14,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 14,
 						},
-						[20007] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 31,
-						},
-						[694] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[1461] = {
+						[29131] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
+							["school"] = 1,
+							["uptime"] = 10,
 						},
 						[71] = {
-							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 2,
+							["school"] = 1,
+							["uptime"] = 15,
 						},
-						[976] = {
+						[57514] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[18498] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
 							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 8,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 15,
 						},
-						[12976] = {
-							["school"] = 1,
+						[58374] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
 							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 12,
-									["count"] = 4,
-								},
-								["Imp Minion"] = {
-									["uptime"] = 11,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 14,
+							["uptime"] = 10,
+						},
+						[2565] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
 						},
 					},
-					["totaldamage"] = 3767,
-					["time"] = 34.65,
-					["totaldamagetaken"] = 1062,
-					["damage"] = 3767,
-					["rage"] = 5,
-					["damagespells"] = {
-						["Thunder Clap"] = {
-							["hitmin"] = 123,
-							["id"] = 8204,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 555,
-								},
-								["Imp Minion"] = {
-									["overkill"] = 92,
-									["amount"] = 402,
-								},
-							},
-							["overkill"] = 92,
-							["blocked"] = 20,
-							["casts"] = 4,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 146,
-							["amount"] = 957,
-							["hitamount"] = 957,
-						},
-						["Melee"] = {
-							["glance"] = 346,
-							["hitmin"] = 77,
-							["criticalmin"] = 174,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 1567,
-								},
-								["Imp Minion"] = {
-									["amount"] = 105,
-								},
-							},
-							["glancing"] = 4,
-							["amount"] = 1672,
-							["glancemin"] = 78,
-							["criticalamount"] = 420,
-							["id"] = 6603,
-							["glancemax"] = 99,
-							["criticalmax"] = 246,
-							["count"] = 15,
-							["hit"] = 9,
-							["school"] = 1,
-							["hitmax"] = 114,
-							["critical"] = 2,
-							["hitamount"] = 906,
-						},
-						["Revenge"] = {
-							["hitmin"] = 523,
-							["id"] = 7379,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 523,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 523,
-							["amount"] = 523,
-							["hitamount"] = 523,
-						},
-						["Victory Rush"] = {
-							["hitmin"] = 257,
-							["id"] = 34428,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 257,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 257,
-							["amount"] = 257,
-							["hitamount"] = 257,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 40,
-							["id"] = 6548,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 5,
-									["amount"] = 228,
-								},
-							},
-							["overkill"] = 5,
-							["casts"] = 2,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 47,
-							["amount"] = 228,
-							["hitamount"] = 228,
-						},
-						["Mocking Blow"] = {
-							["hitmin"] = 130,
-							["id"] = 694,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 130,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 130,
-							["amount"] = 130,
-							["hitamount"] = 130,
-						},
-					},
-					["damagetaken"] = 746,
-					["damagetakenspells"] = {
-						["Lash of Pain"] = {
-							["hitmin"] = 279,
-							["id"] = 32202,
-							["hitmax"] = 279,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["amount"] = 279,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 31,
-							["amount"] = 279,
-							["hitamount"] = 279,
-						},
-						["Shadow Bolt"] = {
-							["total"] = 413,
-							["hitmin"] = 204,
-							["id"] = 20825,
-							["hitmax"] = 204,
-							["hit"] = 1,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 413,
-									["amount"] = 204,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 204,
-							["school"] = 32,
-							["resisted"] = 51,
-							["ABSORB"] = 1,
-							["hitamount"] = 204,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 199,
-							["hitmin"] = 21,
-							["id"] = 6603,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 169,
-									["amount"] = 143,
-								},
-								["Succubus Minion"] = {
-									["amount"] = 30,
-								},
-							},
-							["count"] = 9,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 30,
-							["amount"] = 173,
-							["hitamount"] = 173,
-						},
-						["Firebolt"] = {
-							["total"] = 171,
-							["hitmin"] = 90,
-							["id"] = 20801,
-							["hitmax"] = 90,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Imp Minion"] = {
-									["total"] = 171,
-									["amount"] = 90,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 4,
-							["amount"] = 90,
-							["MISS"] = 1,
-							["hitamount"] = 90,
-						},
-					},
+					["time"] = 9.15,
+					["totaldamagetaken"] = 257,
+					["damage"] = 2248,
+					["rage"] = 70,
+					["damagetaken"] = 257,
 					["id"] = "0x0700000000B06C55",
 					["spec"] = 73,
-					["healspells"] = {
-						[20007] = {
-							["overheal"] = 216,
-							["count"] = 3,
-							["amount"] = 111,
-							["max"] = 111,
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 216,
-									["amount"] = 111,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["count"] = 11,
+							["crushing"] = 1,
+							["id"] = 6603,
+							["PARRY"] = 1,
+							["criticalmin"] = 84,
+							["criticalmax"] = 84,
+							["criticalamount"] = 84,
+							["sources"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 142,
+								},
+								["Caliph Scorpidsting"] = {
+									["amount"] = 0,
 								},
 							},
-							["min"] = 111,
+							["BLOCK"] = 7,
+							["blocked"] = 259,
+							["school"] = 1,
+							["critical"] = 1,
+							["MISS"] = 1,
+							["amount"] = 142,
+						},
+						["Backstab"] = {
+							["hitmin"] = 115,
+							["id"] = 8721,
+							["sources"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 115,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 115,
+							["amount"] = 115,
+							["hitamount"] = 115,
 						},
 					},
-					["overkill"] = 97,
 					["ragespells"] = {
-						[23602] = 5,
+						[23602] = 40,
+						[2687] = 20,
+						[29131] = 10,
 					},
-					["heal"] = 111,
 					["name"] = "Omoratorul",
-					["ccdone"] = 1,
-					["interrupt"] = 3,
-					["overheal"] = 216,
-					["interruptspells"] = {
-						[72] = {
-							["spells"] = {
-								[20825] = 3,
-							},
-							["count"] = 3,
+					["damagespells"] = {
+						["Shield Slam"] = {
+							["hitmin"] = 396,
+							["id"] = 23922,
 							["targets"] = {
-								["Bloodsail Warlock"] = 3,
+								["Caliph Scorpidsting"] = {
+									["amount"] = 396,
+								},
 							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 396,
+							["amount"] = 396,
+							["hitamount"] = 396,
+						},
+						["Thunder Clap"] = {
+							["hitmin"] = 131,
+							["id"] = 8205,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 408,
+								},
+								["Caliph Scorpidsting"] = {
+									["amount"] = 131,
+								},
+							},
+							["amount"] = 539,
+							["casts"] = 2,
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 139,
+							["MISS"] = 1,
+							["hitamount"] = 539,
+						},
+						["Revenge"] = {
+							["hitmin"] = 414,
+							["id"] = 7379,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 424,
+								},
+								["Caliph Scorpidsting"] = {
+									["amount"] = 414,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 424,
+							["amount"] = 838,
+							["hitamount"] = 838,
+						},
+						["Cleave"] = {
+							["hitmin"] = 172,
+							["id"] = 11608,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 172,
+								},
+							},
+							["hitmax"] = 172,
+							["PARRY"] = 1,
+							["count"] = 2,
+							["amount"] = 172,
+							["school"] = 1,
+							["casts"] = 1,
+							["hit"] = 1,
+							["hitamount"] = 172,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 68,
+							["id"] = 11572,
+							["targets"] = {
+								["Caliph Scorpidsting"] = {
+									["amount"] = 68,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 68,
+							["amount"] = 68,
+							["hitamount"] = 68,
+						},
+						["Melee"] = {
+							["hitmin"] = 115,
+							["id"] = 6603,
+							["targets"] = {
+								["Caliph Scorpidsting"] = {
+									["amount"] = 235,
+								},
+							},
+							["amount"] = 235,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 120,
+							["MISS"] = 1,
+							["hitamount"] = 235,
 						},
 					},
+					["totaldamage"] = 2248,
 					["role"] = "TANK",
 				}, -- [1]
 				{
-					["last"] = 12071.405,
+					["last"] = 10529.937,
 					["flag"] = 1298,
 					["class"] = "PRIEST",
 					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[15264] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Imp Minion"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[6066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
 						[6788] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 2,
 							["targets"] = {
 								["Omoratorul"] = {
-									["uptime"] = 14,
+									["uptime"] = 12,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 14,
+							["uptime"] = 12,
 						},
-						[1461] = {
+						[14818] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
+							["uptime"] = 18,
 						},
-						[976] = {
+						[1006] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
+							["uptime"] = 18,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
 						},
 						[8098] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
+							["uptime"] = 18,
 						},
-						[24707] = {
+						[11549] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
+							["uptime"] = 18,
 						},
 					},
-					["absorbspells"] = {
-						[6066] = {
-							["min"] = 26,
-							["casts"] = 1,
-							["count"] = 3,
-							["amount"] = 316,
-							["school"] = 2,
-							["targets"] = {
-								["Omoratorul"] = 316,
-							},
-							["max"] = 209,
-						},
-					},
-					["totaldamage"] = 1687,
-					["time"] = 8.01,
-					["damage"] = 1687,
-					["overheal"] = 1022,
-					["absorb"] = 316,
+					["time"] = 6.470000000000001,
+					["damage"] = 782,
+					["overheal"] = 1542,
 					["id"] = "0x0700000000B06C58",
 					["spec"] = 256,
 					["healspells"] = {
-						[6078] = {
-							["overheal"] = 145,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 145,
-									["amount"] = 0,
-								},
-							},
-						},
 						[56160] = {
 							["overheal"] = 0,
 							["count"] = 1,
@@ -2448,348 +1627,3929 @@ SkadaStorageDB = {
 							["min"] = 124,
 						},
 						[23459] = {
-							["overheal"] = 877,
-							["count"] = 8,
-							["amount"] = 610,
-							["max"] = 194,
+							["overheal"] = 1542,
+							["max"] = 186,
+							["count"] = 10,
+							["amount"] = 343,
 							["school"] = 2,
+							["min"] = 157,
 							["targets"] = {
-								["Slavcul"] = {
-									["overheal"] = 265,
-									["amount"] = 99,
+								["Popasfant"] = {
+									["overheal"] = 580,
+									["amount"] = 0,
+								},
+								["Vrajadefoc"] = {
+									["overheal"] = 184,
+									["amount"] = 0,
 								},
 								["Omoratorul"] = {
-									["overheal"] = 56,
-									["amount"] = 511,
+									["overheal"] = 215,
+									["amount"] = 343,
 								},
-								["Popasfant"] = {
-									["overheal"] = 556,
+								["Slavcul"] = {
+									["overheal"] = 563,
 									["amount"] = 0,
 								},
 							},
-							["min"] = 99,
 						},
 					},
-					["overkill"] = 281,
-					["heal"] = 734,
+					["overkill"] = 88,
+					["heal"] = 467,
 					["name"] = "Popasfant",
 					["damagespells"] = {
-						["Holy Nova"] = {
-							["criticalmin"] = 172,
-							["critical"] = 1,
-							["hitmin"] = 108,
-							["criticalamount"] = 172,
-							["id"] = 15431,
-							["hitmax"] = 119,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 7,
-									["amount"] = 561,
-								},
-								["Imp Minion"] = {
-									["overkill"] = 48,
-									["amount"] = 407,
-								},
-							},
-							["overkill"] = 55,
-							["hit"] = 7,
-							["criticalmax"] = 172,
-							["count"] = 8,
-							["amount"] = 968,
-							["school"] = 2,
-							["resisted"] = 24,
-							["casts"] = 3,
-							["hitamount"] = 796,
-						},
-						["Holy Fire"] = {
-							["hitmin"] = 411,
-							["id"] = 15264,
-							["targets"] = {
-								["Imp Minion"] = {
-									["amount"] = 411,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 411,
-							["amount"] = 411,
-							["hitamount"] = 411,
-						},
 						["Mind Blast"] = {
-							["hitmin"] = 296,
-							["id"] = 8105,
+							["hitmin"] = 324,
+							["id"] = 8106,
 							["targets"] = {
-								["Imp Minion"] = {
-									["overkill"] = 226,
-									["amount"] = 296,
+								["Caliph Scorpidsting"] = {
+									["amount"] = 324,
 								},
 							},
-							["overkill"] = 226,
+							["hitmax"] = 324,
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 32,
-							["hitmax"] = 296,
-							["amount"] = 296,
-							["hitamount"] = 296,
+							["resisted"] = 35,
+							["amount"] = 324,
+							["hitamount"] = 324,
 						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 12,
-							["id"] = 15264,
+						["Holy Fire"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 2,
 							["targets"] = {
-								["Imp Minion"] = {
-									["amount"] = 12,
+								["Caliph Scorpidsting"] = {
+									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
+							["MISS"] = 1,
+							["id"] = 15264,
+						},
+						["Holy Nova"] = {
+							["hitmin"] = 88,
+							["criticalmin"] = 161,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 357,
+								},
+								["Caliph Scorpidsting"] = {
+									["overkill"] = 88,
+									["amount"] = 101,
+								},
+							},
+							["amount"] = 458,
+							["resisted"] = 62,
+							["MISS"] = 1,
+							["criticalamount"] = 161,
+							["id"] = 15431,
+							["overkill"] = 88,
+							["criticalmax"] = 161,
+							["casts"] = 3,
+							["count"] = 5,
+							["hit"] = 3,
 							["school"] = 2,
-							["hitmax"] = 12,
-							["amount"] = 12,
-							["hitamount"] = 12,
+							["critical"] = 1,
+							["hitmax"] = 108,
+							["hitamount"] = 297,
 						},
 					},
+					["totaldamage"] = 782,
 					["role"] = "HEALER",
 				}, -- [2]
 				{
-					["last"] = 12071.771,
+					["damagespells"] = {
+						["Blizzard"] = {
+							["amount"] = 1002,
+							["hitmax"] = 121,
+							["hitmin"] = 97,
+							["criticalamount"] = 218,
+							["id"] = 42210,
+							["criticalmin"] = 218,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 905,
+								},
+								["Caliph Scorpidsting"] = {
+									["amount"] = 97,
+								},
+							},
+							["criticalmax"] = 218,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 9,
+							["hit"] = 7,
+							["school"] = 16,
+							["resisted"] = 84,
+							["MISS"] = 1,
+							["hitamount"] = 784,
+						},
+						["Frostbolt"] = {
+							["hitmin"] = 291,
+							["id"] = 8408,
+							["targets"] = {
+								["Caliph Scorpidsting"] = {
+									["amount"] = 291,
+								},
+							},
+							["hitmax"] = 291,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 124,
+							["amount"] = 291,
+							["hitamount"] = 291,
+						},
+					},
+					["last"] = 10530.513,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["class"] = "MAGE",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[8427] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 16,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["uptime"] = 5,
+									["count"] = 2,
+								},
+								["Caliph Scorpidsting"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+					},
+					["totaldamage"] = 1293,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 8.049999999999999,
+					["damage"] = 1293,
+				}, -- [3]
+				{
+					["last"] = 10531.622,
 					["flag"] = 1298,
 					["class"] = "ROGUE",
 					["auras"] = {
-						[2818] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[13877] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 13,
+						},
+						[5171] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 13,
+						},
+						[2819] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 8,
 							["targets"] = {
-								["Succubus Minion"] = {
+								["Caliph Scorpidsting"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[13750] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 12,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 10.29,
+					["damage"] = 2534,
+					["damagespells"] = {
+						["Blade Flurry"] = {
+							["hitmin"] = 34,
+							["id"] = 22482,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 915,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 291,
+							["amount"] = 915,
+							["hitamount"] = 915,
+						},
+						["Instant Poison III"] = {
+							["hitmin"] = 81,
+							["id"] = 8689,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["overkill"] = 27,
+									["amount"] = 267,
+								},
+							},
+							["overkill"] = 27,
+							["hitmax"] = 95,
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 8,
+							["resisted"] = 8,
+							["amount"] = 267,
+							["hitamount"] = 267,
+						},
+						["Sinister Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 114,
+							["criticalmin"] = 300,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["overkill"] = 144,
+									["amount"] = 818,
+								},
+								["Caliph Scorpidsting"] = {
+									["amount"] = 114,
+								},
+							},
+							["amount"] = 932,
+							["criticalamount"] = 646,
+							["id"] = 8621,
+							["criticalmax"] = 346,
+							["overkill"] = 144,
+							["critical"] = 2,
+							["casts"] = 5,
+							["hitmax"] = 172,
+							["hit"] = 2,
+							["school"] = 1,
+							["blocked"] = 23,
+							["count"] = 5,
+							["hitamount"] = 286,
+						},
+						["Melee"] = {
+							["glance"] = 420,
+							["id"] = 6603,
+							["glancemax"] = 104,
+							["glancing"] = 6,
+							["count"] = 12,
+							["amount"] = 420,
+							["school"] = 1,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 104,
+								},
+								["Caliph Scorpidsting"] = {
+									["amount"] = 316,
+								},
+							},
+							["MISS"] = 6,
+							["glancemin"] = 24,
+						},
+					},
+					["id"] = "0x0700000000B0D62C",
+					["spec"] = 260,
+					["name"] = "Slavcul",
+					["overkill"] = 171,
+					["totaldamage"] = 2534,
+				}, -- [4]
+			},
+			["type"] = "group",
+			["damagetaken"] = 257,
+			["overheal"] = 1542,
+			["rage"] = 70,
+			["etotaldamage"] = 257,
+			["overkill"] = 259,
+			["edamagetaken"] = 6857,
+			["heal"] = 467,
+			["name"] = "Caliph Scorpidsting",
+			["mobname"] = "Caliph Scorpidsting",
+			["starttime"] = 1729796194,
+			["edamage"] = 257,
+			["last_action"] = 1729796212,
+			["endtime"] = 1729796212,
+		}, -- [3]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 264,
+								},
+							},
+							["amount"] = 264,
+						},
+					},
+					["damagetaken"] = 2042,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8205] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 270,
+								},
+							},
+							["amount"] = 270,
+						},
+						[8106] = {
+							["school"] = 32,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 317,
+								},
+							},
+							["amount"] = 317,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 1,
+									["amount"] = 523,
+								},
+							},
+							["overkill"] = 1,
+							["amount"] = 523,
+						},
+						[23922] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 338,
+								},
+							},
+							["amount"] = 338,
+						},
+						[15264] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 400,
+								},
+							},
+							["amount"] = 400,
+						},
+						[11565] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 194,
+								},
+							},
+							["amount"] = 194,
+						},
+					},
+					["name"] = "Wastewander Rogue",
+					["totaldamage"] = 264,
+					["totaldamagetaken"] = 2042,
+					["id"] = "0xF1300015EF064E29",
+					["damage"] = 264,
+				}, -- [1]
+			},
+			["totaldamage"] = 2042,
+			["time"] = 16,
+			["totaldamagetaken"] = 264,
+			["etotaldamagetaken"] = 2042,
+			["last_time"] = 10494.453,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 1,
+							["targets"] = {
+								["Wastewander Rogue"] = 1,
+							},
+						},
+					},
+					["last"] = 10493.045,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[8205] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 11,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[58374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 15,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+					},
+					["time"] = 14.05,
+					["totaldamagetaken"] = 264,
+					["damage"] = 1325,
+					["damagespells"] = {
+						["Shield Slam"] = {
+							["hitmin"] = 338,
+							["id"] = 23922,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 338,
+								},
+							},
+							["hitmax"] = 338,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 338,
+							["school"] = 1,
+							["hit"] = 1,
+							["MISS"] = 1,
+							["hitamount"] = 338,
+						},
+						["Thunder Clap"] = {
+							["hitmin"] = 135,
+							["id"] = 8205,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 270,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 135,
+							["amount"] = 270,
+							["hitamount"] = 270,
+						},
+						["Melee"] = {
+							["glance"] = 100,
+							["hitmin"] = 143,
+							["criticalmin"] = 280,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["overkill"] = 1,
+									["amount"] = 523,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 523,
+							["glancemin"] = 100,
+							["criticalamount"] = 280,
+							["id"] = 6603,
+							["glancemax"] = 100,
+							["overkill"] = 1,
+							["hitmax"] = 143,
+							["PARRY"] = 2,
+							["critical"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["criticalmax"] = 280,
+							["count"] = 5,
+							["hitamount"] = 143,
+						},
+						["Heroic Strike"] = {
+							["hitmin"] = 194,
+							["id"] = 11565,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 194,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 194,
+							["amount"] = 194,
+							["hitamount"] = 194,
+						},
+					},
+					["damagetaken"] = 264,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 36,
+							["crushing"] = 3,
+							["id"] = 6603,
+							["sources"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 264,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 43,
+							["amount"] = 264,
+							["hitamount"] = 79,
+						},
+					},
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["overkill"] = 1,
+					["totaldamage"] = 1325,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Mind Blast"] = {
+							["hitmin"] = 317,
+							["id"] = 8106,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 317,
+								},
+							},
+							["hit"] = 1,
+							["hitmax"] = 317,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 317,
+							["school"] = 32,
+							["resisted"] = 35,
+							["MISS"] = 1,
+							["hitamount"] = 317,
+						},
+						["Holy Fire"] = {
+							["hitmin"] = 326,
+							["id"] = 15264,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 326,
+								},
+							},
+							["hitmax"] = 326,
+							["casts"] = 2,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["resisted"] = 81,
+							["amount"] = 326,
+							["hitamount"] = 326,
+						},
+						["Holy Fire (DoT)"] = {
+							["hitmin"] = 9,
+							["id"] = 15264,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 74,
+								},
+							},
+							["hitmax"] = 12,
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 2,
+							["resisted"] = 9,
+							["amount"] = 74,
+							["hitamount"] = 74,
+						},
+					},
+					["last"] = 10478.996,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[15264] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[1006] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+					},
+					["totaldamage"] = 717,
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["flag"] = 1298,
+					["time"] = 0,
+					["damage"] = 717,
+				}, -- [2]
+				{
+					["last"] = 10478.996,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["class"] = "MAGE",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 0,
+				}, -- [3]
+				{
+					["last"] = 10478.996,
+					["id"] = "0x0700000000B0D62C",
+					["spec"] = 260,
+					["class"] = "ROGUE",
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Slavcul",
+					["flag"] = 1298,
+					["time"] = 0,
+				}, -- [4]
+			},
+			["type"] = "group",
+			["damagetaken"] = 264,
+			["mobname"] = "Wastewander Rogue",
+			["etotaldamage"] = 264,
+			["overkill"] = 1,
+			["edamagetaken"] = 2042,
+			["starttime"] = 1729796152,
+			["name"] = "Wastewander Rogue (2)",
+			["ccdone"] = 1,
+			["damage"] = 2042,
+			["edamage"] = 264,
+			["last_action"] = 1729796167,
+			["endtime"] = 1729796168,
+		}, -- [4]
+		{
+			["mobname"] = "Wastewander Assassin",
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 18,
+							["targets"] = {
+								["Omoratorul"] = {
+									["total"] = 184,
+									["amount"] = 166,
+								},
+							},
+							["amount"] = 166,
+						},
+					},
+					["damagetaken"] = 2192,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8106] = {
+							["school"] = 32,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 349,
+								},
+							},
+							["amount"] = 349,
+						},
+						[3018] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 174,
+								},
+							},
+							["amount"] = 174,
+						},
+						[20647] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 132,
+									["amount"] = 404,
+								},
+							},
+							["overkill"] = 132,
+							["amount"] = 404,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 505,
+								},
+							},
+							["amount"] = 505,
+						},
+						[23922] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 760,
+								},
+							},
+							["amount"] = 760,
+						},
+					},
+					["name"] = "Wastewander Assassin",
+					["totaldamage"] = 184,
+					["totaldamagetaken"] = 2192,
+					["id"] = "0xF1300015F7064BAD",
+					["damage"] = 166,
+				}, -- [1]
+			},
+			["rage"] = 45,
+			["totaldamage"] = 2192,
+			["time"] = 19,
+			["overheal"] = 26,
+			["totaldamagetaken"] = 184,
+			["etotaldamagetaken"] = 2192,
+			["last_time"] = 10462.853,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 1,
+							["targets"] = {
+								["Wastewander Assassin"] = 1,
+							},
+						},
+					},
+					["last"] = 10456.798,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[29131] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[20007] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 13,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[58374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 18,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 19,
+						},
+					},
+					["time"] = 11.46,
+					["totaldamagetaken"] = 184,
+					["damage"] = 1669,
+					["damagespells"] = {
+						["Shield Slam"] = {
+							["hitmin"] = 350,
+							["id"] = 23922,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["amount"] = 760,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 410,
+							["amount"] = 760,
+							["hitamount"] = 760,
+						},
+						["Melee"] = {
+							["glance"] = 254,
+							["hitmin"] = 108,
+							["glancemin"] = 122,
+							["id"] = 6603,
+							["glancemax"] = 132,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["amount"] = 505,
+								},
+							},
+							["blocked"] = 21,
+							["glancing"] = 2,
+							["amount"] = 505,
+							["count"] = 5,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 143,
+							["MISS"] = 1,
+							["hitamount"] = 251,
+						},
+						["Execute"] = {
+							["hitmin"] = 404,
+							["id"] = 20647,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["overkill"] = 132,
+									["amount"] = 404,
+								},
+							},
+							["overkill"] = 132,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 404,
+							["amount"] = 404,
+							["hitamount"] = 404,
+						},
+					},
+					["overkill"] = 132,
+					["damagetaken"] = 166,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["healspells"] = {
+						[20007] = {
+							["overheal"] = 26,
+							["count"] = 1,
+							["amount"] = 92,
+							["school"] = 1,
+							["max"] = 92,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 26,
+									["amount"] = 92,
+								},
+							},
+							["min"] = 92,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["total"] = 184,
+							["hitmin"] = 18,
+							["id"] = 6603,
+							["hit"] = 6,
+							["blocked"] = 39,
+							["BLOCK"] = 2,
+							["hitmax"] = 40,
+							["sources"] = {
+								["Wastewander Assassin"] = {
+									["total"] = 184,
+									["amount"] = 166,
+								},
+							},
+							["count"] = 12,
+							["ABSORB"] = 1,
+							["school"] = 1,
+							["amount"] = 166,
+							["MISS"] = 2,
+							["hitamount"] = 166,
+						},
+					},
+					["ragespells"] = {
+						[23602] = 15,
+						[2687] = 20,
+						[29131] = 10,
+					},
+					["heal"] = 92,
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["rage"] = 45,
+					["overheal"] = 26,
+					["totaldamage"] = 1669,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Mind Blast"] = {
+							["hitmin"] = 349,
+							["id"] = 8106,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["amount"] = 349,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 349,
+							["amount"] = 349,
+							["hitamount"] = 349,
+						},
+						["Holy Fire"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 2,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 15264,
+						},
+					},
+					["absorb"] = 18,
+					["id"] = "0x0700000000B06C58",
+					["last"] = 10446.12,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["totaldamage"] = 349,
+					["auras"] = {
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[1006] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 19,
+						},
+					},
+					["absorbspells"] = {
+						[6066] = {
+							["min"] = 18,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 18,
+							["max"] = 18,
+							["targets"] = {
+								["Omoratorul"] = 18,
+							},
+						},
+					},
+					["time"] = 2.12,
+					["spec"] = 256,
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["damage"] = 349,
+				}, -- [2]
+				{
+					["last"] = 10443.996,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["auras"] = {
+						[12472] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["uptime"] = 9,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[12051] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 1,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 19,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+				{
+					["damagespells"] = {
+						["Shoot"] = {
+							["criticalamount"] = 174,
+							["id"] = 3018,
+							["targets"] = {
+								["Wastewander Assassin"] = {
+									["amount"] = 174,
+								},
+							},
+							["criticalmin"] = 174,
+							["casts"] = 4,
+							["count"] = 3,
+							["amount"] = 174,
+							["school"] = 1,
+							["criticalmax"] = 174,
+							["MISS"] = 2,
+							["critical"] = 1,
+						},
+					},
+					["last"] = 10453.795,
+					["id"] = "0x0700000000B0D62C",
+					["spec"] = 260,
+					["class"] = "ROGUE",
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 19,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+					},
+					["totaldamage"] = 174,
+					["role"] = "DAMAGER",
+					["name"] = "Slavcul",
+					["flag"] = 1298,
+					["time"] = 3.5,
+					["damage"] = 174,
+				}, -- [4]
+			},
+			["type"] = "group",
+			["damagetaken"] = 166,
+			["starttime"] = 1729796117,
+			["absorb"] = 18,
+			["etotaldamage"] = 184,
+			["overkill"] = 132,
+			["edamagetaken"] = 2192,
+			["heal"] = 92,
+			["name"] = "Wastewander Assassin",
+			["ccdone"] = 1,
+			["damage"] = 2192,
+			["edamage"] = 166,
+			["last_action"] = 1729796136,
+			["endtime"] = 1729796136,
+		}, -- [5]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+					},
+					["damagetaken"] = 2118,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8205] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 256,
+								},
+							},
+							["amount"] = 256,
+						},
+						[8689] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 80,
+								},
+							},
+							["amount"] = 80,
+						},
+						[8106] = {
+							["school"] = 32,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 315,
+								},
+							},
+							["amount"] = 315,
+						},
+						[23922] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 350,
+								},
+							},
+							["amount"] = 350,
+						},
+						[8621] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 160,
+								},
+							},
+							["amount"] = 160,
+						},
+						[15264] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 410,
+								},
+							},
+							["amount"] = 410,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["overkill"] = 58,
+									["amount"] = 258,
+								},
+								["Omoratorul"] = {
+									["amount"] = 289,
+								},
+							},
+							["overkill"] = 58,
+							["amount"] = 547,
+						},
+					},
+					["name"] = "Wastewander Rogue",
+					["totaldamage"] = 102,
+					["totaldamagetaken"] = 2118,
+					["id"] = "0xF1300015EF063E85",
+					["damage"] = 102,
+				}, -- [1]
+			},
+			["totaldamage"] = 2118,
+			["time"] = 9,
+			["totaldamagetaken"] = 102,
+			["etotaldamagetaken"] = 2118,
+			["last_time"] = 10399.464,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 1,
+							["targets"] = {
+								["Wastewander Rogue"] = 1,
+							},
+						},
+					},
+					["last"] = 10396.929,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[8205] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[71] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[58374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 7,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+					},
+					["time"] = 6.2,
+					["totaldamagetaken"] = 102,
+					["damage"] = 895,
+					["damagespells"] = {
+						["Shield Slam"] = {
+							["hitmin"] = 350,
+							["id"] = 23922,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 350,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 350,
+							["amount"] = 350,
+							["hitamount"] = 350,
+						},
+						["Thunder Clap"] = {
+							["criticalamount"] = 256,
+							["id"] = 8205,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 256,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 256,
+							["school"] = 1,
+							["criticalmin"] = 256,
+							["criticalmax"] = 256,
+							["count"] = 1,
+						},
+						["Melee"] = {
+							["hitmin"] = 139,
+							["id"] = 6603,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 289,
+								},
+							},
+							["PARRY"] = 1,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 150,
+							["amount"] = 289,
+							["hitamount"] = 289,
+						},
+					},
+					["damagetaken"] = 102,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 33,
+							["id"] = 6603,
+							["sources"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 102,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 35,
+							["amount"] = 102,
+							["hitamount"] = 102,
+						},
+					},
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["totaldamage"] = 895,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Mind Blast"] = {
+							["hitmin"] = 315,
+							["id"] = 8106,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 315,
+								},
+							},
+							["hitmax"] = 315,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 34,
+							["amount"] = 315,
+							["hitamount"] = 315,
+						},
+						["Holy Fire"] = {
+							["hitmin"] = 387,
+							["id"] = 15264,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 387,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 387,
+							["amount"] = 387,
+							["hitamount"] = 387,
+						},
+						["Holy Fire (DoT)"] = {
+							["hitmin"] = 11,
+							["id"] = 15264,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 23,
+								},
+							},
+							["hitmax"] = 12,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["resisted"] = 1,
+							["amount"] = 23,
+							["hitamount"] = 23,
+						},
+					},
+					["last"] = 10390.663,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[15264] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[1006] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+					},
+					["totaldamage"] = 725,
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["flag"] = 1298,
+					["time"] = 0,
+					["damage"] = 725,
+				}, -- [2]
+				{
+					["last"] = 10390.663,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+				{
+					["damagespells"] = {
+						["Instant Poison III"] = {
+							["hitmin"] = 80,
+							["id"] = 8689,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 80,
+								},
+							},
+							["hitmax"] = 80,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 8,
+							["amount"] = 80,
+							["hitamount"] = 80,
+						},
+						["Melee"] = {
+							["glance"] = 135,
+							["hitmin"] = 123,
+							["glancemin"] = 30,
+							["id"] = 6603,
+							["amount"] = 258,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["overkill"] = 58,
+									["amount"] = 258,
+								},
+							},
+							["overkill"] = 58,
+							["glancing"] = 2,
+							["glancemax"] = 105,
+							["count"] = 4,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 123,
+							["MISS"] = 1,
+							["hitamount"] = 123,
+						},
+						["Sinister Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 160,
+							["id"] = 8621,
+							["targets"] = {
+								["Wastewander Rogue"] = {
+									["amount"] = 160,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 160,
+							["amount"] = 160,
+							["hitamount"] = 160,
+						},
+					},
+					["last"] = 10397.662,
+					["class"] = "ROGUE",
+					["id"] = "0x0700000000B0D62C",
+					["spec"] = 260,
+					["overkill"] = 58,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[2819] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Wastewander Rogue"] = {
 									["uptime"] = 2,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 2,
 						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
 						[8117] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
+							["uptime"] = 9,
 						},
-						[976] = {
+						[23228] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
+							["uptime"] = 9,
 						},
-						[1461] = {
+						[11549] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
+							["uptime"] = 9,
 						},
 					},
-					["totaldamage"] = 2270,
-					["time"] = 19.07,
-					["totaldamagetaken"] = 519,
-					["damage"] = 2270,
-					["damagespells"] = {
-						["Instant Poison II"] = {
-							["hitmin"] = 58,
-							["id"] = 8685,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["amount"] = 221,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 74,
-								},
-								["Imp Minion"] = {
-									["amount"] = 58,
-								},
-							},
-							["hitmax"] = 76,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 8,
-							["resisted"] = 14,
-							["amount"] = 353,
-							["hitamount"] = 353,
-						},
-						["Sinister Strike"] = {
-							["criticalmin"] = 270,
-							["casts"] = 7,
-							["hitmin"] = 126,
-							["criticalamount"] = 270,
-							["id"] = 1760,
-							["critical"] = 1,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["amount"] = 295,
-								},
-								["Bloodsail Warlock"] = {
-									["overkill"] = 39,
-									["amount"] = 562,
-								},
-								["Imp Minion"] = {
-									["amount"] = 126,
-								},
-							},
-							["overkill"] = 39,
-							["hit"] = 5,
-							["criticalmax"] = 270,
-							["count"] = 7,
-							["amount"] = 983,
-							["school"] = 1,
-							["hitmax"] = 161,
-							["PARRY"] = 1,
-							["hitamount"] = 713,
-						},
-						["Melee"] = {
-							["glance"] = 327,
-							["hitmin"] = 39,
-							["criticalmin"] = 194,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["overkill"] = 34,
-									["amount"] = 408,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 304,
-								},
-								["Imp Minion"] = {
-									["overkill"] = 152,
-									["amount"] = 222,
-								},
-							},
-							["glancing"] = 4,
-							["amount"] = 934,
-							["MISS"] = 4,
-							["glancemin"] = 28,
-							["criticalamount"] = 194,
-							["id"] = 6603,
-							["glancemax"] = 116,
-							["overkill"] = 186,
-							["criticalmax"] = 194,
-							["count"] = 15,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 124,
-							["critical"] = 1,
-							["hitamount"] = 413,
-						},
-					},
-					["damagetaken"] = 519,
-					["id"] = "0x0700000000B0D62C",
-					["spec"] = 260,
-					["overkill"] = 225,
+					["totaldamage"] = 498,
+					["role"] = "DAMAGER",
 					["name"] = "Slavcul",
+					["flag"] = 1298,
+					["time"] = 5.99,
+					["damage"] = 498,
+				}, -- [4]
+			},
+			["type"] = "group",
+			["damagetaken"] = 102,
+			["mobname"] = "Wastewander Rogue",
+			["etotaldamage"] = 102,
+			["overkill"] = 58,
+			["edamagetaken"] = 2118,
+			["starttime"] = 1729796063,
+			["name"] = "Wastewander Rogue",
+			["ccdone"] = 1,
+			["damage"] = 2118,
+			["edamage"] = 102,
+			["last_action"] = 1729796072,
+			["endtime"] = 1729796072,
+		}, -- [6]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF1300015F0064320",
+					["name"] = "Wastewander Thief",
+					["totaldamagetaken"] = 1588,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetaken"] = 1588,
 					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["hitmin"] = 229,
-							["id"] = 20825,
-							["hitmax"] = 229,
+						[6060] = {
+							["school"] = 2,
 							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 229,
+								["Popasfant"] = {
+									["amount"] = 423,
 								},
 							},
+							["amount"] = 423,
+						},
+						[8106] = {
+							["school"] = 32,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 361,
+								},
+							},
+							["amount"] = 361,
+						},
+						[23922] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 440,
+								},
+							},
+							["amount"] = 440,
+						},
+						[15264] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 36,
+								},
+							},
+							["amount"] = 36,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 156,
+									["amount"] = 328,
+								},
+							},
+							["overkill"] = 156,
+							["amount"] = 328,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 1588,
+			["time"] = 5,
+			["mobname"] = "Wastewander Thief",
+			["totaldamagetaken"] = 0,
+			["etotaldamagetaken"] = 1588,
+			["last_time"] = 10314.006,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 1,
+							["targets"] = {
+								["Wastewander Thief"] = 1,
+							},
+						},
+					},
+					["last"] = 10313.705,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Wastewander Thief"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[58374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 3,
+						},
+						[20007] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["time"] = 3.27,
+					["totaldamagetaken"] = 0,
+					["damage"] = 768,
+					["overheal"] = 111,
+					["overkill"] = 156,
+					["damagetaken"] = 0,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["healspells"] = {
+						[20007] = {
+							["overheal"] = 111,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 111,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["sources"] = {
+								["Wastewander Thief"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 6603,
+						},
+					},
+					["ragespells"] = {
+						[23602] = 5,
+					},
+					["heal"] = 0,
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["rage"] = 5,
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 153,
+							["id"] = 6603,
+							["targets"] = {
+								["Wastewander Thief"] = {
+									["overkill"] = 156,
+									["amount"] = 328,
+								},
+							},
+							["overkill"] = 156,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 175,
+							["amount"] = 328,
+							["hitamount"] = 328,
+						},
+						["Shield Slam"] = {
+							["hitmin"] = 440,
+							["id"] = 23922,
+							["targets"] = {
+								["Wastewander Thief"] = {
+									["amount"] = 440,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 440,
+							["amount"] = 440,
+							["hitamount"] = 440,
+						},
+					},
+					["totaldamage"] = 768,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Mind Blast"] = {
+							["hitmin"] = 361,
+							["id"] = 8106,
+							["targets"] = {
+								["Wastewander Thief"] = {
+									["amount"] = 361,
+								},
+							},
+							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 32,
-							["resisted"] = 57,
-							["amount"] = 229,
-							["hitamount"] = 229,
+							["hitmax"] = 361,
+							["amount"] = 361,
+							["hitamount"] = 361,
 						},
-						["Melee"] = {
-							["DODGE"] = 2,
-							["hitmin"] = 38,
-							["id"] = 6603,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["amount"] = 38,
+						["Smite"] = {
+							["hitmin"] = 423,
+							["id"] = 6060,
+							["targets"] = {
+								["Wastewander Thief"] = {
+									["amount"] = 423,
 								},
 							},
-							["count"] = 3,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 38,
-							["amount"] = 38,
-							["hitamount"] = 38,
+							["school"] = 2,
+							["hitmax"] = 423,
+							["amount"] = 423,
+							["hitamount"] = 423,
 						},
-						["Firebolt"] = {
-							["hitmin"] = 81,
-							["id"] = 20801,
-							["sources"] = {
-								["Imp Minion"] = {
-									["amount"] = 252,
+						["Holy Fire (DoT)"] = {
+							["hitmin"] = 12,
+							["id"] = 15264,
+							["targets"] = {
+								["Wastewander Thief"] = {
+									["amount"] = 36,
 								},
 							},
 							["count"] = 3,
 							["hit"] = 3,
-							["school"] = 4,
-							["hitmax"] = 86,
-							["amount"] = 252,
-							["hitamount"] = 252,
+							["school"] = 2,
+							["hitmax"] = 12,
+							["amount"] = 36,
+							["hitamount"] = 36,
 						},
 					},
-					["interrupt"] = 1,
-					["interruptspells"] = {
-						[1766] = {
-							["spells"] = {
-								[20801] = 1,
-							},
+					["last"] = 10310.44,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[14818] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["targets"] = {
-								["Imp Minion"] = 1,
-							},
+							["uptime"] = 5,
+						},
+						[1006] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["totaldamage"] = 820,
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["flag"] = 1298,
+					["time"] = 0,
+					["damage"] = 820,
+				}, -- [2]
+				{
+					["last"] = 10310.44,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
 						},
 					},
 					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["time"] = 0,
+					["class"] = "MAGE",
 				}, -- [3]
 				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 393,
-							["id"] = 8408,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 209,
-									["amount"] = 788,
-								},
-							},
-							["overkill"] = 209,
-							["casts"] = 5,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 395,
-							["amount"] = 788,
-							["hitamount"] = 788,
+					["last"] = 10310.44,
+					["id"] = "0x0700000000B0D62C",
+					["spec"] = 260,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[18230] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
 						},
 					},
-					["last"] = 12079.989,
-					["id"] = "0x0700000000B06C60",
-					["class"] = "MAGE",
-					["overkill"] = 209,
-					["spec"] = 64,
-					["totaldamage"] = 788,
-					["name"] = "Vrajadefoc",
+					["role"] = "DAMAGER",
+					["name"] = "Slavcul",
+					["time"] = 0,
+					["class"] = "ROGUE",
+				}, -- [4]
+			},
+			["type"] = "group",
+			["damagetaken"] = 0,
+			["starttime"] = 1729795983,
+			["rage"] = 5,
+			["overheal"] = 111,
+			["overkill"] = 156,
+			["edamagetaken"] = 1588,
+			["heal"] = 0,
+			["name"] = "Wastewander Thief (5)",
+			["ccdone"] = 1,
+			["damage"] = 1588,
+			["last_action"] = 1729795987,
+			["endtime"] = 1729795988,
+		}, -- [7]
+		{
+			["starttime"] = 1729795924,
+			["mana"] = 835,
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Slavcul"] = {
+									["amount"] = 49,
+								},
+								["Omoratorul"] = {
+									["amount"] = 244,
+								},
+							},
+							["amount"] = 293,
+						},
+					},
+					["damagetaken"] = 3846,
+					["id"] = "0xF1300015F0064BC7",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8205] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 271,
+								},
+							},
+							["amount"] = 271,
+						},
+						[8689] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 93,
+								},
+							},
+							["amount"] = 93,
+						},
+						[7379] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 456,
+								},
+							},
+							["amount"] = 456,
+						},
+						[15431] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 924,
+								},
+							},
+							["amount"] = 924,
+						},
+						[8408] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["overkill"] = 21,
+									["amount"] = 1177,
+								},
+							},
+							["overkill"] = 21,
+							["amount"] = 1177,
+						},
+						[8621] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["overkill"] = 93,
+									["amount"] = 373,
+								},
+							},
+							["overkill"] = 93,
+							["amount"] = 373,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 270,
+								},
+								["Omoratorul"] = {
+									["amount"] = 282,
+								},
+							},
+							["amount"] = 552,
+						},
+					},
+					["totaldamage"] = 293,
+					["name"] = "Wastewander Thief",
+					["totaldamagetaken"] = 3846,
+					["flag"] = 2632,
+					["damage"] = 293,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 68,
+								},
+								["Slavcul"] = {
+									["amount"] = 89,
+								},
+								["Popasfant"] = {
+									["amount"] = 132,
+								},
+							},
+							["amount"] = 289,
+						},
+						[8629] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						[8721] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 92,
+								},
+							},
+							["amount"] = 92,
+						},
+					},
+					["damagetaken"] = 4171,
+					["id"] = "0xF1300015F2064922",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8624] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 185,
+								},
+							},
+							["amount"] = 185,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 99,
+								},
+								["Slavcul"] = {
+									["amount"] = 535,
+								},
+							},
+							["amount"] = 634,
+						},
+						[8621] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 489,
+								},
+							},
+							["amount"] = 489,
+						},
+						[8205] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 131,
+								},
+							},
+							["amount"] = 131,
+						},
+						[8689] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 353,
+								},
+							},
+							["amount"] = 353,
+						},
+						[8408] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["overkill"] = 73,
+									["amount"] = 414,
+								},
+							},
+							["overkill"] = 73,
+							["amount"] = 414,
+						},
+						[23922] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 213,
+									["amount"] = 346,
+								},
+							},
+							["overkill"] = 213,
+							["amount"] = 346,
+						},
+						[7379] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 862,
+								},
+							},
+							["amount"] = 862,
+						},
+						[15431] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 757,
+								},
+							},
+							["amount"] = 757,
+						},
+					},
+					["totaldamage"] = 391,
+					["name"] = "Wastewander Bandit",
+					["totaldamagetaken"] = 4171,
+					["flag"] = 2632,
+					["damage"] = 391,
+				}, -- [2]
+			},
+			["potion"] = 1,
+			["totaldamage"] = 8017,
+			["time"] = 48,
+			["overheal"] = 3050,
+			["totaldamagetaken"] = 684,
+			["etotaldamage"] = 684,
+			["last_time"] = 10298.997,
+			["players"] = {
+				{
+					["last"] = 10289.109,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
 					["auras"] = {
 						[11549] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 48,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[355] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Wastewander Bandit"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[8205] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["Wastewander Bandit"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Wastewander Thief"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[29131] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[71] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 25,
+						},
+						[57514] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 12,
+						},
+						[58374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 18,
+						},
+						[23229] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+					},
+					["time"] = 13.35,
+					["totaldamagetaken"] = 414,
+					["damage"] = 2447,
+					["rage"] = 50,
+					["damagetaken"] = 414,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["damagetakenspells"] = {
+						["Gouge"] = {
+							["hitmin"] = 10,
+							["id"] = 8629,
+							["sources"] = {
+								["Wastewander Bandit"] = {
+									["amount"] = 10,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 10,
+							["amount"] = 10,
+							["hitamount"] = 10,
+						},
+						["Melee"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 27,
+							["id"] = 6603,
+							["amount"] = 312,
+							["blocked"] = 54,
+							["BLOCK"] = 2,
+							["sources"] = {
+								["Wastewander Bandit"] = {
+									["amount"] = 68,
+								},
+								["Wastewander Thief"] = {
+									["amount"] = 244,
+								},
+							},
+							["count"] = 15,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 34,
+							["MISS"] = 1,
+							["hitamount"] = 312,
+						},
+						["Backstab"] = {
+							["hitmin"] = 92,
+							["id"] = 8721,
+							["sources"] = {
+								["Wastewander Bandit"] = {
+									["amount"] = 92,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 92,
+							["amount"] = 92,
+							["hitamount"] = 92,
+						},
+					},
+					["ragespells"] = {
+						[23602] = 20,
+						[2687] = 20,
+						[29131] = 10,
+					},
+					["name"] = "Omoratorul",
+					["overkill"] = 213,
+					["damagespells"] = {
+						["Shield Slam"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 346,
+							["id"] = 23922,
+							["targets"] = {
+								["Wastewander Bandit"] = {
+									["overkill"] = 213,
+									["amount"] = 346,
+								},
+								["Wastewander Thief"] = {
+									["amount"] = 0,
+								},
+							},
+							["overkill"] = 213,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 346,
+							["school"] = 1,
+							["hitmax"] = 346,
+							["hit"] = 1,
+							["hitamount"] = 346,
+						},
+						["Thunder Clap"] = {
+							["hitmin"] = 131,
+							["id"] = 8205,
+							["targets"] = {
+								["Wastewander Bandit"] = {
+									["amount"] = 131,
+								},
+								["Wastewander Thief"] = {
+									["amount"] = 271,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 137,
+							["amount"] = 402,
+							["hitamount"] = 402,
+						},
+						["Revenge"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 415,
+							["id"] = 7379,
+							["targets"] = {
+								["Wastewander Bandit"] = {
+									["amount"] = 862,
+								},
+								["Wastewander Thief"] = {
+									["amount"] = 456,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 456,
+							["amount"] = 1318,
+							["hitamount"] = 1318,
+						},
+						["Melee"] = {
+							["glance"] = 228,
+							["hitmin"] = 153,
+							["id"] = 6603,
+							["hitmax"] = 153,
+							["glancemax"] = 129,
+							["hitamount"] = 153,
+							["glancing"] = 2,
+							["PARRY"] = 1,
+							["count"] = 4,
+							["amount"] = 381,
+							["school"] = 1,
+							["hit"] = 1,
+							["targets"] = {
+								["Wastewander Bandit"] = {
+									["amount"] = 99,
+								},
+								["Wastewander Thief"] = {
+									["amount"] = 282,
+								},
+							},
+							["glancemin"] = 99,
+						},
+					},
+					["totaldamage"] = 2447,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["last"] = 10289.666,
+					["flag"] = 66834,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[1006] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 48,
+						},
+					},
+					["time"] = 12.76,
+					["totaldamagetaken"] = 132,
+					["manaspells"] = {
+						[11903] = 835,
+					},
+					["damage"] = 1681,
+					["damagespells"] = {
+						["Holy Nova"] = {
+							["hitmax"] = 120,
+							["amount"] = 1681,
+							["hitmin"] = 93,
+							["criticalamount"] = 326,
+							["id"] = 15431,
+							["criticalmin"] = 163,
+							["targets"] = {
+								["Wastewander Bandit"] = {
+									["amount"] = 757,
+								},
+								["Wastewander Thief"] = {
+									["amount"] = 924,
+								},
+							},
+							["criticalmax"] = 163,
+							["critical"] = 2,
+							["casts"] = 7,
+							["count"] = 15,
+							["hit"] = 12,
+							["school"] = 2,
+							["resisted"] = 52,
+							["MISS"] = 1,
+							["hitamount"] = 1355,
+						},
+					},
+					["potion"] = 1,
+					["damagetaken"] = 132,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["healspells"] = {
+						[23459] = {
+							["overheal"] = 3050,
+							["criticalamount"] = 199,
+							["max"] = 199,
+							["targets"] = {
+								["Slavcul"] = {
+									["overheal"] = 884,
+									["amount"] = 60,
+								},
+								["Omoratorul"] = {
+									["overheal"] = 887,
+									["amount"] = 517,
+								},
+								["Popasfant"] = {
+									["overheal"] = 1279,
+									["amount"] = 119,
+								},
+							},
+							["min"] = 11,
+							["criticalmax"] = 199,
+							["count"] = 19,
+							["amount"] = 696,
+							["school"] = 2,
+							["criticalmin"] = 0,
+							["critical"] = 2,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 50,
+							["criticalamount"] = 82,
+							["id"] = 6603,
+							["hitmax"] = 50,
+							["count"] = 2,
+							["hit"] = 1,
+							["criticalmax"] = 82,
+							["critical"] = 1,
+							["amount"] = 132,
+							["school"] = 1,
+							["sources"] = {
+								["Wastewander Bandit"] = {
+									["amount"] = 132,
+								},
+							},
+							["criticalmin"] = 82,
+							["hitamount"] = 50,
+						},
+					},
+					["potionspells"] = {
+						[6149] = 1,
+					},
+					["heal"] = 696,
+					["name"] = "Popasfant",
+					["mana"] = 835,
+					["overheal"] = 3050,
+					["totaldamage"] = 1681,
+					["role"] = "HEALER",
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["hitmin"] = 373,
+							["id"] = 8408,
+							["targets"] = {
+								["Wastewander Bandit"] = {
+									["overkill"] = 73,
+									["amount"] = 414,
+								},
+								["Wastewander Thief"] = {
+									["overkill"] = 21,
+									["amount"] = 1177,
+								},
+							},
+							["overkill"] = 94,
+							["hitmax"] = 414,
+							["casts"] = 5,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 16,
+							["resisted"] = 41,
+							["amount"] = 1591,
+							["hitamount"] = 1591,
+						},
+					},
+					["last"] = 10287.635,
+					["class"] = "MAGE",
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["overkill"] = 94,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 48,
+						},
+					},
+					["totaldamage"] = 1591,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 11.58,
+					["damage"] = 1591,
+				}, -- [3]
+				{
+					["last"] = 10287.633,
+					["flag"] = 1298,
+					["class"] = "ROGUE",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[552] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 2,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[2819] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Wastewander Bandit"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 48,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 48,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 14.01,
+					["totaldamagetaken"] = 138,
+					["damage"] = 2298,
+					["damagespells"] = {
+						["Eviscerate"] = {
+							["hitmin"] = 185,
+							["id"] = 8624,
+							["targets"] = {
+								["Wastewander Bandit"] = {
+									["amount"] = 185,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 185,
+							["amount"] = 185,
+							["hitamount"] = 185,
+						},
+						["Instant Poison III"] = {
+							["hitmin"] = 77,
+							["id"] = 8689,
+							["targets"] = {
+								["Wastewander Bandit"] = {
+									["amount"] = 353,
+								},
+								["Wastewander Thief"] = {
+									["amount"] = 93,
+								},
+							},
+							["hitmax"] = 96,
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 8,
+							["resisted"] = 28,
+							["amount"] = 446,
+							["hitamount"] = 446,
+						},
+						["Sinister Strike"] = {
+							["count"] = 4,
+							["hitmin"] = 165,
+							["criticalamount"] = 324,
+							["id"] = 8621,
+							["hitmax"] = 187,
+							["targets"] = {
+								["Wastewander Bandit"] = {
+									["amount"] = 489,
+								},
+								["Wastewander Thief"] = {
+									["overkill"] = 93,
+									["amount"] = 373,
+								},
+							},
+							["overkill"] = 93,
+							["hit"] = 3,
+							["casts"] = 5,
+							["critical"] = 1,
+							["amount"] = 862,
+							["school"] = 1,
+							["criticalmin"] = 324,
+							["criticalmax"] = 324,
+							["hitamount"] = 538,
+						},
+						["Melee"] = {
+							["DODGE"] = 2,
+							["glance"] = 34,
+							["hitmin"] = 35,
+							["criticalmin"] = 78,
+							["targets"] = {
+								["Wastewander Bandit"] = {
+									["amount"] = 535,
+								},
+								["Wastewander Thief"] = {
+									["amount"] = 270,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 805,
+							["glancemin"] = 34,
+							["criticalamount"] = 388,
+							["id"] = 6603,
+							["glancemax"] = 34,
+							["criticalmax"] = 232,
+							["critical"] = 3,
+							["hit"] = 5,
+							["school"] = 1,
+							["count"] = 11,
+							["hitmax"] = 153,
+							["hitamount"] = 383,
+						},
+					},
+					["damagetaken"] = 138,
+					["id"] = "0x0700000000B0D62C",
+					["spec"] = 260,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 44,
+							["id"] = 6603,
+							["sources"] = {
+								["Wastewander Bandit"] = {
+									["amount"] = 89,
+								},
+								["Wastewander Thief"] = {
+									["amount"] = 49,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 49,
+							["amount"] = 138,
+							["hitamount"] = 138,
+						},
+						["Gouge"] = {
+							["DODGE"] = 1,
+							["sources"] = {
+								["Wastewander Bandit"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 8629,
+						},
+					},
+					["name"] = "Slavcul",
+					["overkill"] = 93,
+					["totaldamage"] = 2298,
+				}, -- [4]
+			},
+			["type"] = "group",
+			["damagetaken"] = 684,
+			["damage"] = 8017,
+			["rage"] = 50,
+			["overkill"] = 400,
+			["edamagetaken"] = 8017,
+			["heal"] = 696,
+			["name"] = "Wastewander Thief (4)",
+			["mobname"] = "Wastewander Thief",
+			["etotaldamagetaken"] = 8017,
+			["edamage"] = 684,
+			["last_action"] = 1729795972,
+			["endtime"] = 1729795972,
+		}, -- [8]
+		{
+			["damage"] = 5180,
+			["etotaldamage"] = 4230,
+			["absorb"] = 1195,
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[20187] = {
+							["school"] = 2,
+							["total"] = 204,
+							["targets"] = {
+								["Popasfant"] = {
+									["total"] = 204,
+									["amount"] = 159,
+								},
+							},
+							["amount"] = 159,
+						},
+						[31935] = {
+							["school"] = 2,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 1164,
+								},
+							},
+							["amount"] = 1164,
+						},
+						[20925] = {
+							["school"] = 2,
+							["total"] = 324,
+							["targets"] = {
+								["Omoratorul"] = {
+									["total"] = 324,
+									["amount"] = 137,
+								},
+							},
+							["amount"] = 137,
+						},
+						[25742] = {
+							["school"] = 2,
+							["total"] = 184,
+							["targets"] = {
+								["Omoratorul"] = {
+									["total"] = 25,
+									["amount"] = 0,
+								},
+								["Popasfant"] = {
+									["total"] = 159,
+									["amount"] = 42,
+								},
+							},
+							["amount"] = 42,
+						},
+						[20922] = {
+							["school"] = 2,
+							["total"] = 510,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 510,
+								},
+								["Popasfant"] = {
+									["total"] = 459,
+									["amount"] = 306,
+								},
+								["Omoratorul"] = {
+									["total"] = 459,
+									["amount"] = 153,
+								},
+							},
+							["amount"] = 969,
+						},
+						[6603] = {
+							["school"] = 1,
+							["total"] = 461,
+							["targets"] = {
+								["Omoratorul"] = {
+									["total"] = 105,
+									["amount"] = 0,
+								},
+								["Popasfant"] = {
+									["total"] = 356,
+									["amount"] = 48,
+								},
+							},
+							["amount"] = 48,
+						},
+					},
+					["damagetaken"] = 2922,
+					["flag"] = 66888,
+					["class"] = "PALADIN",
+					["damagetakenspells"] = {
+						[8408] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 1575,
+								},
+							},
+							["amount"] = 1575,
+						},
+						[23922] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 526,
+								},
+							},
+							["amount"] = 526,
+						},
+						[8205] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 624,
+								},
+							},
+							["amount"] = 624,
+						},
+						[11572] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 17,
+									["amount"] = 195,
+								},
+							},
+							["overkill"] = 17,
+							["amount"] = 195,
+						},
+					},
+					["name"] = "Wylithsong",
+					["totaldamage"] = 3765,
+					["totaldamagetaken"] = 2922,
+					["id"] = "0x0700000000B17B51",
+					["damage"] = 2519,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Slavcul"] = {
+									["amount"] = 465,
+								},
+							},
+							["amount"] = 465,
+						},
+					},
+					["damagetaken"] = 2258,
+					["id"] = "0xF13000372B064502",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[2819] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 50,
+								},
+							},
+							["amount"] = 50,
+						},
+						[8689] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 266,
+								},
+							},
+							["amount"] = 266,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 1001,
+								},
+							},
+							["amount"] = 1001,
+						},
+						[8624] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["overkill"] = 199,
+									["amount"] = 230,
+								},
+							},
+							["overkill"] = 199,
+							["amount"] = 230,
+						},
+						[8621] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 711,
+								},
+							},
+							["amount"] = 711,
+						},
+					},
+					["totaldamage"] = 465,
+					["name"] = "Steeljaw Snapper",
+					["totaldamagetaken"] = 2258,
+					["flag"] = 2600,
+					["damage"] = 465,
+				}, -- [2]
+			},
+			["dispel"] = 1,
+			["totaldamage"] = 5180,
+			["time"] = 37,
+			["overheal"] = 983,
+			["totaldamagetaken"] = 4230,
+			["etotaldamagetaken"] = 5180,
+			["last_time"] = 10231.623,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[676] = {
+							["count"] = 1,
+							["targets"] = {
+								["Wylithsong"] = 1,
+							},
+						},
+					},
+					["last"] = 10221.127,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
 							["uptime"] = 37,
 						},
-						[976] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[6078] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[11572] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Wylithsong"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[1715] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Wylithsong"] = {
+									["uptime"] = 14,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 14,
+						},
+						[58374] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[20007] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[29131] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 9,
+						},
+						[8205] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Wylithsong"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[71] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 12,
+						},
+						[676] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Wylithsong"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+						[2457] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+					},
+					["dispel"] = 1,
+					["role"] = "TANK",
+					["time"] = 22.83,
+					["overkill"] = 17,
+					["cctaken"] = 1,
+					["totaldamagetaken"] = 2077,
+					["heal"] = 82,
+					["damage"] = 1347,
+					["damagespells"] = {
+						["Big Iron Bomb"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 4,
+							["targets"] = {
+								["Wylithsong"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 4069,
+						},
+						["Thunder Clap"] = {
+							["hitmin"] = 2,
+							["id"] = 8205,
+							["targets"] = {
+								["Wylithsong"] = {
+									["amount"] = 2,
+								},
+							},
+							["blocked"] = 122,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2,
+							["amount"] = 2,
+							["hitamount"] = 2,
+						},
+						["Melee"] = {
+							["hitmin"] = 11,
+							["id"] = 6603,
+							["targets"] = {
+								["Wylithsong"] = {
+									["amount"] = 624,
+								},
+							},
+							["amount"] = 624,
+							["blocked"] = 209,
+							["BLOCK"] = 1,
+							["count"] = 9,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 130,
+							["MISS"] = 1,
+							["hitamount"] = 624,
+						},
+						["Shield Slam"] = {
+							["hitmin"] = 252,
+							["id"] = 23922,
+							["targets"] = {
+								["Wylithsong"] = {
+									["amount"] = 526,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 274,
+							["amount"] = 526,
+							["hitamount"] = 526,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 65,
+							["id"] = 11572,
+							["targets"] = {
+								["Wylithsong"] = {
+									["overkill"] = 17,
+									["amount"] = 195,
+								},
+							},
+							["overkill"] = 17,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 65,
+							["amount"] = 195,
+							["hitamount"] = 195,
+						},
+					},
+					["overheal"] = 0,
+					["damagetaken"] = 1454,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["healspells"] = {
+						[20007] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 82,
+							["school"] = 1,
+							["max"] = 82,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 0,
+									["amount"] = 82,
+								},
+							},
+							["min"] = 82,
+						},
+					},
+					["damagetakenspells"] = {
+						["Consecration (DoT)"] = {
+							["total"] = 459,
+							["hitmin"] = 51,
+							["id"] = 20922,
+							["ABSORB"] = 6,
+							["sources"] = {
+								["Wylithsong"] = {
+									["total"] = 459,
+									["amount"] = 153,
+								},
+							},
+							["count"] = 9,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 51,
+							["amount"] = 153,
+							["hitamount"] = 153,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["sources"] = {
+								["Wylithsong"] = {
+									["total"] = 105,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["ABSORB"] = 1,
+							["total"] = 105,
+							["id"] = 6603,
+						},
+						["Holy Shield"] = {
+							["total"] = 324,
+							["hitmin"] = 45,
+							["id"] = 20925,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Wylithsong"] = {
+									["total"] = 324,
+									["amount"] = 137,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 92,
+							["amount"] = 137,
+							["hitamount"] = 137,
+						},
+						["Avenger's Shield"] = {
+							["criticalamount"] = 1164,
+							["id"] = 31935,
+							["criticalmax"] = 1164,
+							["critical"] = 1,
+							["amount"] = 1164,
+							["school"] = 2,
+							["sources"] = {
+								["Wylithsong"] = {
+									["amount"] = 1164,
+								},
+							},
+							["criticalmin"] = 1164,
+							["count"] = 1,
+						},
+						["Seal of Righteousness"] = {
+							["total"] = 25,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 2,
+							["sources"] = {
+								["Wylithsong"] = {
+									["total"] = 25,
+									["amount"] = 0,
+								},
+							},
+							["ABSORB"] = 1,
+							["id"] = 25742,
+						},
+					},
+					["dispelspells"] = {
+						[23922] = {
+							["spells"] = {
+								[20925] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Wylithsong"] = 1,
+							},
+						},
+					},
+					["ragespells"] = {
+						[29131] = 10,
+						[2687] = 20,
+						[23602] = 5,
+					},
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["rage"] = 35,
+					["cctakenspells"] = {
+						[31935] = {
+							["count"] = 1,
+							["sources"] = {
+								["Wylithsong"] = 1,
+							},
+						},
+					},
+					["totaldamage"] = 1347,
+				}, -- [1]
+				{
+					["ccdonespells"] = {
+						[8124] = {
+							["count"] = 1,
+							["targets"] = {
+								["Wylithsong"] = 1,
+							},
+						},
+					},
+					["last"] = 10231.623,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 37,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 9,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[6788] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Omoratorul"] = {
+									["uptime"] = 15,
+									["count"] = 1,
+								},
+								["Popasfant"] = {
+									["uptime"] = 15,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 22,
+						},
+						[8124] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Wylithsong"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[1006] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
 						},
 						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[6078] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+					},
+					["absorbspells"] = {
+						[6066] = {
+							["min"] = 21,
+							["casts"] = 2,
+							["count"] = 22,
+							["amount"] = 1195,
+							["school"] = 2,
+							["targets"] = {
+								["Omoratorul"] = 572,
+								["Popasfant"] = 623,
+							},
+							["max"] = 116,
+						},
+					},
+					["time"] = 27.71,
+					["cctaken"] = 1,
+					["totaldamagetaken"] = 1178,
+					["absorb"] = 1195,
+					["damagetaken"] = 555,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["healspells"] = {
+						[6078] = {
+							["overheal"] = 447,
+							["max"] = 145,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 0,
+									["amount"] = 725,
+								},
+								["Popasfant"] = {
+									["overheal"] = 447,
+									["amount"] = 278,
+								},
+							},
+							["min"] = 51,
+							["casts"] = 2,
+							["count"] = 10,
+							["amount"] = 1003,
+							["school"] = 2,
+							["ishot"] = true,
+						},
+						[56160] = {
+							["overheal"] = 0,
+							["count"] = 2,
+							["amount"] = 248,
+							["school"] = 2,
+							["max"] = 124,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 0,
+									["amount"] = 124,
+								},
+								["Popasfant"] = {
+									["overheal"] = 0,
+									["amount"] = 124,
+								},
+							},
+							["min"] = 124,
+						},
+						[23459] = {
+							["overheal"] = 536,
+							["count"] = 9,
+							["amount"] = 1170,
+							["school"] = 2,
+							["max"] = 192,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["overheal"] = 121,
+									["amount"] = 459,
+								},
+								["Popasfant"] = {
+									["overheal"] = 415,
+									["amount"] = 153,
+								},
+								["Omoratorul"] = {
+									["overheal"] = 0,
+									["amount"] = 558,
+								},
+							},
+							["min"] = 51,
+						},
+					},
+					["damagetakenspells"] = {
+						["Consecration (DoT)"] = {
+							["total"] = 459,
+							["hitmin"] = 51,
+							["id"] = 20922,
+							["hitmax"] = 51,
+							["sources"] = {
+								["Wylithsong"] = {
+									["total"] = 459,
+									["amount"] = 306,
+								},
+							},
+							["count"] = 9,
+							["ABSORB"] = 3,
+							["school"] = 2,
+							["amount"] = 306,
+							["hit"] = 6,
+							["hitamount"] = 306,
+						},
+						["Melee"] = {
+							["total"] = 356,
+							["hitmin"] = 48,
+							["id"] = 6603,
+							["ABSORB"] = 4,
+							["sources"] = {
+								["Wylithsong"] = {
+									["total"] = 356,
+									["amount"] = 48,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 48,
+							["amount"] = 48,
+							["hitamount"] = 48,
+						},
+						["Seal of Righteousness"] = {
+							["total"] = 159,
+							["hitmin"] = 21,
+							["id"] = 25742,
+							["ABSORB"] = 5,
+							["sources"] = {
+								["Wylithsong"] = {
+									["total"] = 159,
+									["amount"] = 42,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 21,
+							["amount"] = 42,
+							["hitamount"] = 42,
+						},
+						["Judgement of Righteousness"] = {
+							["total"] = 204,
+							["hitmin"] = 62,
+							["id"] = 20187,
+							["sources"] = {
+								["Wylithsong"] = {
+									["total"] = 204,
+									["amount"] = 159,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 97,
+							["amount"] = 159,
+							["hitamount"] = 159,
+						},
+					},
+					["heal"] = 2421,
+					["name"] = "Popasfant",
+					["ccdone"] = 1,
+					["overheal"] = 983,
+					["cctakenspells"] = {
+						[5589] = {
+							["count"] = 1,
+							["sources"] = {
+								["Wylithsong"] = 1,
+							},
+						},
+					},
+					["role"] = "HEALER",
+				}, -- [2]
+				{
+					["last"] = 10214.457,
+					["flag"] = 1298,
+					["class"] = "MAGE",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[12472] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["uptime"] = 20,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
@@ -2799,1114 +5559,73 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 37,
 						},
-						[1461] = {
+						[11549] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["refresh"] = 1,
 							["uptime"] = 37,
 						},
 					},
 					["role"] = "DAMAGER",
-					["flag"] = 1298,
-					["time"] = 7,
-					["damage"] = 788,
-				}, -- [4]
-			},
-			["totaldamage"] = 8512,
-			["time"] = 37,
-			["overheal"] = 1238,
-			["totaldamagetaken"] = 1581,
-			["etotaldamagetaken"] = 8512,
-			["last_time"] = 12080.023,
-			["rage"] = 5,
-			["type"] = "group",
-			["damagetaken"] = 1265,
-			["etotaldamage"] = 1581,
-			["interrupt"] = 4,
-			["ccdone"] = 1,
-			["damage"] = 8512,
-			["overkill"] = 812,
-			["edamagetaken"] = 8512,
-			["heal"] = 845,
-			["name"] = "Bloodsail Warlock (15)",
-			["mobname"] = "Bloodsail Warlock",
-			["starttime"] = 1729453319,
-			["edamage"] = 1265,
-			["last_action"] = 1729453355,
-			["endtime"] = 1729453356,
-		}, -- [8]
-		{
-			["enemies"] = {
-				{
+					["time"] = 11.53,
+					["totaldamagetaken"] = 510,
+					["damage"] = 1575,
 					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-						[20825] = {
-							["school"] = 32,
-							["total"] = 820,
-							["targets"] = {
-								["Omoratorul"] = {
-									["total"] = 369,
-									["amount"] = 0,
-								},
-								["Popasfant"] = {
-									["total"] = 626,
-									["amount"] = 175,
-								},
-							},
-							["amount"] = 175,
-						},
-					},
-					["damagetaken"] = 5552,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 88,
-									["amount"] = 466,
-								},
-							},
-							["overkill"] = 88,
-							["amount"] = 466,
-						},
-						[20253] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 46,
-								},
-							},
-							["amount"] = 46,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 348,
-								},
-								["Omoratorul"] = {
-									["amount"] = 1166,
-								},
-							},
-							["amount"] = 1514,
-						},
-						[7384] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 95,
-								},
-							},
-							["amount"] = 95,
-						},
-						[15264] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 1032,
-								},
-							},
-							["amount"] = 1032,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 127,
-									["amount"] = 413,
-								},
-							},
-							["overkill"] = 127,
-							["amount"] = 413,
-						},
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 158,
-								},
-							},
-							["amount"] = 158,
-						},
-						[34428] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 191,
-								},
-							},
-							["amount"] = 191,
-						},
-						[8408] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 140,
-									["amount"] = 1564,
-								},
-							},
-							["overkill"] = 140,
-							["amount"] = 1564,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 73,
-								},
-							},
-							["amount"] = 73,
-						},
-					},
-					["totaldamage"] = 1018,
-					["name"] = "Bloodsail Warlock",
-					["totaldamagetaken"] = 5552,
-					["id"] = "0xF13000061C24684F",
-					["damage"] = 198,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 151,
-							["targets"] = {
-								["Popasfant"] = {
-									["total"] = 180,
-									["amount"] = 90,
-								},
-								["Slavcul"] = {
-									["amount"] = 79,
-								},
-								["Omoratorul"] = {
-									["total"] = 92,
-									["amount"] = 31,
-								},
-							},
-							["amount"] = 200,
-						},
-						[32202] = {
-							["school"] = 32,
-							["total"] = 775,
-							["targets"] = {
-								["Popasfant"] = {
-									["total"] = 310,
-									["amount"] = 187,
-								},
-								["Omoratorul"] = {
-									["total"] = 465,
-									["amount"] = 215,
-								},
-							},
-							["amount"] = 402,
-						},
-					},
-					["damagetaken"] = 2999,
-					["id"] = "0xF130002AB024685C",
-					["class"] = "PET",
-					["damagetakenspells"] = {
-						[7379] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 445,
-								},
-							},
-							["amount"] = 445,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 280,
-								},
-							},
-							["amount"] = 280,
-						},
-						[34428] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 3,
-									["amount"] = 194,
-								},
-							},
-							["overkill"] = 3,
-							["amount"] = 194,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 56,
-									["amount"] = 154,
-								},
-								["Slavcul"] = {
-									["amount"] = 559,
-								},
-							},
-							["overkill"] = 56,
-							["amount"] = 713,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 160,
-									["amount"] = 597,
-								},
-							},
-							["overkill"] = 160,
-							["amount"] = 597,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 770,
-								},
-							},
-							["amount"] = 770,
-						},
-					},
-					["totaldamage"] = 1126,
-					["name"] = "Succubus Minion",
-					["totaldamagetaken"] = 2999,
-					["flag"] = 70216,
-					["damage"] = 602,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-						[20801] = {
-							["school"] = 4,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 70,
-								},
-							},
-							["amount"] = 70,
-						},
-					},
-					["damagetaken"] = 689,
-					["id"] = "0xF13000327A24685E",
-					["class"] = "PET",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 224,
-								},
-							},
-							["amount"] = 224,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 218,
-									["amount"] = 288,
-								},
-							},
-							["overkill"] = 218,
-							["amount"] = 288,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 74,
-								},
-							},
-							["amount"] = 74,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 103,
-								},
-							},
-							["amount"] = 103,
-						},
-					},
-					["totaldamage"] = 90,
-					["name"] = "Imp Minion",
-					["totaldamagetaken"] = 689,
-					["flag"] = 4680,
-					["damage"] = 90,
-				}, -- [3]
-			},
-			["damage"] = 9240,
-			["totaldamage"] = 9240,
-			["time"] = 37,
-			["etotaldamage"] = 2234,
-			["totaldamagetaken"] = 2234,
-			["etotaldamagetaken"] = 9240,
-			["last_time"] = 12039.996,
-			["overheal"] = 262,
-			["type"] = "group",
-			["damagetaken"] = 890,
-			["players"] = {
-				{
-					["last"] = 12038.547,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[6066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 21,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 10,
-								},
-								["Bloodsail Warlock"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-								["Imp Minion"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 16,
-						},
-						[20253] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[355] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[71] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 13,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[2458] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[18075] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 7,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[6078] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[18498] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 3,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[29131] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[2457] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[19709] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 31.83,
-					["totaldamagetaken"] = 1039,
-					["damage"] = 3615,
-					["damagespells"] = {
-						["Thunder Clap"] = {
-							["criticalmin"] = 224,
-							["criticalmax"] = 246,
-							["hitmin"] = 103,
-							["criticalamount"] = 698,
-							["id"] = 8204,
-							["count"] = 9,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["overkill"] = 160,
-									["amount"] = 597,
-								},
-								["Bloodsail Warlock"] = {
-									["overkill"] = 88,
-									["amount"] = 466,
-								},
-								["Imp Minion"] = {
-									["amount"] = 103,
-								},
-							},
-							["overkill"] = 248,
-							["amount"] = 1166,
-							["casts"] = 3,
-							["hitmax"] = 123,
-							["hit"] = 4,
-							["school"] = 1,
-							["critical"] = 3,
-							["MISS"] = 2,
-							["hitamount"] = 468,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 38,
-							["id"] = 6548,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 158,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 41,
-							["amount"] = 158,
-							["hitamount"] = 158,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 69,
-							["hitmin"] = 75,
-							["criticalmin"] = 204,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 1166,
-								},
-								["Succubus Minion"] = {
-									["overkill"] = 56,
-									["amount"] = 154,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 1320,
-							["glancemin"] = 69,
-							["criticalamount"] = 204,
-							["id"] = 6603,
-							["glancemax"] = 69,
-							["overkill"] = 56,
-							["criticalmax"] = 204,
-							["hitmax"] = 103,
-							["hit"] = 12,
-							["school"] = 1,
+						["Frostbolt"] = {
+							["criticalmin"] = 645,
+							["criticalmax"] = 645,
+							["hitmin"] = 287,
+							["criticalamount"] = 645,
+							["id"] = 8408,
 							["critical"] = 1,
-							["count"] = 15,
-							["hitamount"] = 1047,
-						},
-						["Revenge"] = {
-							["hitmin"] = 445,
-							["id"] = 7379,
 							["targets"] = {
-								["Succubus Minion"] = {
-									["amount"] = 445,
+								["Wylithsong"] = {
+									["amount"] = 1575,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 445,
-							["amount"] = 445,
-							["hitamount"] = 445,
-						},
-						["Victory Rush"] = {
-							["hitmin"] = 191,
-							["id"] = 34428,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 191,
-								},
-								["Succubus Minion"] = {
-									["overkill"] = 3,
-									["amount"] = 194,
-								},
-							},
-							["overkill"] = 3,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 194,
-							["amount"] = 385,
-							["hitamount"] = 385,
-						},
-						["Overpower"] = {
-							["hitmin"] = 95,
-							["id"] = 7384,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 95,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 95,
-							["amount"] = 95,
-							["hitamount"] = 95,
-						},
-						["Intercept"] = {
-							["hitmin"] = 46,
-							["id"] = 20253,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 46,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 46,
-							["amount"] = 46,
-							["hitamount"] = 46,
+							["hit"] = 3,
+							["hitmax"] = 324,
+							["casts"] = 9,
+							["count"] = 9,
+							["amount"] = 1575,
+							["school"] = 16,
+							["resisted"] = 444,
+							["MISS"] = 5,
+							["hitamount"] = 930,
 						},
 					},
-					["damagetaken"] = 359,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
+					["damagetaken"] = 510,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
 					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["total"] = 369,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 32,
+						["Consecration (DoT)"] = {
+							["hitmin"] = 51,
+							["id"] = 20922,
 							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 369,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 2,
-							["id"] = 20825,
-						},
-						["Firebolt"] = {
-							["hitmin"] = 70,
-							["id"] = 20801,
-							["sources"] = {
-								["Imp Minion"] = {
-									["amount"] = 70,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 70,
-							["amount"] = 70,
-							["hitamount"] = 70,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 135,
-							["hitmin"] = 20,
-							["id"] = 6603,
-							["PARRY"] = 2,
-							["hitmax"] = 31,
-							["ABSORB"] = 2,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["total"] = 92,
-									["amount"] = 31,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 23,
-								},
-								["Imp Minion"] = {
-									["amount"] = 20,
+								["Wylithsong"] = {
+									["amount"] = 510,
 								},
 							},
 							["count"] = 10,
-							["hit"] = 3,
-							["school"] = 1,
-							["amount"] = 74,
-							["MISS"] = 2,
-							["hitamount"] = 74,
-						},
-						["Lash of Pain"] = {
-							["total"] = 465,
-							["hitmin"] = 29,
-							["id"] = 32202,
-							["hitmax"] = 186,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["total"] = 465,
-									["amount"] = 215,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 155,
-							["amount"] = 215,
-							["hitamount"] = 215,
+							["hit"] = 10,
+							["school"] = 2,
+							["hitmax"] = 51,
+							["amount"] = 510,
+							["hitamount"] = 510,
 						},
 					},
-					["ragespells"] = {
-						[29131] = 8,
-						[23602] = 15,
-					},
-					["name"] = "Omoratorul",
-					["overkill"] = 307,
-					["interrupt"] = 2,
-					["rage"] = 23,
-					["interruptspells"] = {
-						[72] = {
-							["spells"] = {
-								[20825] = 2,
-							},
-							["count"] = 2,
-							["targets"] = {
-								["Bloodsail Warlock"] = 2,
-							},
-						},
-					},
-					["totaldamage"] = 3615,
-				}, -- [1]
+					["name"] = "Vrajadefoc",
+					["totaldamage"] = 1575,
+				}, -- [3]
 				{
-					["last"] = 12039.996,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[15264] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Omoratorul"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-								["Popasfant"] = {
-									["uptime"] = 29,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 31,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[6066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 26,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-					},
-					["absorbspells"] = {
-						[6066] = {
-							["min"] = 29,
-							["casts"] = 4,
-							["count"] = 11,
-							["amount"] = 1344,
-							["max"] = 233,
-							["targets"] = {
-								["Popasfant"] = 664,
-								["Omoratorul"] = 680,
-							},
-							["school"] = 2,
-						},
-					},
-					["totaldamage"] = 1032,
-					["time"] = 30.2,
-					["totaldamagetaken"] = 1116,
-					["damage"] = 1032,
-					["overheal"] = 262,
-					["absorb"] = 1344,
-					["damagetaken"] = 452,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["healspells"] = {
-						[56160] = {
-							["overheal"] = 123,
-							["count"] = 3,
-							["amount"] = 246,
-							["max"] = 123,
-							["school"] = 2,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 0,
-									["amount"] = 123,
-								},
-								["Popasfant"] = {
-									["overheal"] = 123,
-									["amount"] = 123,
-								},
-							},
-							["min"] = 123,
-						},
-						[6078] = {
-							["overheal"] = 139,
-							["school"] = 2,
-							["count"] = 3,
-							["amount"] = 296,
-							["max"] = 145,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 139,
-									["amount"] = 296,
-								},
-							},
-							["ishot"] = true,
-							["min"] = 6,
-						},
-					},
-					["damagetakenspells"] = {
-						["Lash of Pain"] = {
-							["total"] = 310,
-							["hitmin"] = 187,
-							["id"] = 32202,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["total"] = 310,
-									["amount"] = 187,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 187,
-							["amount"] = 187,
-							["hitamount"] = 187,
-						},
-						["Melee"] = {
-							["total"] = 180,
-							["hitmin"] = 44,
-							["id"] = 6603,
-							["hitmax"] = 46,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["total"] = 180,
-									["amount"] = 90,
-								},
-							},
-							["count"] = 4,
-							["ABSORB"] = 2,
-							["school"] = 1,
-							["amount"] = 90,
-							["hit"] = 2,
-							["hitamount"] = 90,
-						},
-						["Shadow Bolt"] = {
-							["total"] = 626,
-							["hitmin"] = 175,
-							["id"] = 20825,
-							["hitmax"] = 175,
-							["ABSORB"] = 2,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 626,
-									["amount"] = 175,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 74,
-							["amount"] = 175,
-							["hitamount"] = 175,
-						},
-					},
-					["heal"] = 542,
-					["name"] = "Popasfant",
-					["damagespells"] = {
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 11,
-							["id"] = 15264,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 23,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 12,
-							["amount"] = 23,
-							["hitamount"] = 23,
-						},
-						["Holy Fire"] = {
-							["hitmin"] = 377,
-							["criticalamount"] = 632,
-							["id"] = 15264,
-							["criticalmin"] = 632,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 1009,
-								},
-							},
-							["criticalmax"] = 632,
-							["count"] = 2,
-							["casts"] = 2,
-							["hitmax"] = 377,
-							["hit"] = 1,
-							["school"] = 2,
-							["amount"] = 1009,
-							["critical"] = 1,
-							["hitamount"] = 377,
-						},
-					},
-					["role"] = "HEALER",
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Instant Poison II"] = {
-							["hitmin"] = 58,
-							["id"] = 8685,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["amount"] = 280,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 73,
-								},
-								["Imp Minion"] = {
-									["amount"] = 74,
-								},
-							},
-							["hitmax"] = 74,
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 8,
-							["resisted"] = 14,
-							["amount"] = 427,
-							["hitamount"] = 427,
-						},
-						["Sinister Strike"] = {
-							["criticalamount"] = 590,
-							["hitmin"] = 130,
-							["criticalmin"] = 288,
-							["id"] = 1760,
-							["criticalmax"] = 302,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["amount"] = 770,
-								},
-								["Bloodsail Warlock"] = {
-									["overkill"] = 127,
-									["amount"] = 413,
-								},
-								["Imp Minion"] = {
-									["overkill"] = 218,
-									["amount"] = 288,
-								},
-							},
-							["overkill"] = 345,
-							["count"] = 8,
-							["casts"] = 8,
-							["hitmax"] = 162,
-							["hit"] = 6,
-							["school"] = 1,
-							["amount"] = 1471,
-							["critical"] = 2,
-							["hitamount"] = 881,
-						},
-						["Melee"] = {
-							["glance"] = 73,
-							["hitmin"] = 34,
-							["id"] = 6603,
-							["glancemin"] = 36,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["amount"] = 559,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 348,
-								},
-								["Imp Minion"] = {
-									["amount"] = 224,
-								},
-							},
-							["glancemax"] = 37,
-							["glancing"] = 2,
-							["amount"] = 1131,
-							["count"] = 23,
-							["hit"] = 14,
-							["school"] = 1,
-							["hitmax"] = 127,
-							["MISS"] = 7,
-							["hitamount"] = 1058,
-						},
-					},
-					["last"] = 12038.546,
-					["damagetaken"] = 79,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 38,
-							["id"] = 6603,
-							["amount"] = 79,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["amount"] = 79,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 41,
-							["MISS"] = 1,
-							["hitamount"] = 79,
-						},
-					},
+					["last"] = 10224.073,
 					["flag"] = 1298,
 					["class"] = "ROGUE",
-					["role"] = "DAMAGER",
 					["auras"] = {
-						[2818] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["refresh"] = 2,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 3,
-								},
-								["Succubus Minion"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 6,
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
 						},
 						[51585] = {
 							["type"] = "DEBUFF",
@@ -3914,278 +5633,2058 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["refresh"] = 1,
 							["targets"] = {
-								["Imp Minion"] = {
-									["refresh"] = 1,
+								["Steeljaw Snapper"] = {
 									["count"] = 1,
-									["uptime"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 14,
 								},
 							},
-							["uptime"] = 2,
+							["uptime"] = 14,
 						},
-						[11549] = {
+						[14818] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
+						},
+						[2819] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
 						},
 						[8117] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
 						},
-						[976] = {
+						[5171] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-					},
-					["name"] = "Slavcul",
-					["totaldamage"] = 3029,
-					["time"] = 30.03000000000001,
-					["overkill"] = 345,
-					["spec"] = 260,
-					["totaldamagetaken"] = 79,
-					["id"] = "0x0700000000B0D62C",
-					["damage"] = 3029,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 380,
-							["id"] = 8408,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 140,
-									["amount"] = 1564,
-								},
-							},
-							["overkill"] = 140,
-							["casts"] = 8,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 16,
-							["hitmax"] = 397,
-							["amount"] = 1564,
-							["hitamount"] = 1564,
-						},
-					},
-					["last"] = 12035.596,
-					["id"] = "0x0700000000B06C60",
-					["class"] = "MAGE",
-					["overkill"] = 140,
-					["spec"] = 64,
-					["totaldamage"] = 1564,
-					["name"] = "Vrajadefoc",
-					["auras"] = {
-						[12472] = {
-							["school"] = 16,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
+							["school"] = 1,
+							["uptime"] = 18,
 						},
 						[11549] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
 						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
 					},
 					["role"] = "DAMAGER",
-					["flag"] = 1298,
-					["time"] = 13.18,
-					["damage"] = 1564,
-				}, -- [4]
-			},
-			["interrupt"] = 2,
-			["rage"] = 23,
-			["absorb"] = 1344,
-			["overkill"] = 792,
-			["edamagetaken"] = 9240,
-			["heal"] = 542,
-			["name"] = "Bloodsail Warlock (14)",
-			["mobname"] = "Bloodsail Warlock",
-			["starttime"] = 1729453278,
-			["edamage"] = 890,
-			["last_action"] = 1729453315,
-			["endtime"] = 1729453315,
-		}, -- [9]
-		{
-			["absorb"] = 1269,
-			["enemies"] = {
-				{
+					["time"] = 19.92,
+					["totaldamagetaken"] = 465,
+					["damage"] = 2258,
 					["damagespells"] = {
-						[6603] = {
+						["Eviscerate"] = {
+							["hitmin"] = 230,
+							["id"] = 8624,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["overkill"] = 199,
+									["amount"] = 230,
+								},
+							},
+							["overkill"] = 199,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 1,
-							["total"] = 21,
-							["targets"] = {
-								["Popasfant"] = {
-									["amount"] = 71,
-								},
-								["Omoratorul"] = {
-									["total"] = 65,
-									["amount"] = 44,
-								},
-							},
-							["amount"] = 115,
+							["hitmax"] = 230,
+							["amount"] = 230,
+							["hitamount"] = 230,
 						},
-						[20825] = {
-							["school"] = 32,
-							["total"] = 730,
+						["Melee"] = {
+							["glance"] = 179,
+							["hitmin"] = 10,
+							["criticalmin"] = 54,
 							["targets"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 192,
-								},
-								["Omoratorul"] = {
-									["total"] = 469,
-									["amount"] = 0,
-								},
-								["Popasfant"] = {
-									["total"] = 261,
-									["amount"] = 0,
+								["Steeljaw Snapper"] = {
+									["amount"] = 1001,
 								},
 							},
-							["amount"] = 192,
+							["glancing"] = 5,
+							["amount"] = 1001,
+							["MISS"] = 8,
+							["glancemin"] = 21,
+							["criticalamount"] = 394,
+							["id"] = 6603,
+							["glancemax"] = 90,
+							["criticalmax"] = 222,
+							["critical"] = 4,
+							["PARRY"] = 2,
+							["count"] = 25,
+							["hit"] = 6,
+							["school"] = 1,
+							["blocked"] = 63,
+							["hitmax"] = 106,
+							["hitamount"] = 428,
+						},
+						["Deadly Poison II (DoT)"] = {
+							["hitmin"] = 24,
+							["id"] = 2819,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 50,
+								},
+							},
+							["hitmax"] = 26,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["resisted"] = 2,
+							["amount"] = 50,
+							["hitamount"] = 50,
+						},
+						["Sinister Strike"] = {
+							["hitmin"] = 137,
+							["id"] = 8621,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 711,
+								},
+							},
+							["amount"] = 711,
+							["casts"] = 6,
+							["count"] = 6,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 150,
+							["MISS"] = 1,
+							["hitamount"] = 711,
+						},
+						["Instant Poison III"] = {
+							["criticalmin"] = 106,
+							["hitmin"] = 76,
+							["criticalamount"] = 106,
+							["id"] = 8689,
+							["criticalmax"] = 106,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 266,
+								},
+							},
+							["critical"] = 1,
+							["hitmax"] = 84,
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 8,
+							["resisted"] = 53,
+							["amount"] = 266,
+							["hitamount"] = 160,
 						},
 					},
-					["damagetaken"] = 5565,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
+					["damagetaken"] = 465,
+					["id"] = "0x0700000000B0D62C",
+					["spec"] = 260,
 					["damagetakenspells"] = {
-						[8204] = {
-							["school"] = 1,
+						["Melee"] = {
+							["DODGE"] = 3,
+							["hitmin"] = 53,
+							["criticalamount"] = 118,
+							["id"] = 6603,
+							["criticalmin"] = 118,
+							["criticalmax"] = 118,
+							["critical"] = 1,
 							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 435,
+								["Steeljaw Snapper"] = {
+									["amount"] = 465,
 								},
 							},
-							["amount"] = 435,
+							["count"] = 10,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 62,
+							["amount"] = 465,
+							["hitamount"] = 347,
 						},
+					},
+					["name"] = "Slavcul",
+					["overkill"] = 199,
+					["totaldamage"] = 2258,
+				}, -- [4]
+			},
+			["type"] = "group",
+			["damagetaken"] = 2984,
+			["ccdone"] = 2,
+			["rage"] = 35,
+			["cctaken"] = 2,
+			["overkill"] = 216,
+			["edamagetaken"] = 5180,
+			["heal"] = 2503,
+			["name"] = "Wylithsong",
+			["mobname"] = "Wylithsong",
+			["starttime"] = 1729795868,
+			["edamage"] = 2984,
+			["last_action"] = 1729795904,
+			["endtime"] = 1729795905,
+		}, -- [9]
+		{
+			["damage"] = 2387,
+			["enemies"] = {
+				{
+					["id"] = "0xF13000372B0645C5",
+					["name"] = "Steeljaw Snapper",
+					["totaldamagetaken"] = 866,
+					["flag"] = 2600,
+					["class"] = "MONSTER",
+					["damagetaken"] = 866,
+					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Slavcul"] = {
-									["amount"] = 241,
-								},
-								["Omoratorul"] = {
-									["amount"] = 1123,
+									["amount"] = 236,
 								},
 							},
-							["amount"] = 1364,
+							["amount"] = 236,
 						},
-						[7369] = {
-							["school"] = 1,
+						[2819] = {
+							["school"] = 8,
 							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 194,
+								["Slavcul"] = {
+									["amount"] = 53,
 								},
 							},
-							["amount"] = 194,
+							["amount"] = 53,
 						},
-						[15264] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 736,
-								},
-							},
-							["amount"] = 736,
-						},
-						[15431] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 61,
-									["amount"] = 682,
-								},
-							},
-							["overkill"] = 61,
-							["amount"] = 682,
-						},
-						[22482] = {
+						[8624] = {
 							["school"] = 1,
 							["sources"] = {
 								["Slavcul"] = {
+									["overkill"] = 125,
+									["amount"] = 438,
+								},
+							},
+							["overkill"] = 125,
+							["amount"] = 438,
+						},
+						[8621] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 139,
+								},
+							},
+							["amount"] = 139,
+						},
+					},
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[20925] = {
+							["school"] = 2,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 111,
+								},
+							},
+							["amount"] = 111,
+						},
+						[31935] = {
+							["school"] = 2,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 584,
+								},
+							},
+							["amount"] = 584,
+						},
+					},
+					["damagetaken"] = 1521,
+					["id"] = "0x0700000000B17B51",
+					["class"] = "PALADIN",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 101,
+									["amount"] = 310,
+								},
+							},
+							["overkill"] = 101,
+							["amount"] = 310,
+						},
+						[11572] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 124,
+								},
+							},
+							["amount"] = 124,
+						},
+						[23922] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
 									["amount"] = 289,
 								},
 							},
 							["amount"] = 289,
 						},
-						[11564] = {
-							["school"] = 1,
+						[8408] = {
+							["school"] = 16,
 							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 30,
-									["amount"] = 123,
+								["Vrajadefoc"] = {
+									["amount"] = 798,
 								},
 							},
-							["overkill"] = 30,
-							["amount"] = 123,
+							["amount"] = 798,
 						},
-						[34428] = {
+					},
+					["totaldamage"] = 695,
+					["name"] = "Wylithsong",
+					["totaldamagetaken"] = 1521,
+					["flag"] = 66888,
+					["damage"] = 695,
+				}, -- [2]
+			},
+			["dispel"] = 1,
+			["totaldamage"] = 2387,
+			["time"] = 16,
+			["cctaken"] = 1,
+			["totaldamagetaken"] = 695,
+			["etotaldamagetaken"] = 2387,
+			["last_time"] = 10164.823,
+			["players"] = {
+				{
+					["last"] = 10162.916,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[11572] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
 							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 237,
+							["targets"] = {
+								["Wylithsong"] = {
+									["uptime"] = 9,
+									["count"] = 1,
 								},
 							},
-							["amount"] = 237,
+							["uptime"] = 9,
 						},
-						[6548] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[20007] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 9,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 7,
+						},
+						[58374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 8,
+						},
+						[1715] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Wylithsong"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+					},
+					["dispel"] = 1,
+					["role"] = "TANK",
+					["time"] = 9.35,
+					["cctaken"] = 1,
+					["totaldamagetaken"] = 695,
+					["damage"] = 723,
+					["damagespells"] = {
+						["Shield Slam"] = {
+							["hitmin"] = 289,
+							["id"] = 23922,
+							["targets"] = {
+								["Wylithsong"] = {
+									["amount"] = 289,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 289,
+							["amount"] = 289,
+							["hitamount"] = 289,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 62,
+							["id"] = 11572,
+							["targets"] = {
+								["Wylithsong"] = {
+									["amount"] = 124,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 62,
+							["amount"] = 124,
+							["hitamount"] = 124,
+						},
+						["Melee"] = {
+							["hitmin"] = 84,
+							["id"] = 6603,
+							["targets"] = {
+								["Wylithsong"] = {
+									["overkill"] = 101,
+									["amount"] = 310,
+								},
+							},
+							["overkill"] = 101,
+							["hitmax"] = 121,
+							["amount"] = 310,
+							["count"] = 4,
+							["blocked"] = 90,
+							["school"] = 1,
+							["hit"] = 3,
+							["BLOCK"] = 1,
+							["hitamount"] = 310,
+						},
+					},
+					["dispelspells"] = {
+						[23922] = {
+							["spells"] = {
+								[25780] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Wylithsong"] = 1,
+							},
+						},
+					},
+					["damagetaken"] = 695,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["healspells"] = {
+						[20007] = {
+							["overheal"] = 1,
+							["count"] = 1,
+							["amount"] = 111,
+							["school"] = 1,
+							["max"] = 111,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 1,
+									["amount"] = 111,
+								},
+							},
+							["min"] = 111,
+						},
+					},
+					["damagetakenspells"] = {
+						["Holy Shield"] = {
+							["hitmin"] = 111,
+							["id"] = 20925,
+							["sources"] = {
+								["Wylithsong"] = {
+									["amount"] = 111,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 111,
+							["amount"] = 111,
+							["hitamount"] = 111,
+						},
+						["Avenger's Shield"] = {
+							["hitmin"] = 584,
+							["id"] = 31935,
+							["sources"] = {
+								["Wylithsong"] = {
+									["amount"] = 584,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 584,
+							["amount"] = 584,
+							["hitamount"] = 584,
+						},
+					},
+					["overkill"] = 101,
+					["heal"] = 111,
+					["name"] = "Omoratorul",
+					["overheal"] = 1,
+					["cctakenspells"] = {
+						[31935] = {
+							["count"] = 1,
+							["sources"] = {
+								["Wylithsong"] = 1,
+							},
+						},
+					},
+					["totaldamage"] = 723,
+				}, -- [1]
+				{
+					["overheal"] = 0,
+					["last"] = 10162.724,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["healspells"] = {
+						[56160] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 124,
+							["school"] = 2,
+							["max"] = 124,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 0,
+									["amount"] = 124,
+								},
+							},
+							["min"] = 124,
+						},
+					},
+					["auras"] = {
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[6788] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Omoratorul"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[1006] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+					},
+					["heal"] = 124,
+					["time"] = 3.5,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["criticalmin"] = 532,
+							["hitmin"] = 266,
+							["criticalamount"] = 532,
+							["id"] = 8408,
+							["criticalmax"] = 532,
+							["targets"] = {
+								["Wylithsong"] = {
+									["amount"] = 798,
+								},
+							},
+							["critical"] = 1,
+							["hitmax"] = 266,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 340,
+							["amount"] = 798,
+							["hitamount"] = 266,
+						},
+					},
+					["last"] = 10161.791,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["class"] = "MAGE",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+					},
+					["totaldamage"] = 798,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 6.48,
+					["damage"] = 798,
+				}, -- [3]
+				{
+					["last"] = 10159.432,
+					["flag"] = 1298,
+					["class"] = "ROGUE",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[5171] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 5.859999999999999,
+					["damage"] = 866,
+					["damagespells"] = {
+						["Eviscerate"] = {
+							["criticalamount"] = 438,
+							["id"] = 8624,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["overkill"] = 125,
+									["amount"] = 438,
+								},
+							},
+							["overkill"] = 125,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 438,
+							["school"] = 1,
+							["criticalmin"] = 438,
+							["criticalmax"] = 438,
+							["count"] = 1,
+						},
+						["Sinister Strike"] = {
+							["hitmin"] = 139,
+							["id"] = 8621,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 139,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 139,
+							["amount"] = 139,
+							["hitamount"] = 139,
+						},
+						["Deadly Poison II (DoT)"] = {
+							["hitmin"] = 26,
+							["id"] = 2819,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 53,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["hitmax"] = 27,
+							["amount"] = 53,
+							["hitamount"] = 53,
+						},
+						["Melee"] = {
+							["glance"] = 24,
+							["hitmin"] = 96,
+							["criticalmin"] = 54,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 236,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 236,
+							["MISS"] = 3,
+							["glancemin"] = 24,
+							["criticalamount"] = 116,
+							["id"] = 6603,
+							["glancemax"] = 24,
+							["PARRY"] = 1,
+							["criticalmax"] = 62,
+							["count"] = 8,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 96,
+							["critical"] = 2,
+							["hitamount"] = 96,
+						},
+					},
+					["id"] = "0x0700000000B0D62C",
+					["spec"] = 260,
+					["name"] = "Slavcul",
+					["overkill"] = 125,
+					["totaldamage"] = 866,
+				}, -- [4]
+			},
+			["type"] = "group",
+			["damagetaken"] = 695,
+			["overheal"] = 1,
+			["etotaldamage"] = 695,
+			["overkill"] = 226,
+			["edamagetaken"] = 2387,
+			["heal"] = 235,
+			["name"] = "Steeljaw Snapper (9)",
+			["mobname"] = "Steeljaw Snapper",
+			["starttime"] = 1729795826,
+			["edamage"] = 695,
+			["last_action"] = 1729795838,
+			["endtime"] = 1729795842,
+		}, -- [10]
+		{
+			["damage"] = 6303,
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 229,
+							["targets"] = {
+								["Slavcul"] = {
+									["total"] = 164,
+									["amount"] = 0,
+								},
+								["Omoratorul"] = {
+									["amount"] = 172,
+								},
+							},
+							["amount"] = 172,
+						},
+					},
+					["damagetaken"] = 6303,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6060] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 398,
+								},
+							},
+							["amount"] = 398,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["overkill"] = 101,
+									["amount"] = 1217,
+								},
+								["Omoratorul"] = {
+									["amount"] = 580,
+								},
+							},
+							["overkill"] = 101,
+							["amount"] = 1797,
+						},
+						[11572] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 84,
+									["amount"] = 65,
 								},
 							},
-							["amount"] = 84,
+							["amount"] = 65,
+						},
+						[15264] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 490,
+								},
+							},
+							["amount"] = 490,
+						},
+						[8621] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 395,
+								},
+							},
+							["amount"] = 395,
+						},
+						[8205] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 166,
+									["amount"] = 222,
+								},
+							},
+							["overkill"] = 166,
+							["amount"] = 222,
+						},
+						[8689] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 343,
+								},
+							},
+							["amount"] = 343,
+						},
+						[23922] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 605,
+								},
+							},
+							["amount"] = 605,
 						},
 						[8408] = {
 							["school"] = 16,
 							["sources"] = {
 								["Vrajadefoc"] = {
-									["overkill"] = 34,
-									["amount"] = 797,
+									["overkill"] = 90,
+									["amount"] = 777,
 								},
 							},
-							["overkill"] = 34,
-							["amount"] = 797,
+							["overkill"] = 90,
+							["amount"] = 777,
 						},
-						[8105] = {
+						[2819] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 128,
+								},
+							},
+							["amount"] = 128,
+						},
+						[7379] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 372,
+								},
+							},
+							["amount"] = 372,
+						},
+						[8106] = {
 							["school"] = 32,
 							["sources"] = {
 								["Popasfant"] = {
-									["overkill"] = 145,
-									["amount"] = 244,
+									["amount"] = 711,
 								},
 							},
-							["overkill"] = 145,
-							["amount"] = 244,
+							["amount"] = 711,
 						},
-						[8685] = {
+					},
+					["name"] = "Steeljaw Snapper",
+					["totaldamage"] = 336,
+					["totaldamagetaken"] = 6303,
+					["id"] = "0xF13000372B064624",
+					["damage"] = 172,
+				}, -- [1]
+			},
+			["totaldamage"] = 6303,
+			["time"] = 24,
+			["overheal"] = 124,
+			["totaldamagetaken"] = 336,
+			["etotaldamagetaken"] = 6303,
+			["last_time"] = 10102.532,
+			["players"] = {
+				{
+					["last"] = 10100.716,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[11572] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[20007] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 3,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[355] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[29131] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[58374] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 1,
+							["school"] = 1,
+							["uptime"] = 24,
+						},
+					},
+					["time"] = 17.72,
+					["totaldamagetaken"] = 172,
+					["damage"] = 1844,
+					["rage"] = 13,
+					["heal"] = 78,
+					["damagetaken"] = 172,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["healspells"] = {
+						[20007] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 78,
+							["school"] = 1,
+							["max"] = 78,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 0,
+									["amount"] = 78,
+								},
+							},
+							["min"] = 78,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 32,
+							["id"] = 6603,
+							["count"] = 8,
+							["hitmax"] = 38,
+							["amount"] = 172,
+							["sources"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 172,
+								},
+							},
+							["BLOCK"] = 2,
+							["blocked"] = 68,
+							["school"] = 1,
+							["hit"] = 5,
+							["MISS"] = 1,
+							["hitamount"] = 172,
+						},
+					},
+					["overheal"] = 0,
+					["ragespells"] = {
+						[23602] = 10,
+						[29131] = 3,
+					},
+					["name"] = "Omoratorul",
+					["overkill"] = 166,
+					["damagespells"] = {
+						["Shield Slam"] = {
+							["hitmin"] = 280,
+							["id"] = 23922,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 605,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 325,
+							["amount"] = 605,
+							["hitamount"] = 605,
+						},
+						["Thunder Clap"] = {
+							["criticalamount"] = 222,
+							["id"] = 8205,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["overkill"] = 166,
+									["amount"] = 222,
+								},
+							},
+							["overkill"] = 166,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 222,
+							["school"] = 1,
+							["criticalmin"] = 222,
+							["criticalmax"] = 222,
+							["count"] = 1,
+						},
+						["Melee"] = {
+							["glance"] = 266,
+							["hitmin"] = 101,
+							["id"] = 6603,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 580,
+								},
+							},
+							["glancemin"] = 85,
+							["glancing"] = 3,
+							["glancemax"] = 91,
+							["count"] = 6,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 112,
+							["amount"] = 580,
+							["hitamount"] = 314,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 65,
+							["id"] = 11572,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 65,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 65,
+							["amount"] = 65,
+							["hitamount"] = 65,
+						},
+						["Revenge"] = {
+							["hitmin"] = 372,
+							["id"] = 7379,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 372,
+								},
+							},
+							["amount"] = 372,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 372,
+							["MISS"] = 1,
+							["hitamount"] = 372,
+						},
+					},
+					["totaldamage"] = 1844,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["last"] = 10093.133,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[15264] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 17,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[1006] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[1706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+					},
+					["absorbspells"] = {
+						[6066] = {
+							["min"] = 53,
+							["casts"] = 2,
+							["count"] = 3,
+							["amount"] = 164,
+							["max"] = 58,
+							["targets"] = {
+								["Slavcul"] = 164,
+							},
+							["school"] = 2,
+						},
+					},
+					["time"] = 10.5,
+					["damage"] = 1599,
+					["damagespells"] = {
+						["Mind Blast"] = {
+							["hitmin"] = 352,
+							["id"] = 8106,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 711,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 359,
+							["amount"] = 711,
+							["hitamount"] = 711,
+						},
+						["Holy Fire"] = {
+							["hitmin"] = 432,
+							["id"] = 15264,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 432,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 432,
+							["amount"] = 432,
+							["hitamount"] = 432,
+						},
+						["Smite"] = {
+							["hitmin"] = 398,
+							["id"] = 6060,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 398,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 398,
+							["amount"] = 398,
+							["hitamount"] = 398,
+						},
+						["Holy Fire (DoT)"] = {
+							["hitmin"] = 11,
+							["id"] = 15264,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 58,
+								},
+							},
+							["hitmax"] = 12,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 2,
+							["resisted"] = 1,
+							["amount"] = 58,
+							["hitamount"] = 58,
+						},
+					},
+					["absorb"] = 164,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["healspells"] = {
+						[56160] = {
+							["overheal"] = 124,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 2,
+							["targets"] = {
+								["Popasfant"] = {
+									["overheal"] = 124,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["heal"] = 0,
+					["name"] = "Popasfant",
+					["overheal"] = 124,
+					["totaldamage"] = 1599,
+					["role"] = "HEALER",
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["hitmin"] = 360,
+							["id"] = 8408,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["overkill"] = 90,
+									["amount"] = 777,
+								},
+							},
+							["overkill"] = 90,
+							["hitmax"] = 417,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 16,
+							["resisted"] = 39,
+							["amount"] = 777,
+							["hitamount"] = 777,
+						},
+					},
+					["last"] = 10101.142,
+					["class"] = "MAGE",
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["overkill"] = 90,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[23228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[19709] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+					},
+					["totaldamage"] = 777,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 6.24,
+					["damage"] = 777,
+				}, -- [3]
+				{
+					["last"] = 10095.132,
+					["flag"] = 1298,
+					["class"] = "ROGUE",
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[51585] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[13877] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 12,
+						},
+						[5171] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[2819] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
 							["school"] = 8,
+							["refresh"] = 2,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 9,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[13750] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 14,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 13.53,
+					["totaldamagetaken"] = 164,
+					["damage"] = 2083,
+					["damagespells"] = {
+						["Deadly Poison II (DoT)"] = {
+							["hitmin"] = 48,
+							["id"] = 2819,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 128,
+								},
+							},
+							["hitmax"] = 80,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["resisted"] = 5,
+							["amount"] = 128,
+							["hitamount"] = 128,
+						},
+						["Instant Poison III"] = {
+							["hitmin"] = 74,
+							["id"] = 8689,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 343,
+								},
+							},
+							["hitmax"] = 94,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 8,
+							["resisted"] = 27,
+							["amount"] = 343,
+							["hitamount"] = 343,
+						},
+						["Sinister Strike"] = {
+							["hitmin"] = 126,
+							["id"] = 8621,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 395,
+								},
+							},
+							["PARRY"] = 1,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 138,
+							["amount"] = 395,
+							["hitamount"] = 395,
+						},
+						["Melee"] = {
+							["glance"] = 51,
+							["hitmin"] = 29,
+							["criticalmin"] = 200,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["overkill"] = 101,
+									["amount"] = 1217,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 1217,
+							["MISS"] = 3,
+							["glancemin"] = 24,
+							["criticalamount"] = 844,
+							["id"] = 6603,
+							["glancemax"] = 27,
+							["overkill"] = 101,
+							["criticalmax"] = 232,
+							["hitmax"] = 111,
+							["hit"] = 8,
+							["school"] = 1,
+							["critical"] = 4,
+							["count"] = 17,
+							["hitamount"] = 322,
+						},
+					},
+					["damagetaken"] = 0,
+					["id"] = "0x0700000000B0D62C",
+					["spec"] = 260,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 2,
+							["total"] = 164,
+							["count"] = 5,
+							["amount"] = 0,
+							["school"] = 1,
+							["sources"] = {
+								["Steeljaw Snapper"] = {
+									["total"] = 164,
+									["amount"] = 0,
+								},
+							},
+							["ABSORB"] = 3,
+							["id"] = 6603,
+						},
+					},
+					["name"] = "Slavcul",
+					["overkill"] = 101,
+					["totaldamage"] = 2083,
+				}, -- [4]
+			},
+			["type"] = "group",
+			["damagetaken"] = 172,
+			["rage"] = 13,
+			["absorb"] = 164,
+			["etotaldamage"] = 336,
+			["overkill"] = 357,
+			["edamagetaken"] = 6303,
+			["heal"] = 78,
+			["name"] = "Steeljaw Snapper (8)",
+			["mobname"] = "Steeljaw Snapper",
+			["starttime"] = 1729795752,
+			["edamage"] = 172,
+			["last_action"] = 1729795775,
+			["endtime"] = 1729795776,
+		}, -- [11]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF13000372B064653",
+					["name"] = "Steeljaw Snapper",
+					["totaldamagetaken"] = 2018,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetaken"] = 2018,
+					["damagetakenspells"] = {
+						[7379] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 372,
+								},
+							},
+							["amount"] = 372,
+						},
+						[8689] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["overkill"] = 36,
+									["amount"] = 173,
+								},
+							},
+							["overkill"] = 36,
+							["amount"] = 173,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 214,
+								},
+								["Omoratorul"] = {
+									["amount"] = 213,
+								},
+							},
+							["amount"] = 427,
+						},
+						[15264] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 379,
+								},
+							},
+							["amount"] = 379,
+						},
+						[8621] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 245,
+								},
+							},
+							["amount"] = 245,
+						},
+						[23922] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 422,
+								},
+							},
+							["amount"] = 422,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 2018,
+			["time"] = 7,
+			["totaldamagetaken"] = 0,
+			["etotaldamagetaken"] = 2018,
+			["last_time"] = 10070.05,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 1,
+							["targets"] = {
+								["Steeljaw Snapper"] = 1,
+							},
+						},
+					},
+					["last"] = 10068.133,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[20007] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[71] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[58374] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 5,
+						},
+						[2565] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+					},
+					["time"] = 4.7,
+					["totaldamagetaken"] = 0,
+					["damage"] = 1007,
+					["damagespells"] = {
+						["Shield Slam"] = {
+							["hitmin"] = 422,
+							["id"] = 23922,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 422,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 422,
+							["amount"] = 422,
+							["hitamount"] = 422,
+						},
+						["Melee"] = {
+							["glance"] = 93,
+							["hitmin"] = 120,
+							["id"] = 6603,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 213,
+								},
+							},
+							["glancemin"] = 93,
+							["glancing"] = 1,
+							["glancemax"] = 93,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 120,
+							["amount"] = 213,
+							["hitamount"] = 120,
+						},
+						["Revenge"] = {
+							["hitmin"] = 372,
+							["id"] = 7379,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 372,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 372,
+							["amount"] = 372,
+							["hitamount"] = 372,
+						},
+					},
+					["damagetaken"] = 0,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["sources"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["blocked"] = 33,
+							["BLOCK"] = 1,
+							["id"] = 6603,
+						},
+					},
+					["ragespells"] = {
+						[23602] = 10,
+					},
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["rage"] = 10,
+					["totaldamage"] = 1007,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Holy Fire"] = {
+							["hitmin"] = 379,
+							["id"] = 15264,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 379,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 379,
+							["amount"] = 379,
+							["hitamount"] = 379,
+						},
+					},
+					["last"] = 10063.434,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[15264] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[1006] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[1706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+					},
+					["totaldamage"] = 379,
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["flag"] = 1298,
+					["time"] = 0,
+					["damage"] = 379,
+				}, -- [2]
+				{
+					["last"] = 10063.434,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[19709] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+				{
+					["damagespells"] = {
+						["Instant Poison III"] = {
+							["hitmin"] = 86,
+							["id"] = 8689,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["overkill"] = 36,
+									["amount"] = 173,
+								},
+							},
+							["overkill"] = 36,
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["hitmax"] = 87,
+							["amount"] = 173,
+							["hitamount"] = 173,
+						},
+						["Sinister Strike"] = {
+							["hitmin"] = 116,
+							["id"] = 8621,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 245,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 129,
+							["amount"] = 245,
+							["hitamount"] = 245,
+						},
+						["Melee"] = {
+							["glance"] = 156,
+							["criticalamount"] = 58,
+							["id"] = 6603,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 214,
+								},
+							},
+							["glancemax"] = 86,
+							["criticalmin"] = 58,
+							["glancing"] = 2,
+							["criticalmax"] = 58,
+							["count"] = 4,
+							["amount"] = 214,
+							["school"] = 1,
+							["critical"] = 1,
+							["MISS"] = 1,
+							["glancemin"] = 70,
+						},
+					},
+					["last"] = 10068.733,
+					["class"] = "ROGUE",
+					["id"] = "0x0700000000B0D62C",
+					["spec"] = 260,
+					["overkill"] = 36,
+					["auras"] = {
+						[8696] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+					},
+					["totaldamage"] = 632,
+					["role"] = "DAMAGER",
+					["name"] = "Slavcul",
+					["flag"] = 1298,
+					["time"] = 5.300000000000001,
+					["damage"] = 632,
+				}, -- [4]
+			},
+			["type"] = "group",
+			["damagetaken"] = 0,
+			["mobname"] = "Steeljaw Snapper",
+			["rage"] = 10,
+			["overkill"] = 36,
+			["edamagetaken"] = 2018,
+			["starttime"] = 1729795736,
+			["name"] = "Steeljaw Snapper (7)",
+			["ccdone"] = 1,
+			["damage"] = 2018,
+			["last_action"] = 1729795743,
+			["endtime"] = 1729795743,
+		}, -- [12]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 141,
+								},
+							},
+							["amount"] = 141,
+						},
+					},
+					["damagetaken"] = 2076,
+					["id"] = "0xF13000372B064678",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8408] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 824,
+								},
+							},
+							["amount"] = 824,
+						},
+						[8689] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 78,
+								},
+							},
+							["amount"] = 78,
+						},
+						[23922] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 315,
+								},
+							},
+							["amount"] = 315,
+						},
+						[8621] = {
+							["school"] = 1,
 							["sources"] = {
 								["Slavcul"] = {
 									["amount"] = 126,
@@ -4193,907 +7692,736 @@ SkadaStorageDB = {
 							},
 							["amount"] = 126,
 						},
-						[1760] = {
+						[15264] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 389,
+								},
+							},
+							["amount"] = 389,
+						},
+						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Slavcul"] = {
-									["amount"] = 254,
+									["amount"] = 86,
+								},
+								["Omoratorul"] = {
+									["amount"] = 258,
 								},
 							},
-							["amount"] = 254,
+							["amount"] = 344,
 						},
 					},
-					["totaldamage"] = 1058,
-					["name"] = "Bloodsail Warlock",
-					["totaldamagetaken"] = 5565,
-					["id"] = "0xF13000061C246539",
-					["damage"] = 307,
+					["totaldamage"] = 141,
+					["name"] = "Steeljaw Snapper",
+					["totaldamagetaken"] = 2076,
+					["flag"] = 68136,
+					["damage"] = 141,
 				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 60,
-							["targets"] = {
-								["Slavcul"] = {
-									["amount"] = 150,
-								},
-								["Omoratorul"] = {
-									["total"] = 60,
-									["amount"] = 0,
-								},
-							},
-							["amount"] = 150,
-						},
-					},
-					["damagetaken"] = 1832,
-					["id"] = "0xF13000061B246555",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[2818] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 37,
-								},
-							},
-							["amount"] = 37,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 57,
-								},
-							},
-							["amount"] = 57,
-						},
-						[15431] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 228,
-								},
-							},
-							["amount"] = 228,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 529,
-								},
-							},
-							["amount"] = 529,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 98,
-								},
-							},
-							["amount"] = 98,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 3,
-									["amount"] = 390,
-								},
-							},
-							["overkill"] = 3,
-							["amount"] = 390,
-						},
-						[22482] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 493,
-								},
-							},
-							["amount"] = 493,
-						},
-					},
-					["totaldamage"] = 210,
-					["name"] = "Bloodsail Swashbuckler",
-					["totaldamagetaken"] = 1832,
-					["flag"] = 2632,
-					["damage"] = 150,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 52,
-							["targets"] = {
-								["Slavcul"] = {
-									["amount"] = 196,
-								},
-								["Omoratorul"] = {
-									["total"] = 52,
-									["amount"] = 15,
-								},
-							},
-							["amount"] = 211,
-						},
-						[32202] = {
-							["school"] = 32,
-							["total"] = 252,
-							["targets"] = {
-								["Slavcul"] = {
-									["amount"] = 217,
-								},
-								["Omoratorul"] = {
-									["total"] = 252,
-									["amount"] = 0,
-								},
-							},
-							["amount"] = 217,
-						},
-					},
-					["damagetaken"] = 1919,
-					["id"] = "0xF130002AB0246541",
-					["class"] = "PET",
-					["damagetakenspells"] = {
-						[2818] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 37,
-								},
-							},
-							["amount"] = 37,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 31,
-									["amount"] = 133,
-								},
-							},
-							["overkill"] = 31,
-							["amount"] = 133,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 105,
-								},
-								["Slavcul"] = {
-									["amount"] = 906,
-								},
-							},
-							["amount"] = 1011,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 214,
-								},
-							},
-							["amount"] = 214,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 108,
-									["amount"] = 288,
-								},
-							},
-							["overkill"] = 108,
-							["amount"] = 288,
-						},
-						[15431] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 236,
-								},
-							},
-							["amount"] = 236,
-						},
-					},
-					["totaldamage"] = 717,
-					["name"] = "Succubus Minion",
-					["totaldamagetaken"] = 1919,
-					["flag"] = 4680,
-					["damage"] = 428,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						[20801] = {
-							["school"] = 4,
-							["total"] = 254,
-							["targets"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 83,
-								},
-								["Omoratorul"] = {
-									["total"] = 179,
-									["amount"] = 88,
-								},
-								["Popasfant"] = {
-									["total"] = 163,
-									["amount"] = 85,
-								},
-							},
-							["amount"] = 256,
-						},
-					},
-					["damagetaken"] = 1232,
-					["flag"] = 4680,
-					["class"] = "PET",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 43,
-									["amount"] = 165,
-								},
-							},
-							["overkill"] = 43,
-							["amount"] = 165,
-						},
-						[8408] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 225,
-									["amount"] = 386,
-								},
-							},
-							["overkill"] = 225,
-							["amount"] = 386,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 104,
-								},
-							},
-							["amount"] = 104,
-						},
-						[15431] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 577,
-								},
-							},
-							["amount"] = 577,
-						},
-					},
-					["totaldamage"] = 425,
-					["name"] = "Imp Minion",
-					["totaldamagetaken"] = 1232,
-					["id"] = "0xF13000327A2466C0",
-					["damage"] = 256,
-				}, -- [4]
 			},
-			["etotaldamage"] = 2410,
-			["totaldamage"] = 10548,
-			["time"] = 39,
-			["damage"] = 10548,
-			["totaldamagetaken"] = 2410,
-			["etotaldamagetaken"] = 10548,
-			["last_time"] = 11992.514,
+			["totaldamage"] = 2076,
+			["time"] = 11,
+			["totaldamagetaken"] = 141,
+			["etotaldamage"] = 141,
+			["last_time"] = 10059.4,
 			["players"] = {
 				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 2,
-							["targets"] = {
-								["Bloodsail Warlock"] = 2,
-							},
-						},
-					},
-					["last"] = 11992.473,
+					["last"] = 10058.759,
 					["flag"] = 1297,
 					["class"] = "WARRIOR",
 					["auras"] = {
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 12,
-									["count"] = 3,
-								},
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-								["Imp Minion"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 20,
-						},
-						[19709] = {
+						[2791] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[6078] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[6066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 17,
+							["uptime"] = 11,
 						},
 						[20007] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[2457] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[71] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 11,
-									["count"] = 3,
-								},
-							},
+							["refresh"] = 1,
 							["uptime"] = 11,
 						},
-						[18498] = {
-							["type"] = "DEBUFF",
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[58374] = {
+							["type"] = "BUFF",
 							["count"] = 2,
 							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[355] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
 							["targets"] = {
-								["Bloodsail Warlock"] = {
+								["Steeljaw Snapper"] = {
 									["uptime"] = 3,
-									["count"] = 2,
+									["count"] = 1,
 								},
 							},
 							["uptime"] = 3,
 						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 4,
-						},
 					},
-					["role"] = "TANK",
-					["time"] = 37.04000000000001,
-					["totaldamagetaken"] = 1077,
-					["damage"] = 2882,
+					["time"] = 9.6,
+					["totaldamagetaken"] = 141,
+					["damage"] = 573,
 					["damagespells"] = {
-						["Thunder Clap"] = {
-							["hitmin"] = 98,
-							["criticalamount"] = 424,
-							["id"] = 8204,
-							["criticalmin"] = 210,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 435,
-								},
-								["Succubus Minion"] = {
-									["amount"] = 214,
-								},
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 98,
-								},
-								["Imp Minion"] = {
-									["amount"] = 104,
-								},
-							},
-							["criticalmax"] = 214,
-							["count"] = 6,
-							["casts"] = 3,
-							["hitmax"] = 114,
-							["hit"] = 4,
-							["school"] = 1,
-							["amount"] = 851,
-							["critical"] = 2,
-							["hitamount"] = 427,
-						},
 						["Melee"] = {
-							["glance"] = 421,
-							["hitmin"] = 73,
-							["glancemin"] = 77,
+							["DODGE"] = 1,
+							["glance"] = 258,
 							["id"] = 6603,
-							["glancemax"] = 90,
+							["glancemax"] = 91,
+							["glancing"] = 3,
+							["count"] = 4,
+							["amount"] = 258,
+							["school"] = 1,
 							["targets"] = {
-								["Succubus Minion"] = {
-									["amount"] = 105,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 1123,
-								},
-								["Imp Minion"] = {
-									["overkill"] = 43,
-									["amount"] = 165,
+								["Steeljaw Snapper"] = {
+									["amount"] = 258,
 								},
 							},
-							["overkill"] = 43,
-							["glancing"] = 5,
-							["hitmax"] = 121,
-							["count"] = 16,
-							["amount"] = 1393,
-							["school"] = 1,
-							["hit"] = 10,
-							["MISS"] = 1,
-							["hitamount"] = 972,
+							["glancemin"] = 81,
 						},
-						["Cleave"] = {
-							["hitmin"] = 96,
-							["id"] = 7369,
+						["Shield Slam"] = {
+							["hitmin"] = 315,
+							["id"] = 23922,
 							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 194,
-								},
-							},
-							["blocked"] = 20,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 98,
-							["amount"] = 194,
-							["hitamount"] = 194,
-						},
-						["Victory Rush"] = {
-							["hitmin"] = 237,
-							["id"] = 34428,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 237,
+								["Steeljaw Snapper"] = {
+									["amount"] = 315,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 237,
-							["amount"] = 237,
-							["hitamount"] = 237,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 42,
-							["id"] = 6548,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 84,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 42,
-							["amount"] = 84,
-							["hitamount"] = 84,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 123,
-							["id"] = 11564,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 30,
-									["amount"] = 123,
-								},
-							},
-							["overkill"] = 30,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 123,
-							["amount"] = 123,
-							["hitamount"] = 123,
+							["hitmax"] = 315,
+							["amount"] = 315,
+							["hitamount"] = 315,
 						},
 					},
-					["damagetaken"] = 147,
+					["damagetaken"] = 141,
 					["id"] = "0x0700000000B06C55",
 					["spec"] = 73,
-					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["total"] = 469,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 32,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 469,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 2,
-							["id"] = 20825,
-						},
-						["Firebolt"] = {
-							["total"] = 179,
-							["hitmin"] = 88,
-							["id"] = 20801,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Imp Minion"] = {
-									["total"] = 179,
-									["amount"] = 88,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 88,
-							["amount"] = 88,
-							["hitamount"] = 88,
-						},
-						["Melee"] = {
-							["total"] = 177,
-							["hitmin"] = 15,
-							["id"] = 6603,
-							["hitmax"] = 22,
-							["ABSORB"] = 4,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["total"] = 52,
-									["amount"] = 15,
-								},
-								["Bloodsail Swashbuckler"] = {
-									["total"] = 60,
-									["amount"] = 0,
-								},
-								["Bloodsail Warlock"] = {
-									["total"] = 65,
-									["amount"] = 44,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 59,
-							["school"] = 1,
-							["hit"] = 3,
-							["MISS"] = 1,
-							["hitamount"] = 59,
-						},
-						["Lash of Pain"] = {
-							["total"] = 252,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["total"] = 252,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 32202,
-						},
-					},
-					["name"] = "Omoratorul",
-					["ccdone"] = 2,
-					["overkill"] = 73,
-					["interrupt"] = 1,
-					["interruptspells"] = {
-						[72] = {
-							["spells"] = {
-								[20825] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = 1,
-							},
-						},
-					},
-					["totaldamage"] = 2882,
-				}, -- [1]
-				{
-					["last"] = 11991.372,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[6066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 28,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Omoratorul"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-								["Popasfant"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 27,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[15264] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 1,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-					},
-					["absorbspells"] = {
-						[6066] = {
-							["min"] = 11,
-							["casts"] = 3,
-							["count"] = 11,
-							["amount"] = 1269,
-							["max"] = 261,
-							["targets"] = {
-								["Popasfant"] = 339,
-								["Omoratorul"] = 930,
-							},
-							["school"] = 2,
-						},
-					},
-					["totaldamage"] = 2703,
-					["time"] = 27.53000000000001,
-					["totaldamagetaken"] = 495,
-					["damage"] = 2703,
-					["overheal"] = 5316,
-					["absorb"] = 1269,
-					["damagetaken"] = 156,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
 					["healspells"] = {
-						[6078] = {
-							["overheal"] = 399,
-							["max"] = 37,
-							["count"] = 3,
-							["amount"] = 37,
-							["school"] = 2,
-							["ishot"] = true,
+						[20007] = {
+							["overheal"] = 4,
+							["count"] = 1,
+							["amount"] = 106,
+							["school"] = 1,
+							["max"] = 106,
 							["targets"] = {
 								["Omoratorul"] = {
-									["overheal"] = 399,
-									["amount"] = 37,
+									["overheal"] = 4,
+									["amount"] = 106,
 								},
 							},
-							["min"] = 37,
-						},
-						[23459] = {
-							["overheal"] = 4882,
-							["criticalamount"] = 32,
-							["max"] = 195,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 1781,
-									["amount"] = 22,
-								},
-								["Slavcul"] = {
-									["overheal"] = 892,
-									["amount"] = 425,
-								},
-								["Popasfant"] = {
-									["overheal"] = 2209,
-									["amount"] = 32,
-								},
-							},
-							["min"] = 22,
-							["criticalmax"] = 32,
-							["count"] = 27,
-							["amount"] = 479,
-							["school"] = 2,
-							["criticalmin"] = 0,
-							["critical"] = 3,
-						},
-						[56160] = {
-							["overheal"] = 35,
-							["count"] = 2,
-							["amount"] = 212,
-							["school"] = 2,
-							["max"] = 124,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 35,
-									["amount"] = 88,
-								},
-								["Popasfant"] = {
-									["overheal"] = 0,
-									["amount"] = 124,
-								},
-							},
-							["min"] = 88,
+							["min"] = 106,
 						},
 					},
 					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["total"] = 261,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 261,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 20825,
-						},
 						["Melee"] = {
+							["DODGE"] = 1,
 							["hitmin"] = 33,
 							["id"] = 6603,
 							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 71,
+								["Steeljaw Snapper"] = {
+									["amount"] = 141,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 2,
+							["count"] = 5,
+							["hit"] = 4,
 							["school"] = 1,
 							["hitmax"] = 38,
-							["amount"] = 71,
-							["hitamount"] = 71,
-						},
-						["Firebolt"] = {
-							["total"] = 163,
-							["hitmin"] = 85,
-							["id"] = 20801,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Imp Minion"] = {
-									["total"] = 163,
-									["amount"] = 85,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 85,
-							["amount"] = 85,
-							["hitamount"] = 85,
+							["amount"] = 141,
+							["hitamount"] = 141,
 						},
 					},
-					["heal"] = 728,
-					["name"] = "Popasfant",
-					["overkill"] = 206,
+					["ragespells"] = {
+						[23602] = 5,
+					},
+					["heal"] = 106,
+					["name"] = "Omoratorul",
+					["rage"] = 5,
+					["overheal"] = 4,
+					["totaldamage"] = 573,
+					["role"] = "TANK",
+				}, -- [1]
+				{
 					["damagespells"] = {
-						["Holy Nova"] = {
-							["hitmin"] = 108,
-							["id"] = 15431,
+						["Mind Blast"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
 							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 228,
-								},
-								["Succubus Minion"] = {
-									["amount"] = 236,
-								},
-								["Bloodsail Warlock"] = {
-									["overkill"] = 61,
-									["amount"] = 682,
-								},
-								["Imp Minion"] = {
-									["amount"] = 577,
+								["Steeljaw Snapper"] = {
+									["amount"] = 0,
 								},
 							},
-							["overkill"] = 61,
-							["hitmax"] = 119,
-							["casts"] = 11,
-							["count"] = 15,
-							["hit"] = 15,
-							["school"] = 2,
-							["resisted"] = 12,
-							["amount"] = 1723,
-							["hitamount"] = 1723,
+							["MISS"] = 1,
+							["id"] = 8106,
 						},
 						["Holy Fire"] = {
-							["hitmin"] = 300,
+							["hitmin"] = 334,
 							["id"] = 15264,
 							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 726,
+								["Steeljaw Snapper"] = {
+									["amount"] = 334,
 								},
 							},
-							["hitmax"] = 426,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["resisted"] = 74,
-							["amount"] = 726,
-							["hitamount"] = 726,
-						},
-						["Mind Blast"] = {
-							["hitmin"] = 244,
-							["id"] = 8105,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 145,
-									["amount"] = 244,
-								},
-							},
-							["overkill"] = 145,
-							["hitmax"] = 244,
+							["hitmax"] = 334,
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 60,
-							["amount"] = 244,
-							["hitamount"] = 244,
+							["school"] = 2,
+							["resisted"] = 37,
+							["amount"] = 334,
+							["hitamount"] = 334,
 						},
 						["Holy Fire (DoT)"] = {
 							["hitmin"] = 10,
 							["id"] = 15264,
 							["targets"] = {
-								["Bloodsail Warlock"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 55,
+								},
+							},
+							["hitmax"] = 12,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 2,
+							["resisted"] = 5,
+							["amount"] = 55,
+							["hitamount"] = 55,
+						},
+					},
+					["last"] = 10049.159,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[15264] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[1006] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[1706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+					},
+					["totaldamage"] = 389,
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["flag"] = 1298,
+					["time"] = 0,
+					["damage"] = 389,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["hitmin"] = 406,
+							["id"] = 8408,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 824,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 16,
+							["hitmax"] = 418,
+							["amount"] = 824,
+							["hitamount"] = 824,
+						},
+					},
+					["last"] = 10057.017,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["class"] = "MAGE",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[19709] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+					},
+					["totaldamage"] = 824,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 6,
+					["damage"] = 824,
+				}, -- [3]
+				{
+					["damagespells"] = {
+						["Instant Poison III"] = {
+							["hitmin"] = 78,
+							["id"] = 8689,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 78,
+								},
+							},
+							["hitmax"] = 78,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 8,
+							["amount"] = 78,
+							["hitamount"] = 78,
+						},
+						["Sinister Strike"] = {
+							["hitmin"] = 126,
+							["id"] = 8621,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 126,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 126,
+							["amount"] = 126,
+							["hitamount"] = 126,
+						},
+						["Melee"] = {
+							["glance"] = 86,
+							["id"] = 6603,
+							["glancemax"] = 67,
+							["glancing"] = 2,
+							["count"] = 2,
+							["amount"] = 86,
+							["school"] = 1,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 86,
+								},
+							},
+							["glancemin"] = 19,
+						},
+					},
+					["last"] = 10058.675,
+					["id"] = "0x0700000000B0D62C",
+					["spec"] = 260,
+					["class"] = "ROGUE",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[8696] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[51585] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+					},
+					["totaldamage"] = 290,
+					["role"] = "DAMAGER",
+					["name"] = "Slavcul",
+					["flag"] = 1298,
+					["time"] = 3.81,
+					["damage"] = 290,
+				}, -- [4]
+			},
+			["type"] = "group",
+			["damagetaken"] = 141,
+			["rage"] = 5,
+			["overheal"] = 4,
+			["etotaldamagetaken"] = 2076,
+			["damage"] = 2076,
+			["edamagetaken"] = 2076,
+			["heal"] = 106,
+			["name"] = "Steeljaw Snapper (6)",
+			["mobname"] = "Steeljaw Snapper",
+			["starttime"] = 1729795722,
+			["edamage"] = 141,
+			["last_action"] = 1729795732,
+			["endtime"] = 1729795733,
+		}, -- [13]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 36,
+								},
+							},
+							["amount"] = 36,
+						},
+					},
+					["damagetaken"] = 2055,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8408] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["overkill"] = 73,
+									["amount"] = 410,
+								},
+							},
+							["overkill"] = 73,
+							["amount"] = 410,
+						},
+						[34428] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 189,
+								},
+							},
+							["amount"] = 189,
+						},
+						[8106] = {
+							["school"] = 32,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 360,
+								},
+							},
+							["amount"] = 360,
+						},
+						[23922] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 357,
+								},
+							},
+							["amount"] = 357,
+						},
+						[2767] = {
+							["school"] = 32,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 79,
+								},
+							},
+							["amount"] = 79,
+						},
+						[15264] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 396,
+								},
+							},
+							["amount"] = 396,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 264,
+								},
+							},
+							["amount"] = 264,
+						},
+					},
+					["name"] = "Steeljaw Snapper",
+					["totaldamage"] = 36,
+					["totaldamagetaken"] = 2055,
+					["id"] = "0xF13000372B0646A6",
+					["damage"] = 36,
+				}, -- [1]
+			},
+			["overheal"] = 279,
+			["totaldamage"] = 2055,
+			["time"] = 6,
+			["starttime"] = 1729795711,
+			["totaldamagetaken"] = 36,
+			["etotaldamagetaken"] = 2055,
+			["last_time"] = 10043.375,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 1,
+							["targets"] = {
+								["Steeljaw Snapper"] = 1,
+							},
+						},
+					},
+					["last"] = 10042.625,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[20007] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 6,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[58374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 5,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[57514] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+					},
+					["time"] = 4.28,
+					["totaldamagetaken"] = 36,
+					["damage"] = 810,
+					["overheal"] = 279,
+					["damagetaken"] = 36,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["healspells"] = {
+						[20007] = {
+							["overheal"] = 279,
+							["max"] = 36,
+							["count"] = 3,
+							["amount"] = 36,
+							["school"] = 1,
+							["min"] = 36,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 279,
+									["amount"] = 36,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 36,
+							["id"] = 6603,
+							["sources"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 36,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 36,
+							["amount"] = 36,
+							["hitamount"] = 36,
+						},
+					},
+					["heal"] = 36,
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["damagespells"] = {
+						["Shield Slam"] = {
+							["hitmin"] = 357,
+							["id"] = 23922,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 357,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 357,
+							["amount"] = 357,
+							["hitamount"] = 357,
+						},
+						["Victory Rush"] = {
+							["hitmin"] = 189,
+							["id"] = 34428,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 189,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 189,
+							["amount"] = 189,
+							["hitamount"] = 189,
+						},
+						["Melee"] = {
+							["hitmin"] = 124,
+							["id"] = 6603,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 264,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 140,
+							["amount"] = 264,
+							["hitamount"] = 264,
+						},
+					},
+					["totaldamage"] = 810,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["hitmin"] = 79,
+							["id"] = 2767,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 79,
+								},
+							},
+							["hitmax"] = 79,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 8,
+							["amount"] = 79,
+							["hitamount"] = 79,
+						},
+						["Holy Fire"] = {
+							["hitmin"] = 386,
+							["id"] = 15264,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 386,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 386,
+							["amount"] = 386,
+							["hitamount"] = 386,
+						},
+						["Mind Blast"] = {
+							["hitmin"] = 360,
+							["id"] = 8106,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 360,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 360,
+							["amount"] = 360,
+							["hitamount"] = 360,
+						},
+						["Holy Fire (DoT)"] = {
+							["hitmin"] = 10,
+							["id"] = 15264,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
 									["amount"] = 10,
 								},
 							},
@@ -5106,4858 +8434,505 @@ SkadaStorageDB = {
 							["hitamount"] = 10,
 						},
 					},
-					["role"] = "HEALER",
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Blade Flurry"] = {
-							["hitmin"] = 33,
-							["id"] = 22482,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 493,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 289,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 224,
-							["amount"] = 782,
-							["hitamount"] = 782,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 255,
-							["hitmin"] = 31,
-							["criticalmin"] = 68,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["amount"] = 906,
-								},
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 529,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 241,
-								},
-							},
-							["glancing"] = 7,
-							["amount"] = 1676,
-							["MISS"] = 3,
-							["glancemin"] = 24,
-							["criticalamount"] = 310,
-							["id"] = 6603,
-							["glancemax"] = 77,
-							["criticalmax"] = 242,
-							["critical"] = 2,
-							["hit"] = 16,
-							["school"] = 1,
-							["count"] = 29,
-							["hitmax"] = 116,
-							["hitamount"] = 1111,
-						},
-						["Instant Poison II"] = {
-							["hitmin"] = 57,
-							["id"] = 8685,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["overkill"] = 31,
-									["amount"] = 133,
-								},
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 57,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 126,
-								},
-							},
-							["overkill"] = 31,
-							["hitmax"] = 67,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 8,
-							["resisted"] = 12,
-							["amount"] = 316,
-							["hitamount"] = 316,
-						},
-						["Sinister Strike"] = {
-							["hitmin"] = 116,
-							["id"] = 1760,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["overkill"] = 108,
-									["amount"] = 288,
-								},
-								["Bloodsail Swashbuckler"] = {
-									["overkill"] = 3,
-									["amount"] = 390,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 254,
-								},
-							},
-							["overkill"] = 111,
-							["PARRY"] = 1,
-							["casts"] = 8,
-							["count"] = 8,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 145,
-							["amount"] = 932,
-							["hitamount"] = 932,
-						},
-						["Deadly Poison (DoT)"] = {
-							["hitmin"] = 18,
-							["id"] = 2818,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 37,
-								},
-								["Succubus Minion"] = {
-									["amount"] = 37,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 37,
-							["amount"] = 74,
-							["hitamount"] = 74,
-						},
-					},
-					["last"] = 11988.255,
-					["damagetaken"] = 563,
-					["damagetakenspells"] = {
-						["Disarm"] = {
-							["DODGE"] = 1,
-							["sources"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 6713,
-						},
-						["Shadow Bolt"] = {
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["MISS"] = 1,
-							["id"] = 20825,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 38,
-							["criticalamount"] = 178,
-							["id"] = 6603,
-							["criticalmin"] = 78,
-							["PARRY"] = 1,
-							["sources"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 150,
-								},
-								["Succubus Minion"] = {
-									["amount"] = 196,
-								},
-							},
-							["hit"] = 4,
-							["criticalmax"] = 100,
-							["hitmax"] = 50,
-							["amount"] = 346,
-							["school"] = 1,
-							["critical"] = 2,
-							["count"] = 8,
-							["hitamount"] = 168,
-						},
-						["Lash of Pain"] = {
-							["hitmin"] = 217,
-							["id"] = 32202,
-							["hitmax"] = 217,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["amount"] = 217,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 93,
-							["amount"] = 217,
-							["hitamount"] = 217,
-						},
-					},
-					["flag"] = 1298,
-					["class"] = "ROGUE",
-					["role"] = "DAMAGER",
-					["auras"] = {
-						[18192] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 28,
-						},
-						[2818] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 3,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Succubus Minion"] = {
-									["refresh"] = 3,
-									["count"] = 1,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[51585] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 2,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["refresh"] = 2,
-									["count"] = 2,
-									["uptime"] = 5,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[13877] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[5171] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-					},
-					["name"] = "Slavcul",
-					["totaldamage"] = 3780,
-					["time"] = 28.31,
-					["overkill"] = 142,
-					["spec"] = 260,
-					["totaldamagetaken"] = 563,
-					["id"] = "0x0700000000B0D62C",
-					["damage"] = 3780,
-				}, -- [3]
-				{
-					["last"] = 11987.572,
-					["flag"] = 1298,
-					["class"] = "MAGE",
-					["auras"] = {
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-					},
-					["totaldamage"] = 1183,
-					["time"] = 9.75,
-					["totaldamagetaken"] = 275,
-					["damage"] = 1183,
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 386,
-							["id"] = 8408,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 34,
-									["amount"] = 797,
-								},
-								["Imp Minion"] = {
-									["overkill"] = 225,
-									["amount"] = 386,
-								},
-							},
-							["overkill"] = 259,
-							["casts"] = 6,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 16,
-							["hitmax"] = 400,
-							["amount"] = 1183,
-							["hitamount"] = 1183,
-						},
-					},
-					["damagetaken"] = 275,
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["healspells"] = {
-						[2024] = {
-							["overheal"] = 138,
-							["count"] = 1,
-							["amount"] = 390,
-							["school"] = 1,
-							["max"] = 390,
-							["targets"] = {
-								["Vrajadefoc"] = {
-									["overheal"] = 138,
-									["amount"] = 390,
-								},
-							},
-							["min"] = 390,
-						},
-					},
-					["overkill"] = 259,
-					["potionspells"] = {
-						[1710] = 1,
-					},
-					["heal"] = 390,
-					["name"] = "Vrajadefoc",
-					["overheal"] = 138,
-					["potion"] = 1,
-					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["hitmin"] = 192,
-							["id"] = 20825,
-							["hitmax"] = 192,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 192,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 48,
-							["amount"] = 192,
-							["hitamount"] = 192,
-						},
-						["Firebolt"] = {
-							["hitmin"] = 83,
-							["id"] = 20801,
-							["sources"] = {
-								["Imp Minion"] = {
-									["amount"] = 83,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 83,
-							["amount"] = 83,
-							["hitamount"] = 83,
-						},
-					},
-					["role"] = "DAMAGER",
-				}, -- [4]
-			},
-			["type"] = "group",
-			["damagetaken"] = 1141,
-			["overheal"] = 5454,
-			["interrupt"] = 1,
-			["mobname"] = "Bloodsail Warlock",
-			["potion"] = 1,
-			["overkill"] = 680,
-			["edamagetaken"] = 10548,
-			["heal"] = 1118,
-			["name"] = "Bloodsail Warlock (13)",
-			["ccdone"] = 2,
-			["starttime"] = 1729453230,
-			["edamage"] = 1141,
-			["last_action"] = 1729453267,
-			["endtime"] = 1729453269,
-		}, -- [10]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 69,
-								},
-							},
-							["amount"] = 69,
-						},
-						[20825] = {
-							["school"] = 32,
-							["total"] = 583,
-							["targets"] = {
-								["Omoratorul"] = {
-									["total"] = 367,
-									["amount"] = 191,
-								},
-								["Vrajadefoc"] = {
-									["amount"] = 216,
-								},
-							},
-							["amount"] = 407,
-						},
-					},
-					["damagetaken"] = 4509,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[8408] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 532,
-									["amount"] = 2292,
-								},
-							},
-							["overkill"] = 532,
-							["amount"] = 2292,
-						},
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 10,
-									["amount"] = 129,
-								},
-							},
-							["overkill"] = 10,
-							["amount"] = 129,
-						},
-						[34428] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 237,
-								},
-							},
-							["amount"] = 237,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 49,
-									["amount"] = 408,
-								},
-								["Omoratorul"] = {
-									["amount"] = 882,
-								},
-							},
-							["overkill"] = 49,
-							["amount"] = 1290,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 341,
-								},
-							},
-							["amount"] = 341,
-						},
-						[7384] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 92,
-								},
-							},
-							["amount"] = 92,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 128,
-								},
-							},
-							["amount"] = 128,
-						},
-					},
-					["totaldamage"] = 652,
-					["name"] = "Bloodsail Warlock",
-					["totaldamagetaken"] = 4509,
-					["id"] = "0xF13000061C24655F",
-					["damage"] = 476,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[32202] = {
-							["school"] = 32,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 478,
-								},
-							},
-							["amount"] = 478,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 170,
-								},
-							},
-							["amount"] = 170,
-						},
-					},
-					["damagetaken"] = 1858,
-					["flag"] = 4680,
-					["class"] = "PET",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 169,
-								},
-								["Slavcul"] = {
-									["amount"] = 388,
-								},
-							},
-							["amount"] = 557,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 791,
-								},
-							},
-							["amount"] = 791,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 40,
-									["amount"] = 130,
-								},
-							},
-							["overkill"] = 40,
-							["amount"] = 130,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 380,
-								},
-							},
-							["amount"] = 380,
-						},
-					},
-					["totaldamage"] = 648,
-					["name"] = "Succubus Minion",
-					["totaldamagetaken"] = 1858,
-					["id"] = "0xF130002AB0246563",
-					["damage"] = 648,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[20801] = {
-							["school"] = 4,
-							["total"] = 150,
-							["targets"] = {
-								["Omoratorul"] = {
-									["total"] = 150,
-									["amount"] = 76,
-								},
-							},
-							["amount"] = 76,
-						},
-					},
-					["damagetaken"] = 474,
-					["id"] = "0xF13000327A246603",
-					["class"] = "PET",
-					["damagetakenspells"] = {
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 130,
-								},
-							},
-							["amount"] = 130,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 127,
-								},
-							},
-							["amount"] = 127,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 3,
-									["amount"] = 120,
-								},
-							},
-							["overkill"] = 3,
-							["amount"] = 120,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 97,
-								},
-							},
-							["amount"] = 97,
-						},
-					},
-					["totaldamage"] = 150,
-					["name"] = "Imp Minion",
-					["totaldamagetaken"] = 474,
-					["flag"] = 4680,
-					["damage"] = 76,
-				}, -- [3]
-			},
-			["damage"] = 6841,
-			["totaldamage"] = 6841,
-			["time"] = 33,
-			["etotaldamage"] = 1450,
-			["totaldamagetaken"] = 1450,
-			["etotaldamagetaken"] = 6841,
-			["last_time"] = 11950.231,
-			["overheal"] = 0,
-			["absorb"] = 250,
-			["damagetaken"] = 1200,
-			["players"] = {
-				{
-					["last"] = 11945.605,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 1,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["uptime"] = 13,
-									["count"] = 2,
-								},
-								["Bloodsail Warlock"] = {
-									["uptime"] = 14,
-									["count"] = 3,
-								},
-								["Imp Minion"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 20,
-						},
-						[19709] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[6078] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[6066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[20007] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 12,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[71] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[18498] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 8,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 9,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 25.79,
-					["totaldamagetaken"] = 1234,
-					["damage"] = 2327,
-					["rage"] = 15,
-					["damagetaken"] = 984,
-					["damagespells"] = {
-						["Thunder Clap"] = {
-							["hitmin"] = 97,
-							["criticalamount"] = 274,
-							["id"] = 8204,
-							["criticalmin"] = 274,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["amount"] = 380,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 341,
-								},
-								["Imp Minion"] = {
-									["amount"] = 97,
-								},
-							},
-							["critical"] = 1,
-							["hit"] = 5,
-							["casts"] = 3,
-							["count"] = 6,
-							["amount"] = 818,
-							["school"] = 1,
-							["hitmax"] = 134,
-							["criticalmax"] = 274,
-							["hitamount"] = 544,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 144,
-							["hitmin"] = 80,
-							["criticalmin"] = 236,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 882,
-								},
-								["Succubus Minion"] = {
-									["amount"] = 169,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 1051,
-							["glancemin"] = 69,
-							["criticalamount"] = 236,
-							["id"] = 6603,
-							["glancemax"] = 75,
-							["criticalmax"] = 236,
-							["PARRY"] = 1,
-							["hitmax"] = 107,
-							["hit"] = 7,
-							["school"] = 1,
-							["critical"] = 1,
-							["count"] = 12,
-							["hitamount"] = 671,
-						},
-						["Victory Rush"] = {
-							["hitmin"] = 237,
-							["id"] = 34428,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 237,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 237,
-							["amount"] = 237,
-							["hitamount"] = 237,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 43,
-							["id"] = 6548,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 10,
-									["amount"] = 129,
-								},
-							},
-							["overkill"] = 10,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 43,
-							["amount"] = 129,
-							["hitamount"] = 129,
-						},
-						["Overpower"] = {
-							["hitmin"] = 92,
-							["id"] = 7384,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 92,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 92,
-							["amount"] = 92,
-							["hitamount"] = 92,
-						},
-					},
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["healspells"] = {
-						[20007] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 99,
-							["school"] = 1,
-							["max"] = 99,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 0,
-									["amount"] = 99,
-								},
-							},
-							["min"] = 99,
-						},
-					},
-					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["total"] = 367,
-							["hitmin"] = 191,
-							["id"] = 20825,
-							["hitmax"] = 191,
-							["hit"] = 1,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 367,
-									["amount"] = 191,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 191,
-							["school"] = 32,
-							["resisted"] = 21,
-							["ABSORB"] = 1,
-							["hitamount"] = 191,
-						},
-						["Firebolt"] = {
-							["total"] = 150,
-							["hitmin"] = 76,
-							["id"] = 20801,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Imp Minion"] = {
-									["total"] = 150,
-									["amount"] = 76,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 76,
-							["amount"] = 76,
-							["hitamount"] = 76,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["criticalmin"] = 54,
-							["hitmin"] = 22,
-							["criticalamount"] = 54,
-							["id"] = 6603,
-							["count"] = 12,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 69,
-								},
-								["Succubus Minion"] = {
-									["amount"] = 170,
-								},
-							},
-							["critical"] = 1,
-							["amount"] = 239,
-							["PARRY"] = 2,
-							["hitmax"] = 30,
-							["hit"] = 7,
-							["school"] = 1,
-							["criticalmax"] = 54,
-							["MISS"] = 1,
-							["hitamount"] = 185,
-						},
-						["Lash of Pain"] = {
-							["hitmin"] = 217,
-							["id"] = 32202,
-							["hitmax"] = 261,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["amount"] = 478,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 122,
-							["amount"] = 478,
-							["hitamount"] = 478,
-						},
-					},
-					["overheal"] = 0,
-					["heal"] = 99,
-					["name"] = "Omoratorul",
-					["overkill"] = 10,
-					["ragespells"] = {
-						[23602] = 15,
-					},
-					["interrupt"] = 3,
-					["interruptspells"] = {
-						[72] = {
-							["spells"] = {
-								[20825] = 3,
-							},
-							["count"] = 3,
-							["targets"] = {
-								["Bloodsail Warlock"] = 3,
-							},
-						},
-					},
-					["totaldamage"] = 2327,
-				}, -- [1]
-				{
-					["overheal"] = 0,
-					["absorb"] = 250,
-					["id"] = "0x0700000000B06C58",
-					["class"] = "PRIEST",
-					["healspells"] = {
-						[6078] = {
-							["overheal"] = 0,
-							["school"] = 2,
-							["count"] = 1,
-							["amount"] = 146,
-							["max"] = 146,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 0,
-									["amount"] = 146,
-								},
-							},
-							["ishot"] = true,
-							["min"] = 146,
-						},
-						[56160] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 123,
-							["school"] = 2,
-							["max"] = 123,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 0,
-									["amount"] = 123,
-								},
-							},
-							["min"] = 123,
-						},
-						[9474] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 599,
-							["school"] = 2,
-							["max"] = 599,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 0,
-									["amount"] = 599,
-								},
-							},
-							["min"] = 599,
-						},
-					},
-					["auras"] = {
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Omoratorul"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-					},
-					["absorbspells"] = {
-						[6066] = {
-							["min"] = 74,
-							["casts"] = 1,
-							["count"] = 2,
-							["amount"] = 250,
-							["school"] = 2,
-							["targets"] = {
-								["Omoratorul"] = 250,
-							},
-							["max"] = 176,
-						},
-					},
-					["role"] = "HEALER",
-					["time"] = 8.109999999999999,
-					["last"] = 11950.231,
-					["flag"] = 1298,
-					["spec"] = 256,
-					["name"] = "Popasfant",
-					["heal"] = 868,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Instant Poison II"] = {
-							["hitmin"] = 54,
-							["id"] = 8685,
-							["targets"] = {
-								["Imp Minion"] = {
-									["overkill"] = 3,
-									["amount"] = 120,
-								},
-								["Succubus Minion"] = {
-									["overkill"] = 40,
-									["amount"] = 130,
-								},
-							},
-							["overkill"] = 43,
-							["hitmax"] = 66,
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 8,
-							["resisted"] = 13,
-							["amount"] = 250,
-							["hitamount"] = 250,
-						},
-						["Sinister Strike"] = {
-							["hitmin"] = 119,
-							["id"] = 1760,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["amount"] = 791,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 128,
-								},
-								["Imp Minion"] = {
-									["amount"] = 130,
-								},
-							},
-							["casts"] = 8,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 149,
-							["amount"] = 1049,
-							["hitamount"] = 1049,
-						},
-						["Melee"] = {
-							["glance"] = 87,
-							["hitmin"] = 29,
-							["criticalmin"] = 236,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["amount"] = 388,
-								},
-								["Bloodsail Warlock"] = {
-									["overkill"] = 49,
-									["amount"] = 408,
-								},
-								["Imp Minion"] = {
-									["amount"] = 127,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 923,
-							["MISS"] = 3,
-							["glancemin"] = 87,
-							["criticalamount"] = 236,
-							["id"] = 6603,
-							["glancemax"] = 87,
-							["overkill"] = 49,
-							["criticalmax"] = 236,
-							["hitmax"] = 98,
-							["hit"] = 10,
-							["school"] = 1,
-							["critical"] = 1,
-							["count"] = 15,
-							["hitamount"] = 600,
-						},
-					},
-					["last"] = 11950.157,
-					["id"] = "0x0700000000B0D62C",
-					["flag"] = 1298,
-					["class"] = "ROGUE",
-					["interrupt"] = 1,
-					["auras"] = {
-						[18192] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[51585] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[2818] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 2,
-								},
-								["Imp Minion"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-					},
-					["spec"] = 260,
-					["totaldamage"] = 2222,
-					["time"] = 23.00999999999999,
-					["overkill"] = 92,
-					["name"] = "Slavcul",
-					["role"] = "DAMAGER",
-					["interruptspells"] = {
-						[1766] = {
-							["spells"] = {
-								[20801] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Imp Minion"] = 1,
-							},
-						},
-					},
-					["damage"] = 2222,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["criticalmin"] = 767,
-							["hitmax"] = 397,
-							["hitmin"] = 362,
-							["criticalamount"] = 767,
-							["id"] = 8408,
-							["critical"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 532,
-									["amount"] = 2292,
-								},
-							},
-							["overkill"] = 532,
-							["hit"] = 4,
-							["criticalmax"] = 767,
-							["count"] = 5,
-							["amount"] = 2292,
-							["school"] = 16,
-							["resisted"] = 40,
-							["casts"] = 9,
-							["hitamount"] = 1525,
-						},
-					},
-					["last"] = 11945.547,
-					["damagetaken"] = 216,
-					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["hitmin"] = 216,
-							["id"] = 20825,
-							["hitmax"] = 216,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 216,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 24,
-							["amount"] = 216,
-							["hitamount"] = 216,
-						},
-					},
-					["flag"] = 1298,
-					["class"] = "MAGE",
-					["totaldamage"] = 2292,
-					["auras"] = {
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-					},
-					["name"] = "Vrajadefoc",
-					["role"] = "DAMAGER",
-					["time"] = 15.42,
-					["overkill"] = 532,
-					["spec"] = 64,
-					["totaldamagetaken"] = 216,
-					["id"] = "0x0700000000B06C60",
-					["damage"] = 2292,
-				}, -- [4]
-			},
-			["interrupt"] = 4,
-			["type"] = "group",
-			["rage"] = 15,
-			["overkill"] = 634,
-			["edamagetaken"] = 6841,
-			["heal"] = 967,
-			["name"] = "Bloodsail Warlock (12)",
-			["mobname"] = "Bloodsail Warlock",
-			["starttime"] = 1729453193,
-			["edamage"] = 1200,
-			["last_action"] = 1729453225,
-			["endtime"] = 1729453226,
-		}, -- [11]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 81,
-								},
-							},
-							["amount"] = 81,
-						},
-					},
-					["damagetaken"] = 1912,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 124,
-								},
-							},
-							["amount"] = 124,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 293,
-								},
-								["Omoratorul"] = {
-									["amount"] = 253,
-								},
-							},
-							["amount"] = 546,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 262,
-								},
-							},
-							["amount"] = 262,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 259,
-								},
-							},
-							["amount"] = 259,
-						},
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 45,
-								},
-							},
-							["amount"] = 45,
-						},
-						[34428] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 211,
-								},
-							},
-							["amount"] = 211,
-						},
-						[11564] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 9,
-									["amount"] = 136,
-								},
-							},
-							["overkill"] = 9,
-							["amount"] = 136,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 57,
-								},
-							},
-							["amount"] = 57,
-						},
-						[6060] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 272,
-								},
-							},
-							["amount"] = 272,
-						},
-					},
-					["totaldamage"] = 81,
-					["name"] = "Bloodsail Swashbuckler",
-					["totaldamagetaken"] = 1912,
-					["id"] = "0xF13000061B2464EE",
-					["damage"] = 81,
-				}, -- [1]
-			},
-			["totaldamage"] = 1912,
-			["time"] = 9,
-			["etotaldamage"] = 81,
-			["totaldamagetaken"] = 81,
-			["etotaldamagetaken"] = 1912,
-			["last_time"] = 11915.374,
-			["starttime"] = 1729453183,
-			["type"] = "group",
-			["damagetaken"] = 81,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = 1,
-							},
-						},
-					},
-					["last"] = 11915.333,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[19709] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[18075] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[29131] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[20007] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-					},
-					["totaldamage"] = 769,
-					["time"] = 7.05,
-					["totaldamagetaken"] = 81,
-					["damage"] = 769,
-					["overheal"] = 15,
-					["damagetaken"] = 81,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["healspells"] = {
-						[20007] = {
-							["overheal"] = 15,
-							["count"] = 1,
-							["amount"] = 97,
-							["school"] = 1,
-							["max"] = 97,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 15,
-									["amount"] = 97,
-								},
-							},
-							["min"] = 97,
-						},
-					},
-					["overkill"] = 9,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 39,
-							["id"] = 6603,
-							["sources"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 81,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 42,
-							["amount"] = 81,
-							["hitamount"] = 81,
-						},
-					},
-					["ragespells"] = {
-						[29131] = 2,
-					},
-					["name"] = "Omoratorul",
-					["ccdone"] = 1,
-					["heal"] = 97,
-					["rage"] = 2,
-					["damagespells"] = {
-						["Thunder Clap"] = {
-							["hitmin"] = 124,
-							["id"] = 8204,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 124,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 124,
-							["amount"] = 124,
-							["hitamount"] = 124,
-						},
-						["Melee"] = {
-							["hitmin"] = 63,
-							["id"] = 6603,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 253,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 97,
-							["amount"] = 253,
-							["hitamount"] = 253,
-						},
-						["Victory Rush"] = {
-							["hitmin"] = 211,
-							["id"] = 34428,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 211,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 211,
-							["amount"] = 211,
-							["hitamount"] = 211,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 45,
-							["id"] = 6548,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 45,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 45,
-							["amount"] = 45,
-							["hitamount"] = 45,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 136,
-							["id"] = 11564,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["overkill"] = 9,
-									["amount"] = 136,
-								},
-							},
-							["overkill"] = 9,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 136,
-							["amount"] = 136,
-							["hitamount"] = 136,
-						},
-					},
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 262,
-							["id"] = 8105,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 262,
-								},
-							},
-							["hitmax"] = 262,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 29,
-							["amount"] = 262,
-							["hitamount"] = 262,
-						},
-						["Holy Fire"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-							["id"] = 15264,
-						},
-						["Smite"] = {
-							["hitmin"] = 272,
-							["id"] = 6060,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 272,
-								},
-							},
-							["hitmax"] = 272,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 67,
-							["amount"] = 272,
-							["hitamount"] = 272,
-						},
-					},
-					["last"] = 11908.281,
+					["last"] = 10038.342,
 					["id"] = "0x0700000000B06C58",
 					["spec"] = 256,
-					["auras"] = {
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["totaldamage"] = 534,
-					["name"] = "Popasfant",
 					["class"] = "PRIEST",
-					["role"] = "HEALER",
-					["flag"] = 1298,
-					["time"] = 0,
-					["damage"] = 534,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Instant Poison II"] = {
-							["hitmin"] = 57,
-							["id"] = 8685,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 57,
-								},
-							},
-							["hitmax"] = 57,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 6,
-							["amount"] = 57,
-							["hitamount"] = 57,
-						},
-						["Melee"] = {
-							["hitmin"] = 35,
-							["criticalamount"] = 66,
-							["id"] = 6603,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 293,
-								},
-							},
-							["criticalmin"] = 66,
-							["critical"] = 1,
-							["criticalmax"] = 66,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 96,
-							["amount"] = 293,
-							["hitamount"] = 227,
-						},
-						["Sinister Strike"] = {
-							["hitmin"] = 125,
-							["id"] = 1760,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 259,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 134,
-							["amount"] = 259,
-							["hitamount"] = 259,
-						},
-					},
-					["last"] = 11914.989,
-					["id"] = "0x0700000000B0D62C",
-					["spec"] = 260,
 					["auras"] = {
-						[18192] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[51585] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["totaldamage"] = 609,
-					["name"] = "Slavcul",
-					["class"] = "ROGUE",
-					["role"] = "DAMAGER",
-					["flag"] = 1298,
-					["time"] = 6.020000000000001,
-					["damage"] = 609,
-				}, -- [3]
-				{
-					["last"] = 11908.281,
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["auras"] = {
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[6066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 0,
-					["class"] = "MAGE",
-				}, -- [4]
-			},
-			["overheal"] = 15,
-			["rage"] = 2,
-			["mobname"] = "Bloodsail Swashbuckler",
-			["overkill"] = 9,
-			["edamagetaken"] = 1912,
-			["heal"] = 97,
-			["name"] = "Bloodsail Swashbuckler (15)",
-			["ccdone"] = 1,
-			["damage"] = 1912,
-			["edamage"] = 81,
-			["last_action"] = 1729453190,
-			["endtime"] = 1729453192,
-		}, -- [12]
-		{
-			["rage"] = 24,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 24,
-								},
-							},
-							["amount"] = 24,
-						},
-						[20801] = {
-							["school"] = 4,
-							["total"] = 252,
-							["targets"] = {
-								["Popasfant"] = {
-									["amount"] = 171,
-								},
-								["Slavcul"] = {
-									["total"] = 165,
-									["amount"] = 0,
-								},
-								["Omoratorul"] = {
-									["amount"] = 87,
-								},
-							},
-							["amount"] = 258,
-						},
-					},
-					["damagetaken"] = 2153,
-					["id"] = "0xF13000327A2463DB",
-					["class"] = "PET",
-					["damagetakenspells"] = {
-						[8408] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 376,
-									["amount"] = 712,
-								},
-							},
-							["overkill"] = 376,
-							["amount"] = 712,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 82,
-									["amount"] = 109,
-								},
-							},
-							["overkill"] = 82,
-							["amount"] = 109,
-						},
-						[15431] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 466,
-								},
-							},
-							["amount"] = 466,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 135,
-								},
-							},
-							["amount"] = 135,
-						},
 						[15264] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 434,
-								},
-							},
-							["amount"] = 434,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 260,
-									["amount"] = 297,
-								},
-							},
-							["overkill"] = 260,
-							["amount"] = 297,
-						},
-					},
-					["totaldamage"] = 447,
-					["name"] = "Imp Minion",
-					["totaldamagetaken"] = 2153,
-					["flag"] = 4680,
-					["damage"] = 282,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[20825] = {
-							["school"] = 32,
-							["total"] = 1055,
-							["targets"] = {
-								["Popasfant"] = {
-									["amount"] = 233,
-								},
-								["Vrajadefoc"] = {
-									["amount"] = 178,
-								},
-								["Slavcul"] = {
-									["total"] = 642,
-									["amount"] = 187,
-								},
-								["Omoratorul"] = {
-									["amount"] = 235,
-								},
-							},
-							["amount"] = 833,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Slavcul"] = {
-									["amount"] = 33,
-								},
-								["Omoratorul"] = {
-									["amount"] = 46,
-								},
-							},
-							["amount"] = 79,
-						},
-					},
-					["damagetaken"] = 5536,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 255,
-								},
-							},
-							["amount"] = 255,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 811,
-								},
-								["Omoratorul"] = {
-									["overkill"] = 57,
-									["amount"] = 968,
-								},
-							},
-							["overkill"] = 57,
-							["amount"] = 1779,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 531,
-								},
-							},
-							["amount"] = 531,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 215,
-								},
-							},
-							["amount"] = 215,
-						},
-						[34428] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 190,
-								},
-							},
-							["amount"] = 190,
-						},
-						[2818] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 21,
-								},
-							},
-							["amount"] = 21,
-						},
-						[8408] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 268,
-									["amount"] = 1506,
-								},
-							},
-							["overkill"] = 268,
-							["amount"] = 1506,
-						},
-						[6060] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 331,
-								},
-							},
-							["amount"] = 331,
-						},
-						[15431] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 567,
-								},
-							},
-							["amount"] = 567,
-						},
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 141,
-								},
-							},
-							["amount"] = 141,
-						},
-					},
-					["totaldamage"] = 1367,
-					["name"] = "Bloodsail Warlock",
-					["totaldamagetaken"] = 5536,
-					["id"] = "0xF13000061C2463C2",
-					["damage"] = 912,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[32202] = {
-							["school"] = 32,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 252,
-								},
-								["Slavcul"] = {
-									["amount"] = 311,
-								},
-							},
-							["amount"] = 563,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 26,
-								},
-								["Popasfant"] = {
-									["amount"] = 92,
-								},
-								["Slavcul"] = {
-									["amount"] = 39,
-								},
-							},
-							["amount"] = 157,
-						},
-					},
-					["damagetaken"] = 910,
-					["id"] = "0xF130002AB024643B",
-					["class"] = "PET",
-					["damagetakenspells"] = {
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 60,
-								},
-							},
-							["amount"] = 60,
-						},
-						[15431] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 20,
-									["amount"] = 461,
-								},
-							},
-							["overkill"] = 20,
-							["amount"] = 461,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 113,
-								},
-							},
-							["amount"] = 113,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 140,
-								},
-							},
-							["amount"] = 140,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 136,
-								},
-							},
-							["amount"] = 136,
-						},
-					},
-					["totaldamage"] = 720,
-					["name"] = "Succubus Minion",
-					["totaldamagetaken"] = 910,
-					["flag"] = 4680,
-					["damage"] = 720,
-				}, -- [3]
-			},
-			["overheal"] = 1709,
-			["totaldamage"] = 8599,
-			["time"] = 33,
-			["starttime"] = 1729453147,
-			["totaldamagetaken"] = 2534,
-			["etotaldamage"] = 2534,
-			["last_time"] = 11904.223,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = 1,
-							},
-						},
-					},
-					["last"] = 11903.789,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[19709] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[18498] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 6,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[29131] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[20007] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[2457] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[71] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 21,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Bloodsail Warlock"] = {
-									["uptime"] = 12,
-									["count"] = 2,
-								},
-								["Imp Minion"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 9,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[7922] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
-							["school"] = 1,
+							["school"] = 2,
 							["targets"] = {
-								["Bloodsail Warlock"] = {
+								["Steeljaw Snapper"] = {
 									["uptime"] = 1,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 1,
 						},
-					},
-					["role"] = "TANK",
-					["time"] = 26.5,
-					["totaldamagetaken"] = 670,
-					["damage"] = 1802,
-					["damagespells"] = {
-						["Thunder Clap"] = {
-							["hitmin"] = 109,
-							["id"] = 8204,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["amount"] = 113,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 255,
-								},
-								["Imp Minion"] = {
-									["amount"] = 135,
-								},
-							},
-							["amount"] = 503,
-							["casts"] = 2,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 146,
-							["MISS"] = 1,
-							["hitamount"] = 503,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 47,
-							["id"] = 6548,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 141,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 47,
-							["amount"] = 141,
-							["hitamount"] = 141,
-						},
-						["Victory Rush"] = {
-							["hitmin"] = 190,
-							["id"] = 34428,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 190,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 190,
-							["amount"] = 190,
-							["hitamount"] = 190,
-						},
-						["Rend"] = {
-							["casts"] = 2,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-							["id"] = 18075,
-						},
-						["Melee"] = {
-							["glance"] = 207,
-							["hitmin"] = 71,
-							["glancemin"] = 64,
-							["id"] = 6603,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 57,
-									["amount"] = 968,
-								},
-							},
-							["glancemax"] = 79,
-							["overkill"] = 57,
-							["glancing"] = 3,
-							["amount"] = 968,
-							["count"] = 12,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 124,
-							["MISS"] = 1,
-							["hitamount"] = 761,
-						},
-					},
-					["damagetaken"] = 670,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["overkill"] = 57,
-					["damagetakenspells"] = {
-						["Lash of Pain"] = {
-							["hitmin"] = 252,
-							["id"] = 32202,
-							["hitmax"] = 252,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["amount"] = 252,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 28,
-							["amount"] = 252,
-							["hitamount"] = 252,
-						},
-						["Shadow Bolt"] = {
-							["hitmin"] = 235,
-							["id"] = 20825,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 235,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 235,
-							["amount"] = 235,
-							["hitamount"] = 235,
-						},
-						["Melee"] = {
-							["hitmin"] = 21,
-							["id"] = 6603,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["amount"] = 26,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 46,
-								},
-								["Imp Minion"] = {
-									["amount"] = 24,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 26,
-							["amount"] = 96,
-							["hitamount"] = 96,
-						},
-						["Firebolt"] = {
-							["hitmin"] = 87,
-							["id"] = 20801,
-							["sources"] = {
-								["Imp Minion"] = {
-									["amount"] = 87,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 87,
-							["amount"] = 87,
-							["hitamount"] = 87,
-						},
-					},
-					["ragespells"] = {
-						[2687] = 20,
-						[29131] = 4,
-					},
-					["name"] = "Omoratorul",
-					["ccdone"] = 1,
-					["interrupt"] = 1,
-					["totaldamage"] = 1802,
-					["interruptspells"] = {
-						[72] = {
-							["spells"] = {
-								[20825] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = 1,
-							},
-						},
-					},
-					["rage"] = 24,
-				}, -- [1]
-				{
-					["last"] = 11900.948,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[11549] = {
+						[14818] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 23,
+							["uptime"] = 6,
 						},
-						[15264] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Imp Minion"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Slavcul"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-								["Vrajadefoc"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[1461] = {
+						[1006] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[24707] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
+							["uptime"] = 6,
 						},
 						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 33,
+							["uptime"] = 6,
 						},
 						[8098] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 33,
+							["uptime"] = 6,
 						},
-						[976] = {
+						[1706] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 33,
+							["uptime"] = 6,
 						},
 					},
-					["absorbspells"] = {
-						[6066] = {
-							["min"] = 13,
-							["casts"] = 1,
-							["count"] = 5,
-							["amount"] = 620,
-							["school"] = 2,
-							["targets"] = {
-								["Slavcul"] = 620,
-							},
-							["max"] = 224,
-						},
-					},
-					["totaldamage"] = 2556,
-					["time"] = 19.39,
-					["totaldamagetaken"] = 496,
-					["damage"] = 2556,
-					["overheal"] = 1709,
-					["absorb"] = 620,
-					["damagetaken"] = 496,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["healspells"] = {
-						[56160] = {
-							["overheal"] = 0,
-							["count"] = 2,
-							["amount"] = 248,
-							["school"] = 2,
-							["max"] = 124,
-							["targets"] = {
-								["Slavcul"] = {
-									["overheal"] = 0,
-									["amount"] = 124,
-								},
-								["Vrajadefoc"] = {
-									["overheal"] = 0,
-									["amount"] = 124,
-								},
-							},
-							["min"] = 124,
-						},
-						[23459] = {
-							["overheal"] = 1709,
-							["criticalamount"] = 259,
-							["max"] = 259,
-							["targets"] = {
-								["Popasfant"] = {
-									["overheal"] = 528,
-									["amount"] = 415,
-								},
-								["Slavcul"] = {
-									["overheal"] = 800,
-									["amount"] = 259,
-								},
-								["Omoratorul"] = {
-									["overheal"] = 381,
-									["amount"] = 558,
-								},
-							},
-							["min"] = 66,
-							["criticalmax"] = 259,
-							["count"] = 15,
-							["amount"] = 1232,
-							["school"] = 2,
-							["criticalmin"] = 259,
-							["critical"] = 1,
-						},
-					},
-					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["hitmin"] = 233,
-							["id"] = 20825,
-							["hitmax"] = 233,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 233,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 58,
-							["amount"] = 233,
-							["hitamount"] = 233,
-						},
-						["Melee"] = {
-							["hitmin"] = 45,
-							["id"] = 6603,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["amount"] = 92,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 47,
-							["amount"] = 92,
-							["hitamount"] = 92,
-						},
-						["Firebolt"] = {
-							["hitmin"] = 81,
-							["id"] = 20801,
-							["sources"] = {
-								["Imp Minion"] = {
-									["amount"] = 171,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 90,
-							["amount"] = 171,
-							["hitamount"] = 171,
-						},
-					},
-					["heal"] = 1480,
-					["name"] = "Popasfant",
-					["overkill"] = 280,
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 297,
-							["id"] = 8105,
-							["targets"] = {
-								["Imp Minion"] = {
-									["overkill"] = 260,
-									["amount"] = 297,
-								},
-							},
-							["overkill"] = 260,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 297,
-							["amount"] = 297,
-							["hitamount"] = 297,
-						},
-						["Holy Fire"] = {
-							["hitmin"] = 422,
-							["id"] = 15264,
-							["targets"] = {
-								["Imp Minion"] = {
-									["amount"] = 422,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 422,
-							["amount"] = 422,
-							["hitamount"] = 422,
-						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 12,
-							["id"] = 15264,
-							["targets"] = {
-								["Imp Minion"] = {
-									["amount"] = 12,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 12,
-							["amount"] = 12,
-							["hitamount"] = 12,
-						},
-						["Holy Nova"] = {
-							["hitmin"] = 108,
-							["id"] = 15431,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["overkill"] = 20,
-									["amount"] = 461,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 567,
-								},
-								["Imp Minion"] = {
-									["amount"] = 466,
-								},
-							},
-							["overkill"] = 20,
-							["casts"] = 5,
-							["count"] = 13,
-							["hit"] = 13,
-							["school"] = 2,
-							["hitmax"] = 119,
-							["amount"] = 1494,
-							["hitamount"] = 1494,
-						},
-						["Smite"] = {
-							["hitmin"] = 331,
-							["id"] = 6060,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 331,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 331,
-							["amount"] = 331,
-							["hitamount"] = 331,
-						},
-					},
+					["totaldamage"] = 835,
 					["role"] = "HEALER",
-				}, -- [2]
-				{
-					["last"] = 11903.631,
+					["name"] = "Popasfant",
 					["flag"] = 1298,
-					["class"] = "ROGUE",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[51585] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[6066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[18192] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[2818] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 5,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[5171] = {
-							["type"] = "BUFF",
-							["refresh"] = 1,
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 25.74,
-					["totaldamagetaken"] = 1190,
-					["damage"] = 2023,
-					["damagespells"] = {
-						["Instant Poison II"] = {
-							["hitmin"] = 60,
-							["id"] = 8685,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 215,
-								},
-								["Succubus Minion"] = {
-									["amount"] = 60,
-								},
-							},
-							["hitmax"] = 76,
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 8,
-							["resisted"] = 14,
-							["amount"] = 275,
-							["hitamount"] = 275,
-						},
-						["Deadly Poison (DoT)"] = {
-							["hitmin"] = 21,
-							["id"] = 2818,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 21,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 21,
-							["amount"] = 21,
-							["hitamount"] = 21,
-						},
-						["Melee"] = {
-							["glance"] = 409,
-							["hitmin"] = 20,
-							["criticalmin"] = 86,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["amount"] = 136,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 811,
-								},
-								["Imp Minion"] = {
-									["amount"] = 0,
-								},
-							},
-							["glancing"] = 6,
-							["amount"] = 947,
-							["MISS"] = 5,
-							["glancemin"] = 29,
-							["criticalamount"] = 86,
-							["id"] = 6603,
-							["glancemax"] = 106,
-							["PARRY"] = 1,
-							["blocked"] = 20,
-							["criticalmax"] = 86,
-							["hitmax"] = 130,
-							["hit"] = 6,
-							["school"] = 1,
-							["critical"] = 1,
-							["count"] = 19,
-							["hitamount"] = 452,
-						},
-						["Sinister Strike"] = {
-							["hitmin"] = 103,
-							["id"] = 1760,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["amount"] = 140,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 531,
-								},
-								["Imp Minion"] = {
-									["overkill"] = 82,
-									["amount"] = 109,
-								},
-							},
-							["overkill"] = 82,
-							["blocked"] = 20,
-							["casts"] = 6,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 155,
-							["amount"] = 780,
-							["hitamount"] = 780,
-						},
-					},
-					["damagetaken"] = 570,
-					["id"] = "0x0700000000B0D62C",
-					["spec"] = 260,
-					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["total"] = 642,
-							["hitmin"] = 187,
-							["id"] = 20825,
-							["hitmax"] = 187,
-							["ABSORB"] = 2,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 642,
-									["amount"] = 187,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 50,
-							["amount"] = 187,
-							["hitamount"] = 187,
-						},
-						["Firebolt"] = {
-							["total"] = 165,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 4,
-							["sources"] = {
-								["Imp Minion"] = {
-									["total"] = 165,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 2,
-							["id"] = 20801,
-						},
-						["Melee"] = {
-							["DODGE"] = 3,
-							["hitmin"] = 33,
-							["id"] = 6603,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 33,
-								},
-								["Succubus Minion"] = {
-									["amount"] = 39,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 39,
-							["amount"] = 72,
-							["hitamount"] = 72,
-						},
-						["Lash of Pain"] = {
-							["hitmin"] = 311,
-							["id"] = 32202,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["amount"] = 311,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 311,
-							["amount"] = 311,
-							["hitamount"] = 311,
-						},
-					},
-					["name"] = "Slavcul",
-					["overkill"] = 82,
-					["interrupt"] = 2,
-					["interruptspells"] = {
-						[1766] = {
-							["spells"] = {
-								[20825] = 2,
-							},
-							["count"] = 2,
-							["targets"] = {
-								["Bloodsail Warlock"] = 2,
-							},
-						},
-					},
-					["totaldamage"] = 2023,
-				}, -- [3]
+					["time"] = 0,
+					["damage"] = 835,
+				}, -- [2]
 				{
 					["damagespells"] = {
 						["Frostbolt"] = {
-							["criticalmin"] = 712,
-							["count"] = 5,
-							["hitmin"] = 348,
-							["criticalamount"] = 712,
+							["hitmin"] = 410,
 							["id"] = 8408,
-							["critical"] = 1,
 							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 268,
-									["amount"] = 1506,
-								},
-								["Imp Minion"] = {
-									["overkill"] = 376,
-									["amount"] = 712,
+								["Steeljaw Snapper"] = {
+									["overkill"] = 73,
+									["amount"] = 410,
 								},
 							},
-							["overkill"] = 644,
-							["hit"] = 4,
-							["casts"] = 8,
-							["hitmax"] = 389,
-							["amount"] = 2218,
-							["school"] = 16,
-							["resisted"] = 117,
-							["criticalmax"] = 712,
-							["hitamount"] = 1506,
-						},
-					},
-					["last"] = 11901.523,
-					["damagetaken"] = 178,
-					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["hitmin"] = 178,
-							["id"] = 20825,
-							["hitmax"] = 178,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 178,
-								},
-							},
+							["overkill"] = 73,
+							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 76,
-							["amount"] = 178,
-							["hitamount"] = 178,
+							["school"] = 16,
+							["hitmax"] = 410,
+							["amount"] = 410,
+							["hitamount"] = 410,
 						},
 					},
-					["flag"] = 1298,
+					["last"] = 10042.626,
 					["class"] = "MAGE",
-					["totaldamage"] = 2218,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["overkill"] = 73,
 					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
 						[12472] = {
-							["school"] = 16,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[6066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-					},
-					["name"] = "Vrajadefoc",
-					["role"] = "DAMAGER",
-					["time"] = 17.5,
-					["overkill"] = 644,
-					["spec"] = 64,
-					["totaldamagetaken"] = 178,
-					["id"] = "0x0700000000B06C60",
-					["damage"] = 2218,
-				}, -- [4]
-			},
-			["absorb"] = 620,
-			["damagetaken"] = 1914,
-			["type"] = "group",
-			["interrupt"] = 3,
-			["mobname"] = "Bloodsail Warlock",
-			["etotaldamagetaken"] = 8599,
-			["overkill"] = 1063,
-			["edamagetaken"] = 8599,
-			["heal"] = 1480,
-			["name"] = "Bloodsail Warlock (11)",
-			["ccdone"] = 1,
-			["damage"] = 8599,
-			["edamage"] = 1914,
-			["last_action"] = 1729453179,
-			["endtime"] = 1729453180,
-		}, -- [13]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Slavcul"] = {
-									["amount"] = 55,
-								},
-							},
-							["amount"] = 55,
-						},
-					},
-					["damagetaken"] = 2007,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 144,
-								},
-							},
-							["amount"] = 144,
-						},
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 94,
-								},
-							},
-							["amount"] = 94,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 267,
-								},
-							},
-							["amount"] = 267,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 203,
-								},
-								["Omoratorul"] = {
-									["overkill"] = 104,
-									["amount"] = 378,
-								},
-							},
-							["overkill"] = 104,
-							["amount"] = 581,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 268,
-								},
-							},
-							["amount"] = 268,
-						},
-						[15264] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 390,
-								},
-							},
-							["amount"] = 390,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 263,
-								},
-							},
-							["amount"] = 263,
-						},
-					},
-					["totaldamage"] = 55,
-					["name"] = "Bloodsail Swashbuckler",
-					["totaldamagetaken"] = 2007,
-					["id"] = "0xF13000061B24634B",
-					["damage"] = 55,
-				}, -- [1]
-			},
-			["totaldamage"] = 2007,
-			["time"] = 9,
-			["totaldamagetaken"] = 55,
-			["etotaldamagetaken"] = 2007,
-			["last_time"] = 11869.515,
-			["rage"] = 5,
-			["type"] = "group",
-			["damagetaken"] = 55,
-			["starttime"] = 1729453135,
-			["players"] = {
-				{
-					["last"] = 11869.406,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[20007] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 5,
 						},
 						[19709] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 8.700000000000001,
-					["damage"] = 740,
-					["rage"] = 5,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["healspells"] = {
-						[20007] = {
-							["overheal"] = 94,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 94,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["overkill"] = 104,
-					["ragespells"] = {
-						[23602] = 5,
-					},
-					["name"] = "Omoratorul",
-					["damagespells"] = {
-						["Thunder Clap"] = {
-							["criticalamount"] = 268,
-							["id"] = 8204,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 268,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 268,
-							["school"] = 1,
-							["criticalmin"] = 268,
-							["criticalmax"] = 268,
-							["count"] = 1,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 47,
-							["id"] = 6548,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 94,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 47,
-							["amount"] = 94,
-							["hitamount"] = 94,
-						},
-						["Melee"] = {
-							["glance"] = 88,
-							["hitmin"] = 83,
-							["id"] = 6603,
-							["glancemin"] = 88,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["overkill"] = 104,
-									["amount"] = 378,
-								},
-							},
-							["overkill"] = 104,
-							["glancing"] = 1,
-							["glancemax"] = 88,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 114,
-							["amount"] = 378,
-							["hitamount"] = 290,
-						},
-					},
-					["totaldamage"] = 740,
-					["overheal"] = 94,
-					["heal"] = 0,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 267,
-							["id"] = 8105,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 267,
-								},
-							},
-							["hitmax"] = 267,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 29,
-							["amount"] = 267,
-							["hitamount"] = 267,
-						},
-						["Holy Fire"] = {
-							["hitmin"] = 355,
-							["id"] = 15264,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 355,
-								},
-							},
-							["hitmax"] = 355,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 39,
-							["amount"] = 355,
-							["hitamount"] = 355,
-						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 11,
-							["id"] = 15264,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 35,
-								},
-							},
-							["hitmax"] = 12,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["resisted"] = 1,
-							["amount"] = 35,
-							["hitamount"] = 35,
-						},
-					},
-					["last"] = 11860.698,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[15264] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[6066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["totaldamage"] = 657,
-					["name"] = "Popasfant",
-					["class"] = "PRIEST",
-					["role"] = "HEALER",
-					["flag"] = 1298,
-					["time"] = 0,
-					["damage"] = 657,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Instant Poison II"] = {
-							["hitmin"] = 69,
-							["id"] = 8685,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 144,
-								},
-							},
-							["hitmax"] = 75,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["resisted"] = 7,
-							["amount"] = 144,
-							["hitamount"] = 144,
-						},
-						["Sinister Strike"] = {
-							["hitmin"] = 127,
-							["id"] = 1760,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 263,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 136,
-							["amount"] = 263,
-							["hitamount"] = 263,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 87,
-							["hitmin"] = 34,
-							["criticalmin"] = 82,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 203,
-								},
-							},
-							["glancing"] = 3,
-							["amount"] = 203,
-							["MISS"] = 2,
-							["glancemin"] = 27,
-							["criticalamount"] = 82,
-							["id"] = 6603,
-							["glancemax"] = 31,
-							["criticalmax"] = 82,
-							["count"] = 8,
-							["hit"] = 1,
-							["school"] = 1,
-							["critical"] = 1,
-							["hitmax"] = 34,
-							["hitamount"] = 34,
-						},
-					},
-					["last"] = 11869.165,
-					["damagetaken"] = 55,
-					["flag"] = 1298,
-					["class"] = "ROGUE",
-					["id"] = "0x0700000000B0D62C",
-					["auras"] = {
-						[18192] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[5171] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[2818] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 2,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["totaldamage"] = 610,
-					["role"] = "DAMAGER",
-					["time"] = 8.470000000000001,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 55,
-							["id"] = 6603,
-							["PARRY"] = 1,
-							["sources"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 55,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 55,
-							["amount"] = 55,
-							["hitamount"] = 55,
-						},
-					},
-					["spec"] = 260,
-					["totaldamagetaken"] = 55,
-					["name"] = "Slavcul",
-					["damage"] = 610,
-				}, -- [3]
-				{
-					["last"] = 11860.698,
-					["id"] = "0x0700000000B06C60",
-					["class"] = "MAGE",
-					["auras"] = {
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 6,
 						},
 						[6117] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 6,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+					},
+					["totaldamage"] = 410,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 3.5,
+					["damage"] = 410,
+				}, -- [3]
+				{
+					["last"] = 10038.342,
+					["id"] = "0x0700000000B0D62C",
+					["spec"] = 260,
+					["auras"] = {
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
 						},
 					},
 					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["spec"] = 64,
+					["name"] = "Slavcul",
 					["time"] = 0,
+					["class"] = "ROGUE",
 				}, -- [4]
 			},
-			["etotaldamage"] = 55,
-			["overheal"] = 94,
-			["overkill"] = 104,
-			["edamagetaken"] = 2007,
-			["heal"] = 0,
-			["name"] = "Bloodsail Swashbuckler (14)",
-			["mobname"] = "Bloodsail Swashbuckler",
-			["damage"] = 2007,
-			["edamage"] = 55,
-			["last_action"] = 1729453144,
-			["endtime"] = 1729453144,
+			["type"] = "group",
+			["damagetaken"] = 36,
+			["etotaldamage"] = 36,
+			["mobname"] = "Steeljaw Snapper",
+			["damage"] = 2055,
+			["overkill"] = 73,
+			["edamagetaken"] = 2055,
+			["heal"] = 36,
+			["name"] = "Steeljaw Snapper (5)",
+			["ccdone"] = 1,
+			["edamage"] = 36,
+			["last_action"] = 1729795716,
+			["endtime"] = 1729795717,
 		}, -- [14]
 		{
-			["overheal"] = 4888,
 			["enemies"] = {
 				{
 					["damagespells"] = {
-						[20825] = {
-							["school"] = 32,
-							["total"] = 201,
-							["targets"] = {
-								["Slavcul"] = {
-									["amount"] = 448,
-								},
-								["Popasfant"] = {
-									["amount"] = 286,
-								},
-								["Omoratorul"] = {
-									["total"] = 201,
-									["amount"] = 67,
-								},
-							},
-							["amount"] = 801,
-						},
 						[6603] = {
 							["school"] = 1,
 							["targets"] = {
 								["Omoratorul"] = {
-									["amount"] = 43,
+									["amount"] = 71,
 								},
 							},
-							["amount"] = 43,
+							["amount"] = 71,
 						},
 					},
-					["damagetaken"] = 5803,
-					["flag"] = 68168,
+					["damagetaken"] = 2137,
+					["flag"] = 68136,
 					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[11564] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 260,
-								},
-							},
-							["amount"] = 260,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 20,
-									["amount"] = 745,
-								},
-								["Omoratorul"] = {
-									["amount"] = 1028,
-								},
-							},
-							["overkill"] = 20,
-							["amount"] = 1773,
-						},
-						[15264] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 318,
-									["amount"] = 412,
-								},
-							},
-							["overkill"] = 318,
-							["amount"] = 412,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 254,
-									["amount"] = 883,
-								},
-							},
-							["overkill"] = 254,
-							["amount"] = 883,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 145,
-								},
-							},
-							["amount"] = 145,
-						},
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 192,
-								},
-							},
-							["amount"] = 192,
-						},
-						[12809] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 148,
-								},
-							},
-							["amount"] = 148,
-						},
-						[15431] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 942,
-								},
-							},
-							["amount"] = 942,
-						},
-						[6060] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 276,
-								},
-							},
-							["amount"] = 276,
-						},
-						[8408] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 382,
-								},
-							},
-							["amount"] = 382,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 263,
-								},
-							},
-							["amount"] = 263,
-						},
-						[18075] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 16,
-								},
-							},
-							["amount"] = 16,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 111,
-								},
-							},
-							["amount"] = 111,
-						},
-					},
-					["totaldamage"] = 978,
-					["name"] = "Bloodsail Warlock",
-					["totaldamagetaken"] = 5803,
-					["id"] = "0xF13000061C24622D",
-					["damage"] = 844,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[20801] = {
-							["school"] = 4,
-							["total"] = 152,
-							["targets"] = {
-								["Slavcul"] = {
-									["amount"] = 167,
-								},
-								["Popasfant"] = {
-									["total"] = 165,
-									["amount"] = 83,
-								},
-								["Omoratorul"] = {
-									["total"] = 70,
-									["amount"] = 0,
-								},
-							},
-							["amount"] = 250,
-						},
-					},
-					["damagetaken"] = 2548,
-					["id"] = "0xF13000327A246242",
-					["class"] = "PET",
 					["damagetakenspells"] = {
 						[7379] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["overkill"] = 191,
-									["amount"] = 389,
+									["amount"] = 326,
 								},
 							},
-							["overkill"] = 191,
-							["amount"] = 389,
+							["amount"] = 326,
+						},
+						[6060] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 355,
+								},
+							},
+							["amount"] = 355,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 384,
+								},
+							},
+							["amount"] = 384,
 						},
 						[8408] = {
 							["school"] = 16,
 							["sources"] = {
 								["Vrajadefoc"] = {
-									["overkill"] = 372,
-									["amount"] = 384,
+									["amount"] = 786,
 								},
 							},
-							["overkill"] = 372,
-							["amount"] = 384,
+							["amount"] = 786,
 						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 318,
-								},
-							},
-							["amount"] = 318,
-						},
-						[8204] = {
+						[23922] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["overkill"] = 33,
-									["amount"] = 204,
-								},
-							},
-							["overkill"] = 33,
-							["amount"] = 204,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 392,
-								},
-							},
-							["amount"] = 392,
-						},
-						[15431] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 861,
-								},
-							},
-							["amount"] = 861,
-						},
-					},
-					["totaldamage"] = 402,
-					["name"] = "Imp Minion",
-					["totaldamagetaken"] = 2548,
-					["flag"] = 4680,
-					["damage"] = 250,
-				}, -- [2]
-			},
-			["etotaldamage"] = 1380,
-			["totaldamage"] = 8351,
-			["time"] = 39,
-			["damage"] = 8351,
-			["totaldamagetaken"] = 1380,
-			["etotaldamagetaken"] = 8351,
-			["last_time"] = 11859.69,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[12809] = {
-							["count"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = 1,
-							},
-						},
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = 1,
-							},
-						},
-					},
-					["last"] = 11854.357,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[19709] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[12809] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[18075] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 8,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[6066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[2457] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 3,
-						},
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 21,
-									["count"] = 4,
-								},
-							},
-							["uptime"] = 21,
-						},
-						[29131] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[71] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[355] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[18498] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 8,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Imp Minion"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 31.23,
-					["totaldamagetaken"] = 314,
-					["damage"] = 2348,
-					["damagespells"] = {
-						["Thunder Clap"] = {
-							["hitmin"] = 102,
-							["id"] = 8204,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 111,
-								},
-								["Imp Minion"] = {
-									["overkill"] = 33,
-									["amount"] = 204,
-								},
-							},
-							["overkill"] = 33,
-							["amount"] = 315,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 111,
-							["MISS"] = 1,
-							["hitamount"] = 315,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 38,
-							["id"] = 6548,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 192,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 40,
-							["amount"] = 192,
-							["hitamount"] = 192,
-						},
-						["Concussion Blow"] = {
-							["hitmin"] = 148,
-							["id"] = 12809,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 148,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 148,
-							["amount"] = 148,
-							["hitamount"] = 148,
-						},
-						["Melee"] = {
-							["glance"] = 161,
-							["hitmin"] = 70,
-							["criticalmin"] = 152,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 1028,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 1028,
-							["MISS"] = 1,
-							["glancemin"] = 72,
-							["criticalamount"] = 152,
-							["id"] = 6603,
-							["glancemax"] = 89,
-							["criticalmax"] = 152,
-							["hitmax"] = 91,
-							["hit"] = 9,
-							["school"] = 1,
-							["critical"] = 1,
-							["count"] = 13,
-							["hitamount"] = 715,
-						},
-						["Rend"] = {
-							["hitmin"] = 16,
-							["id"] = 18075,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 16,
-								},
-							},
-							["casts"] = 4,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 16,
-							["amount"] = 16,
-							["hitamount"] = 16,
-						},
-						["Revenge"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 389,
-							["id"] = 7379,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 0,
-								},
-								["Imp Minion"] = {
-									["overkill"] = 191,
-									["amount"] = 389,
-								},
-							},
-							["overkill"] = 191,
-							["casts"] = 1,
-							["count"] = 2,
-							["amount"] = 389,
-							["school"] = 1,
-							["hitmax"] = 389,
-							["hit"] = 1,
-							["hitamount"] = 389,
-						},
-						["Heroic Strike"] = {
-							["criticalamount"] = 260,
-							["id"] = 11564,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 260,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 260,
-							["school"] = 1,
-							["criticalmin"] = 260,
-							["criticalmax"] = 260,
-							["count"] = 1,
-						},
-					},
-					["damagetaken"] = 110,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["total"] = 201,
-							["hitmin"] = 67,
-							["id"] = 20825,
-							["hitmax"] = 67,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 201,
-									["amount"] = 67,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 50,
-							["amount"] = 67,
-							["hitamount"] = 67,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 21,
-							["id"] = 6603,
-							["PARRY"] = 1,
-							["hitmax"] = 22,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 43,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 2,
-							["school"] = 1,
-							["amount"] = 43,
-							["MISS"] = 1,
-							["hitamount"] = 43,
-						},
-						["Firebolt"] = {
-							["total"] = 70,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 4,
-							["sources"] = {
-								["Imp Minion"] = {
-									["total"] = 70,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 20801,
-						},
-					},
-					["rage"] = 40,
-					["ragespells"] = {
-						[23602] = 10,
-						[2687] = 20,
-						[29131] = 10,
-					},
-					["name"] = "Omoratorul",
-					["ccdone"] = 2,
-					["overkill"] = 224,
-					["interrupt"] = 3,
-					["interruptspells"] = {
-						[72] = {
-							["spells"] = {
-								[20825] = 3,
-							},
-							["count"] = 3,
-							["targets"] = {
-								["Bloodsail Warlock"] = 3,
-							},
-						},
-					},
-					["totaldamage"] = 2348,
-				}, -- [1]
-				{
-					["last"] = 11853.249,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Popasfant"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 15,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[6066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-					},
-					["absorbspells"] = {
-						[6066] = {
-							["min"] = 70,
-							["casts"] = 2,
-							["count"] = 3,
-							["amount"] = 286,
-							["max"] = 134,
-							["targets"] = {
-								["Popasfant"] = 82,
-								["Omoratorul"] = 204,
-							},
-							["school"] = 2,
-						},
-					},
-					["totaldamage"] = 2754,
-					["time"] = 20.6,
-					["totaldamagetaken"] = 451,
-					["damage"] = 2754,
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 263,
-							["id"] = 8105,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 263,
-								},
-							},
-							["hitmax"] = 263,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 29,
-							["amount"] = 263,
-							["hitamount"] = 263,
-						},
-						["Holy Fire"] = {
-							["hitmin"] = 412,
-							["id"] = 15264,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 318,
-									["amount"] = 412,
-								},
-							},
-							["overkill"] = 318,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 412,
-							["amount"] = 412,
-							["hitamount"] = 412,
-						},
-						["Holy Nova"] = {
-							["hitmin"] = 112,
-							["criticalamount"] = 171,
-							["id"] = 15431,
-							["criticalmin"] = 171,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 942,
-								},
-								["Imp Minion"] = {
-									["amount"] = 861,
-								},
-							},
-							["criticalmax"] = 171,
-							["count"] = 15,
-							["casts"] = 9,
-							["hitmax"] = 121,
-							["hit"] = 14,
-							["school"] = 2,
-							["amount"] = 1803,
-							["critical"] = 1,
-							["hitamount"] = 1632,
-						},
-						["Smite"] = {
-							["hitmin"] = 276,
-							["id"] = 6060,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 276,
-								},
-							},
-							["hitmax"] = 276,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 69,
-							["amount"] = 276,
-							["hitamount"] = 276,
-						},
-					},
-					["absorb"] = 286,
-					["damagetaken"] = 369,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["healspells"] = {
-						[56160] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 124,
-							["school"] = 2,
-							["max"] = 124,
-							["targets"] = {
-								["Popasfant"] = {
-									["overheal"] = 0,
-									["amount"] = 124,
-								},
-							},
-							["min"] = 124,
-						},
-						[23459] = {
-							["overheal"] = 4888,
-							["criticalamount"] = 0,
-							["max"] = 191,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 1611,
-									["amount"] = 170,
-								},
-								["Vrajadefoc"] = {
-									["overheal"] = 1112,
-									["amount"] = 0,
-								},
-								["Slavcul"] = {
-									["overheal"] = 866,
-									["amount"] = 615,
-								},
-								["Popasfant"] = {
-									["overheal"] = 1299,
-									["amount"] = 386,
-								},
-							},
-							["min"] = 5,
-							["criticalmax"] = 0,
-							["count"] = 32,
-							["amount"] = 1171,
-							["school"] = 2,
-							["criticalmin"] = 0,
-							["critical"] = 1,
-						},
-					},
-					["overkill"] = 318,
-					["heal"] = 1295,
-					["name"] = "Popasfant",
-					["overheal"] = 4888,
-					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["hitmin"] = 286,
-							["id"] = 20825,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
 									["amount"] = 286,
 								},
 							},
+							["amount"] = 286,
+						},
+					},
+					["name"] = "Steeljaw Snapper",
+					["totaldamage"] = 71,
+					["totaldamagetaken"] = 2137,
+					["id"] = "0xF13000372B0644B1",
+					["damage"] = 71,
+				}, -- [1]
+			},
+			["totaldamage"] = 2137,
+			["time"] = 11,
+			["damage"] = 2137,
+			["totaldamagetaken"] = 71,
+			["etotaldamagetaken"] = 2137,
+			["last_time"] = 10029.8,
+			["players"] = {
+				{
+					["last"] = 10029.051,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[57514] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 6,
+						},
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[58374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 3,
+						},
+						[20007] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 3,
+						},
+					},
+					["role"] = "TANK",
+					["time"] = 9.310000000000001,
+					["totaldamagetaken"] = 71,
+					["damage"] = 996,
+					["damagespells"] = {
+						["Shield Slam"] = {
+							["hitmin"] = 286,
+							["id"] = 23922,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 286,
+								},
+							},
+							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 32,
+							["school"] = 1,
 							["hitmax"] = 286,
 							["amount"] = 286,
 							["hitamount"] = 286,
 						},
-						["Firebolt"] = {
-							["total"] = 165,
-							["hitmin"] = 83,
-							["id"] = 20801,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Imp Minion"] = {
-									["total"] = 165,
-									["amount"] = 83,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 83,
-							["amount"] = 83,
-							["hitamount"] = 83,
-						},
-					},
-					["role"] = "HEALER",
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Instant Poison II"] = {
-							["hitmin"] = 69,
-							["id"] = 8685,
+						["Revenge"] = {
+							["hitmin"] = 326,
+							["id"] = 7379,
 							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 145,
+								["Steeljaw Snapper"] = {
+									["amount"] = 326,
 								},
 							},
-							["hitmax"] = 76,
 							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["resisted"] = 7,
-							["amount"] = 145,
-							["hitamount"] = 145,
-						},
-						["Sinister Strike"] = {
-							["DODGE"] = 1,
-							["criticalmin"] = 308,
-							["hitmin"] = 122,
-							["criticalamount"] = 308,
-							["id"] = 1760,
-							["criticalmax"] = 308,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 254,
-									["amount"] = 883,
-								},
-								["Imp Minion"] = {
-									["amount"] = 392,
-								},
-							},
-							["overkill"] = 254,
-							["count"] = 9,
-							["casts"] = 9,
-							["hitmax"] = 161,
-							["hit"] = 7,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 1,
-							["amount"] = 1275,
-							["critical"] = 1,
-							["hitamount"] = 967,
+							["hitmax"] = 326,
+							["amount"] = 326,
+							["hitamount"] = 326,
 						},
 						["Melee"] = {
-							["glance"] = 309,
-							["hitmin"] = 37,
-							["criticalmin"] = 90,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 20,
-									["amount"] = 745,
-								},
-								["Imp Minion"] = {
-									["amount"] = 318,
-								},
-							},
-							["glancing"] = 4,
-							["amount"] = 1063,
-							["MISS"] = 5,
-							["glancemin"] = 36,
-							["criticalamount"] = 90,
+							["glance"] = 69,
+							["hitmin"] = 86,
 							["id"] = 6603,
-							["glancemax"] = 110,
-							["overkill"] = 20,
-							["criticalmax"] = 90,
-							["PARRY"] = 1,
-							["count"] = 20,
-							["hit"] = 9,
-							["school"] = 1,
-							["critical"] = 1,
-							["hitmax"] = 123,
-							["hitamount"] = 664,
-						},
-					},
-					["last"] = 11854.181,
-					["damagetaken"] = 615,
-					["flag"] = 1298,
-					["id"] = "0x0700000000B0D62C",
-					["class"] = "ROGUE",
-					["overkill"] = 274,
-					["auras"] = {
-						[18192] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[2818] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
 							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[51585] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[6066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-					},
-					["time"] = 28.04999999999999,
-					["role"] = "DAMAGER",
-					["name"] = "Slavcul",
-					["spec"] = 260,
-					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["hitmin"] = 215,
-							["id"] = 20825,
-							["hitmax"] = 233,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 448,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 78,
-							["amount"] = 448,
-							["hitamount"] = 448,
-						},
-						["Firebolt"] = {
-							["hitmin"] = 82,
-							["id"] = 20801,
-							["sources"] = {
-								["Imp Minion"] = {
-									["amount"] = 167,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 85,
-							["amount"] = 167,
-							["hitamount"] = 167,
-						},
-					},
-					["totaldamagetaken"] = 615,
-					["totaldamage"] = 2483,
-					["damage"] = 2483,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 382,
-							["id"] = 8408,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 382,
-								},
-								["Imp Minion"] = {
-									["overkill"] = 372,
+								["Steeljaw Snapper"] = {
 									["amount"] = 384,
 								},
 							},
-							["overkill"] = 372,
-							["casts"] = 4,
+							["glancemin"] = 69,
+							["glancing"] = 1,
+							["glancemax"] = 69,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 126,
+							["amount"] = 384,
+							["hitamount"] = 315,
+						},
+					},
+					["damagetaken"] = 71,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["healspells"] = {
+						[20007] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 93,
+							["school"] = 1,
+							["max"] = 93,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 0,
+									["amount"] = 93,
+								},
+							},
+							["min"] = 93,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 34,
+							["id"] = 6603,
+							["blocked"] = 34,
+							["BLOCK"] = 1,
+							["sources"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 71,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 37,
+							["amount"] = 71,
+							["hitamount"] = 71,
+						},
+					},
+					["overheal"] = 0,
+					["ragespells"] = {
+						[23602] = 10,
+					},
+					["name"] = "Omoratorul",
+					["heal"] = 93,
+					["rage"] = 10,
+					["totaldamage"] = 996,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Mind Blast"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 8106,
+						},
+						["Holy Fire"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 2,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 15264,
+						},
+						["Smite"] = {
+							["hitmin"] = 355,
+							["id"] = 6060,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 355,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 355,
+							["amount"] = 355,
+							["hitamount"] = 355,
+						},
+					},
+					["last"] = 10019.734,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[1006] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[1706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+					},
+					["totaldamage"] = 355,
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["flag"] = 1298,
+					["time"] = 0,
+					["damage"] = 355,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["hitmin"] = 367,
+							["id"] = 8408,
+							["targets"] = {
+								["Steeljaw Snapper"] = {
+									["amount"] = 786,
+								},
+							},
+							["hitmax"] = 419,
+							["casts"] = 2,
 							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 16,
-							["hitmax"] = 384,
-							["amount"] = 766,
-							["hitamount"] = 766,
+							["resisted"] = 40,
+							["amount"] = 786,
+							["hitamount"] = 786,
 						},
 					},
-					["last"] = 11848.048,
+					["last"] = 10028.425,
 					["id"] = "0x0700000000B06C60",
-					["class"] = "MAGE",
-					["overkill"] = 372,
 					["spec"] = 64,
-					["totaldamage"] = 766,
-					["name"] = "Vrajadefoc",
+					["class"] = "MAGE",
 					["auras"] = {
-						[1461] = {
+						[2791] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 39,
+							["uptime"] = 11,
 						},
-						[976] = {
+						[14818] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 39,
+							["uptime"] = 11,
 						},
-						[6066] = {
+						[12472] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["uptime"] = 8,
+						},
+						[19709] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -9965,35 +8940,61 @@ SkadaStorageDB = {
 						[6117] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 39,
+							["uptime"] = 11,
 						},
-						[8098] = {
+						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 39,
+							["uptime"] = 11,
+						},
+					},
+					["totaldamage"] = 786,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 5.93,
+					["damage"] = 786,
+				}, -- [3]
+				{
+					["last"] = 10019.734,
+					["id"] = "0x0700000000B0D62C",
+					["spec"] = 260,
+					["auras"] = {
+						[14818] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
 						},
 					},
 					["role"] = "DAMAGER",
-					["flag"] = 1298,
-					["time"] = 7,
-					["damage"] = 766,
+					["name"] = "Slavcul",
+					["time"] = 0,
+					["class"] = "ROGUE",
 				}, -- [4]
 			},
 			["type"] = "group",
-			["damagetaken"] = 1094,
-			["rage"] = 40,
-			["interrupt"] = 3,
-			["ccdone"] = 2,
-			["absorb"] = 286,
-			["overkill"] = 1188,
-			["edamagetaken"] = 8351,
-			["heal"] = 1295,
-			["name"] = "Bloodsail Warlock (10)",
-			["mobname"] = "Bloodsail Warlock",
-			["starttime"] = 1729453096,
-			["edamage"] = 1094,
-			["last_action"] = 1729453134,
-			["endtime"] = 1729453135,
+			["damagetaken"] = 71,
+			["overheal"] = 0,
+			["rage"] = 10,
+			["etotaldamage"] = 71,
+			["edamagetaken"] = 2137,
+			["heal"] = 93,
+			["name"] = "Steeljaw Snapper (4)",
+			["mobname"] = "Steeljaw Snapper",
+			["starttime"] = 1729795693,
+			["edamage"] = 71,
+			["last_action"] = 1729795703,
+			["endtime"] = 1729795704,
 		}, -- [15]
 	},
 }
